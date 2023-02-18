@@ -17,7 +17,9 @@
 
 ## Data Source
 
-The National Health and Nutrition Examination Survey (NHANES) data for the years [2013-2014](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2013), and [2017-March 2020 Pre-Pandemic](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020). 2015-2016 was skipped because Osteoporosis assessment in NHANES for that period was not completed.
+The National Health and Nutrition Examination Survey (NHANES) data for the years [2013-2014](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2013), and [2017-March 2020 Pre-Pandemic](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020). The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-2020 were participants aged 40+ and 50+, respectively.
+
+Note: Osteoporosis assessment in NHANES for 2015-2016 was not completed, so it's not included in this study.
 
 ## Data Preparation for Analysis
 - Renamed variables based on the data documents. For example, renamed `RIDAGEYR` to `Age`, `SLD010H` to `Sleep Hours`.
@@ -35,47 +37,47 @@ The prevalence of osteoporosis for men and women is affected by these metrics ve
 #### The prevalence of osteoporosis was higher among women (17.57%) when compared to men (2.87%)
 <div align="center">
   <img alt="Female vs. Male" src="images/gender.png" width="50%">
-</p>
+</div>
 
 #### The prevalence of osteoporosis for women increased significantly after age 65
 <div align="center">
   <img alt="Age Group" src="images/age-by-gender.png" width="50%">
-</p>
+</div>
 
 #### The risk of getting osteoporosis for Non-Hispanic White females was 1.16-2.11 times the risk for Mexican American females
 <div align="center">
   <img alt="Race" src="images/race.png" width="50%">
-</p>
+</div>
 
 #### Underweighted people, especially men, had higher risk of osteoporosis when compared to healthy weighted people
 <div align="center">
   <img alt="BMI Group" src="images/bmi.png" width="50%">
-</p>
+</div>
 
 #### Heavy drinking had opposite effects on men and women, but neither was statistically significant in this study
 <div align="center">
   <img alt="Alcohol" src="images/alcohol.png" width="50%">
-</p>
+</div>
 
 #### People who smoked appear to have a higher risk of osteoporosis, but it's not statistically significant in this study
 <div align="center">
   <img alt="Smoking" src="images/smoking.png" width="50%">
-</p>
+</div>
 
 #### People had 5-6 hours sleep appear to have lower risk of osteoporosis, but it's not statistically significant in this study
 <div align="center">
   <img alt="Sleep" src="images/sleep.png" width="50%">
-</p>
+</div>
 
 #### People with arthritis had higher risk of osteoporosis when compared to those without arthritis
 <div align="center">
   <img alt="Arthritis" src="images/arthritis.png" width="50%">
-</p>
+</div>
 
 #### People with liver condition had higher risk of osteoporosis when compared to those without liver condition
 <div align="center">
   <img alt="Liver Condition" src="images/liver-condition.png" width="50%">
-</p>
+</div>
 
 ## Handling Imbalanced Data
 
