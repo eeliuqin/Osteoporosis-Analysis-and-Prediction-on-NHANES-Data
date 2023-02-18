@@ -23,7 +23,7 @@ Note: Osteoporosis assessment in NHANES for 2015-2016 was not completed, so it's
 
 ## Data Preparation for Analysis
 - Renamed variables based on the data documents. For example, renamed `RIDAGEYR` to `Age`, `SLD010H` to `Sleep Hours`.
-- Converted code values to corresponding text values. For example,  "1" should be converted to "Yes" for variable `Age` and "Male" for variable `Gender`.
+- Converted code values to corresponding text values. For example,  "1" should be converted to "Mexican American" for variable `Race` and "Male" for variable `Gender`.
 - For better interpretation, converted some continuous variables to categorical ones:
 	- Age Group: 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80+
 	- BMI Group: Underweight (BMI < 18.5), Healthy Weight (18.5 <= BMI < 25),  Overweight (25.0 <= BMI < 30), Obesity (30.0 or higher)
