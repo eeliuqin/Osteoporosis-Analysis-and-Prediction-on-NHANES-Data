@@ -98,6 +98,7 @@ Here is a performance comparison of Logistic Regression with/without SMOTE.
 
 ## Results
 Created Logistic Regression, SVM, Neural Networks, and XGBoost models to predict osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition. **XGBoost** performed best in all aspects, with sensitivity (recall) 91.6%, precision of 93.6%, f1 score 0.925 and a measured AUC of 0.979.
+
 **ROC Curves**
 <div align="center">
   <img alt="ROC Curves of Various Models" src="images/roc-curves.png" width="50%">

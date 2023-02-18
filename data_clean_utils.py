@@ -259,21 +259,6 @@ def barplot_percentage(data, var_col, target_col, order='', title=''):
     return ax
 
 
-def get_insurance_plan_percentage(data, insur_list, target_col):
-    pcnt_dict = {}
-    for insur in insur_list:
-        counts = data.loc[data[insur]=='Yes', target_col].value_counts()
-        with_oste = counts['Yes']
-        total = counts.sum()
-        pcnt_dict[insur] = round(with_oste/total*100, 2)
-
-    df_plan_pcnt = pd.DataFrame(pcnt_dict.items())
-    df_plan_pcnt.columns = ['Insurance Plan', 'Percentage']
-    df_plan_pcnt = df_plan_pcnt.set_index('Insurance Plan')
-    
-    return df_plan_pcnt
-
-
 def countplot_by_category(data, category):
     df_counts = data[category].value_counts()
     ax = sns.countplot(data=data, y=category, order=df_counts.index)
@@ -304,7 +289,6 @@ def multi_countplot(data, var_list):
 def plot_by_gender(data, gender, var_col, target_col, 
                    annotate_x=0, annotate_y=0, annotate_text='',
                    order='', x_tick_rotation=0):
-    # get data of the selected gender only
     data_gender = data.query(f"Gender == '{gender}'")
              
     ax = barplot_percentage(data_gender, var_col, target_col, order, title=f"Prevalence of {target_col}, {gender}")
@@ -330,7 +314,8 @@ def plot_both_gender(data, var_col, target_col,
                         text_female, order, x_tick_rotation)
     plt.tight_layout()
 
-    
+
+# group by var_col and target_col, for a specific gender
 def gender_groupby(data, gender, var_col, target_col):
     df = (
             data.query(f"Gender=='{gender}'")
@@ -346,10 +331,12 @@ def get_rr_ci(data, group1_name, group2_name):
     """Get 95% confidence interval for relative risk of group1/group2
         
     Args:
-        var_col: the variable with Yes/No values
-        target_col: the target variable name
+        data: the dataframe with numbers of outcome/no outcome
+        separated by groups
+        group1_name: the group name of the numerator of the relative risk
+        group2_name: the group name of the denominator of the relative risk
     Returns:
-        a dataframe displays percentage of the target variable
+        95% confidence interval for the relative risk of group1/group2
     """
     
     # number of outcome in group 1

@@ -69,9 +69,11 @@ def plot_auc(y, y_predict_probs, display_no_skill=True, model_name='Model', titl
     """Visualization for ROC curve
     
     Args:
-        model: the machine learning model
         y: the dependent variable
         y_predict_probs: predicted probabilities to be 1
+        display_no_skill: whether to display the no skill roc curve
+        model_name: the model to dislay in the graph
+        title: the graph title
         
         model_name: the model name that will be displayed in the chart
     Returns:
