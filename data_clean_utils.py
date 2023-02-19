@@ -253,7 +253,7 @@ def barplot_percentage(data, var_col, target_col, order='', title=''):
     for p in ax.patches:
         x = p.get_width()*0.5 + p.get_x()
         y = p.get_height()+0.1
-        ax.annotate(p.get_height(), (x, y), ha='center', color="black", weight="bold")
+        ax.annotate(p.get_height(), (x, y), ha='center', color="black", fontsize=10, weight="bold")
     ax.set_title(title, pad=20)
     
     return ax
@@ -268,7 +268,7 @@ def countplot_by_category(data, category):
         percentage = '{:.1f}%'.format(100 * p.get_width()/total)
         x = p.get_width()*0.5
         y = p.get_y() + p.get_height()/2
-        ax.annotate(percentage, (x, y), ha='center', color="white", fontsize=10, weight="bold")
+        ax.annotate(percentage, (x, y), ha='center', color="white", fontsize=8, weight="bold")
 
 
 def multi_countplot(data, var_list):

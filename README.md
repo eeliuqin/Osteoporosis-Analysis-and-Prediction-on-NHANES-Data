@@ -12,7 +12,7 @@
 
 ## Objective
 
-- Find out the association among age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition in patients with osteoporosis.
+- Find out the association among age, gender, race, BMI, smoking, alcohol, sleep hours, arthritis, and liver condition in patients with osteoporosis.
 - Design an accurate approach to predict if someone has osteoporosis based on these metrics.
 
 ## Data Source
@@ -32,7 +32,8 @@ Note: Osteoporosis assessment in NHANES for 2015-2016 was not completed, so it's
 - Merged all datasets by the respondent sequence number (`SEQN,` renamed to `ID`).
 
 ## EDA
-The prevalence of osteoporosis for men and women is affected by these metrics very differently.
+
+Age, race, BMI, alcohol, smoking, sleep hours, arthritis, and liver condition affected the prevalence of osteoporosis differently for men and women.
 
 #### The prevalence of osteoporosis was higher among women (17.57%) when compared to men (2.87%)
 <div align="center">
@@ -91,8 +92,8 @@ Here is a performance comparison of Logistic Regression with/without SMOTE.
 
 | Model                          | Accuracy                       | Precision | Recall | F1 Score | AUC   |
 |------------------- |-------------------- |-------  |--------|----------|-------|
-| Logistic Regression (No SMOTE) | 0.901                          | 0.500     | 0.016  | 0.03     | 0.823 |
-| Logistic Regression (SMOTE)    | 0.816                          | 0.831     | 0.793  | 0.812    | 0.894 |
+| Logistic Regression (No SMOTE) | 0.901                          | 0.500     | 0.016  | 0.030     | 0.823 |
+| Logistic Regression (SMOTE)    | 0.824                          | 0.829     | 0.816  | 0.823    | 0.905 |
 
 </div>
 
@@ -109,10 +110,10 @@ Created Logistic Regression, SVM, Neural Networks, and XGBoost models to predict
 
 | Model               | Accuracy | Precision | Recall | F1 Score | AUC   |
 |---------------------|----------|-----------|--------|----------|-------|
-| XGBoost             | 0.935    | 0.949     | 0.920  | 0.934    | 0.979 |
-| SVM                 | 0.879    | 0.858     | 0.908  | 0.882    | 0.927 |
-| Neural Networks     | 0.831    | 0.865     | 0.785  | 0.823    | 0.908 |
-| Logistic Regression | 0.824    | 0.838     | 0.804  | 0.821    | 0.903 |
+| XGBoost             | 0.918    | 0.933     | 0.902  | 0.917    | 0.979 |
+| SVM                 | 0.873    | 0.869     | 0.878  | 0.873    | 0.920 |
+| Neural Networks     | 0.831    | 0.849     | 0.805  | 0.826    | 0.911 |
+| Logistic Regression | 0.824    | 0.829     | 0.816  | 0.823    | 0.905 |
 </div>
 
 ## Conclusion
