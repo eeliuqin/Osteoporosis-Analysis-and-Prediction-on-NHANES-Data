@@ -12,7 +12,7 @@
 * [Conclusions](#conclusions)
 
 ## Introduction
-Osteoporosis, the most common bone disease, occurs when bone mineral density and bone mass decrease, or there are changes in bone structure and strength. In 2010, an estimated 10.2 million people in the United States aged 50 and over had osteoporosis, and an estimated 43.3 million others had low bone mass[[1](#1)]. However, it is a silent disease that most people with osteoporosis do not know they have it until they break a bone.  Therefore, accurate prediction of osteoporosis is of great public health benefit.
+Osteoporosis, the most common bone disease, occurs when bone mineral density and bone mass decrease, or there are changes in bone structure and strength. In 2010, an estimated 10.2 million people in the United States aged 50 and over had osteoporosis, and an estimated 43.3 million others had low bone mass [[1](#1)]. However, it is a silent disease that most people with osteoporosis do not know they have it until they break a bone.  Therefore, accurate prediction of osteoporosis is of great public health benefit.
 
 To my best of knowledge, most osteoporosis prediction studies either focus on specific laboratory examination [[2](#2)], or on specific patient groups such as postmenopausal women [[3](#3)]. A study using more general data and targeting a wider population is needed.
 
@@ -20,7 +20,7 @@ To my best of knowledge, most osteoporosis prediction studies either focus on sp
 
 Design a method to predict whether someone has **osteoporosis** based on age, gender, race, BMI, smoking, alcohol consumption, sleep hours, arthritis and liver condition.
 
-Note: the selected metrics were inspired by a paper focus on hypertension prediction using a similar dataset [[4](#4)].
+Note: Age, gender, race, BMI, smoking, alcohol consumption were inspired by a paper on predicting hypertension using a similar dataset [[4](#4)]. Sleep hours, arthritis, and liver condition were inspired by [[5](#5)], [[6](#6)], and [[7](#7)], respectively.
 
 ## Data Source
 
@@ -43,7 +43,7 @@ Note: The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-202
 
 - Merged all datasets by the respondent sequence number (`SEQN,` renamed to `ID`), resulting in a dataframe with 6509 rows, 10 columns.
 
-Note: Binning of continuous variables (age, BMI, sleep hours) was just used in Exploratory Data Analysis for easier interpretation and better visualization.
+Note: Binning of continuous variables (age, BMI, sleep hours) was just used in Exploratory Data Analysis (EDA) for easier interpretation and better visualization.
 In machine learning models, these variables were kept as continuous to avoid discarding potentially meaningful data.
 
 ## EDA
@@ -53,7 +53,6 @@ The dataset is imbalanced with a ratio of 9:1 with and without osteoporosis
 <div align="center">
   <img alt="Overall Data" src="images/overall-data.png" width="50%">
 </div>
-
 
 Age, race, BMI, alcohol, smoking, sleep hours, arthritis, and liver condition affected the prevalence of osteoporosis differently for men and women.
 
@@ -77,17 +76,17 @@ Age, race, BMI, alcohol, smoking, sleep hours, arthritis, and liver condition af
   <img alt="BMI Group" src="images/bmi.png" width="50%">
 </div>
 
-#### Heavy drinking had opposite effects on men and women, but neither was statistically significant in this study
+#### Heavy drinking had opposite effects on men and women, although neither was statistically significant in this study
 <div align="center">
   <img alt="Alcohol" src="images/alcohol.png" width="50%">
 </div>
 
-#### People who smoked appear to have a higher risk of osteoporosis, but it's not statistically significant in this study
+#### People who smoked appear to have a higher risk of osteoporosis, although it's not statistically significant in this study
 <div align="center">
   <img alt="Smoking" src="images/smoking.png" width="50%">
 </div>
 
-#### People had 5-6 hours sleep appear to have lower risk of osteoporosis, but it's not statistically significant in this study
+#### People had 5-6 hours sleep appear to have lower risk of osteoporosis, although it's not statistically significant in this study
 <div align="center">
   <img alt="Sleep" src="images/sleep.png" width="50%">
 </div>
@@ -108,7 +107,7 @@ For such an imbalanced data (with osteoporosis: 9.9%, without osteoporosis: 90.1
 
 There are 3 options for addressing imbalanced data: Undersampling, Oversampling, and Combination of undersampling and oversampling. The main disadvantage of undersampling is that it will discard potentially useful data, so it will not be considered in this project. Oversampling does not cause any loss of information, and in some cases, may perform better than undersampling. However, oversampling often involves duplicating a small number of events, which leads to overfitting. To balance these concerns, some scenarios may require a combination of undersampling and oversampling to obtain the most realistic dataset and accurate results.
 
-This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approach (ADASYN)[[5](#5)], Synthetic Minority Oversampling Technique (SMOTE) [[6](#6)]）and 1 combination method (SMOTETomek [[7](#7)]), here is the performance metrics of Logistic Regression with original data only, after ADASYN, after SMOTE, and after SMOTETomek:
+This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approach (ADASYN)[[8](#8)], Synthetic Minority Oversampling Technique (SMOTE) [[9](#9)]）and 1 combination method (SMOTETomek [[10](#10)]), here is the performance metrics of Logistic Regression with original data only, after ADASYN, after SMOTE, and after SMOTETomek:
 
 <div align="center">
 
@@ -121,26 +120,28 @@ This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approa
 
 </div>
 
-## Model Selection
+**ADASYN** has the best performance, so it's been applied to the training dataset.
 
-Selected the following models:
+## Model Selection
+Compared 4 models in this project:
 
 #### Logistic Regression
-Pros: easier to set up and train than other machine learning applications
+Pros: easier to set up and train than other machine learning applications<br/>
 Cons: fails to capture complex relationships
 
 #### Support Vector Machines (SVM)
-Pros: works well with a clear maring of separation; effective in high-dimensional spaces
+Pros: works well with a clear maring of separation; effective in high-dimensional spaces<br/>
 Cons: doesn't perform well when the dataset is large or has more noise
 
 #### Random Forest
-Pros: works well with non-linear data; lower risk of overfitting
+Pros: works well with non-linear data; lower risk of overfitting<br/>
 Cons: not suitable for dataset with a lot of sparse features 
 
 #### Neural Networks
-Pros: works well with non-linear data with large number of inputs; fast predictions once trained
+Pros: works well with non-linear data with large number of inputs; fast predictions once trained<br/>
 Cons: works like a black box and not interpretable; computation is expensive and time consuming
 
+## Results
 Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition with above models,
 **Neural Networks** performed best, with sensitivity (recall) 73%, precision 27.2%, f1 score 0.397 and AUC 0.832.
 
@@ -171,8 +172,11 @@ The results showed that women had a higher risk of osteoporosis than men, and it
 <a id="2">[2]</a> Theodoros Iliou, Christos-Nikolaos Anagnostopoulos, Ioannis M. Stephanakis, George Anastassopoulos, A novel data preprocessing method for boosting neural network performance: A case study in osteoporosis prediction, Information Sciences, Volume 380, 2017.
 <a id="3">[3]</a> S. K. Kim, T. K. Yoo, E. Oh and D. W. Kim, "Osteoporosis risk prediction using machine learning and conventional methods," 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Osaka, Japan, 2013, pp. 188-191, doi: 10.1109/EMBC.2013.6609469.
 <a id="4">[4]</a> López-Martínez, Fernando, et al. "An artificial neural network approach for predicting hypertension using NHANES data." Scientific Reports 10.1 (2020): 1-14.
-<a id="5">[5]</a> Haibo He, Yang Bai, E. A. Garcia and Shutao Li, "ADASYN: Adaptive synthetic sampling approach for imbalanced learning," 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, 2008, pp. 1322-1328, doi: 10.1109/IJCNN.2008.4633969.
-<a id="6">[6]</a> Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16, 321–357.
-<a id="7">[7]</a> G. Batista, B. Bazzan, M. Monard, “Balancing Training Data for Automated Annotation of Keywords: a Case Study,” In WOB, 10-18, 2003.
+<a id="5">[5]</a> Ochs-Balcom HM, Hovey KM, Andrews C, Cauley JA, Hale L, Li W, Bea JW, Sarto GE, Stefanick ML, Stone KL, Watts NB, Zaslavsky O, Wactawski-Wende J. Short Sleep Is Associated With Low Bone Mineral Density and Osteoporosis in the Women's Health Initiative. J Bone Miner Res. 2020 Feb;35(2):261-268. doi: 10.1002/jbmr.3879. Epub 2019 Nov 6. PMID: 31692127; PMCID: PMC8223077.
+<a id="6">[6]</a> [What People With Rheumatoid Arthritis Need To Know About Osteoporosis](#https://www.bones.nih.gov/health-info/bone/osteoporosis/conditions-behaviors/osteoporosis-ra)
+<a id="7">[7]</a> Handzlik-Orlik G, Holecki M, Wilczyński K, Duława J. Osteoporosis in liver disease: pathogenesis and management. Ther Adv Endocrinol Metab. 2016 Jun;7(3):128-35. doi: 10.1177/2042018816641351. Epub 2016 Apr 6. PMID: 27293541; PMCID: PMC4892399.
+<a id="8">[8]</a> Haibo He, Yang Bai, E. A. Garcia and Shutao Li, "ADASYN: Adaptive synthetic sampling approach for imbalanced learning," 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, 2008, pp. 1322-1328, doi: 10.1109/IJCNN.2008.4633969.
+<a id="9">[9]</a> Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16, 321–357.
+<a id="10">[10]</a> G. Batista, B. Bazzan, M. Monard, “Balancing Training Data for Automated Annotation of Keywords: a Case Study,” In WOB, 10-18, 2003.
 
 
