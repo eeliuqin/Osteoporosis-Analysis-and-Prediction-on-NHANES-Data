@@ -158,8 +158,8 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 |---------------------|----------|-----------|--------|----------|-------|
 | Neural Networks             | 0.780    | 0.272     | 0.729  | 0.397    | 0.832 |
 | Logistic Regression | 0.742    | 0.252     | 0.814  | 0.385    | 0.827 |
-| SVM     | 0.831    | 0.849     | 0.805  | 0.826    | 0.911 |
-| Logistic Regression | 0.824    | 0.829     | 0.816  | 0.823    | 0.905 |
+| SVM     | 0.754    | 0.243     | 0.698  | 0.360    | 0.781 |
+| Random Forest | 0.846    | 0.263     | 0.310  | 0.285    | 0.769 |
 </div>
 
 ## Conclusions
