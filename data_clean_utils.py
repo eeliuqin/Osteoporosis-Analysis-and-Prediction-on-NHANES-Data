@@ -62,6 +62,13 @@ THRESHOLD_DICT = {
         75: "75-79", 
         80: "80+",
     },
+#     'Age':  {
+#         0: "40-49",
+#         50: "50-59",
+#         60: "60-69",
+#         70: "70-79",
+#         80: "80+",
+#     },
     'BMI': {
         0: "Underweight",
         18.5: "Healthy Weight", 
@@ -327,16 +334,17 @@ def gender_groupby(data, gender, var_col, target_col):
 
     return df
 
-def get_rr_ci(data, group1_name, group2_name):
-    """Get 95% confidence interval for relative risk of group1/group2
+def get_pr_ci(data, group1_name, group2_name):
+    """Get 95% confidence interval for the prevalence ratio of group1/group2
         
     Args:
         data: the dataframe with numbers of outcome/no outcome
         separated by groups
-        group1_name: the group name of the numerator of the relative risk
-        group2_name: the group name of the denominator of the relative risk
+        group1_name: the group name of the numerator of the prevalence ratio
+        group2_name: the group name of the denominator of the prevalence ratio
     Returns:
-        95% confidence interval for the relative risk of group1/group2
+        95% confidence interval and whether it's statistically significant 
+        for the prevalence ratio of group1/group2
     """
     
     # number of outcome in group 1
@@ -347,17 +355,46 @@ def get_rr_ci(data, group1_name, group2_name):
     group2_outcome = data.loc['Yes', group2_name]
     # number of without outcome in group 2
     group2_no_outcome = data.loc['No', group2_name]
-
-    risk1 = group1_outcome/(group1_outcome + group1_no_outcome)
-    risk2 = group2_outcome/(group2_outcome + group2_no_outcome)
-    # log of relative risk
-    ln_rr = np.log(risk1/risk2)
-    # standard error of ln(relative risk)
-    se_ln_rr = np.sqrt(1/group1_outcome - 1/(group1_outcome+group1_no_outcome)
+    # PR of group 1, group 2
+    prev1 = group1_outcome/(group1_outcome + group1_no_outcome)
+    prev2 = group2_outcome/(group2_outcome + group2_no_outcome)
+    # log of PR
+    ln_pr = np.log(prev1/prev2)
+    # standard error of ln(PR)
+    se_ln_pr = np.sqrt(1/group1_outcome - 1/(group1_outcome+group1_no_outcome)
                       + 1/group2_outcome - 1/(group2_outcome+group2_no_outcome))
-    # 95% confidence interval for the ln(relative risk), 1.96 is the z score
-    ci_ln_rr = [ln_rr - 1.96*se_ln_rr, ln_rr + 1.96*se_ln_rr]
-    # 95% confidence interval for the relative risk
-    ci_rr = np.exp(ci_ln_rr)
+    lower_ci = round(np.exp(ln_pr - 1.96*se_ln_pr), 3)
+    upper_ci = round(np.exp(ln_pr + 1.96*se_ln_pr), 3)
+    # 95% confidence interval for the prevalence ratio
+    ci_pr = (lower_ci, upper_ci)
+    pr = round(prev1/prev2, 3)
+    pr_ci_str = str(pr) + ' ' + str(ci_pr)
+    significant = 'Yes' if upper_ci < 1 or lower_ci > 1 else 'No'
     
-    return ci_rr
+    # return prevalence ratio with 95% CI
+    return pr_ci_str, significant
+
+def get_prevalence_ratios(data, reference_group):
+    """Get Prevalence Ratios (95% CI)
+        
+    Args:
+        data: the dataframe contains reference group and other groups
+        reference_group: the reference group name (the denominator of the prevalence ratio)
+    Returns:
+        a dataframe shows 95% CI for the prevalence ratio of 
+        all the other groups vs. the reference group
+    """
+    
+    group_list = [x for x in data.columns.values if x!= reference_group]
+    predictors = [reference_group] + group_list
+    ci_list = [get_pr_ci(data, x, reference_group) for x in group_list]
+    significants = [c[1] for c in ci_list]
+    confidence_intervals = ['ref'] + [c[0] for c in ci_list]
+    df_pr =  pd.DataFrame({
+        'Predictor': predictors, 
+        'PR (95% CI)': confidence_intervals,
+        'Statistically Significant': [''] + significants
+    })
+    
+    return df_pr
+    
