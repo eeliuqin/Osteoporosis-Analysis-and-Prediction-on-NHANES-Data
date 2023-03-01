@@ -4,6 +4,7 @@
 
 * [Introduction](#introduction)
 * [Objective](#objective)
+* [Language and Tools](#language-and-tools)
 * [Data Source](#data-source)
 * [Data Preparation for Analysis](#data-preparation-for-analysis)
 * [EDA](#eda)
@@ -23,9 +24,14 @@ Design a method to predict whether someone has **osteoporosis** based on age, ge
 
 Note: Age, gender, race, BMI, smoking, alcohol consumption were inspired by a paper on predicting hypertension using a similar dataset [[4](#4)]. Sleep hours, arthritis, and liver condition were inspired by [[5](#5)], [[6](#6)], and [[7](#7)], respectively.
 
+## Language and Tools
+- Language: Python
+- Libraries: Pandas, Numpy, Matplotlib, Seaborn, Imblearn, Sklearn, Tensorflow 
+- Tools: Jupyter Notebook
+
 ## Data Source
 
-The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States. Datasets of this program are prepared and published through the Centers for Disease Control and Prevention (CDC) and avaiable to the public.
+The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States. Datasets of this program are prepared and published through the Centers for Disease Control and Prevention (CDC) and available to the public.
 
 This study focuses on NHANES data for the years [2013-2014](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2013), and [2017-March 2020 Pre-Pandemic](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020), including the following:
 - Demographics Data: Age, Gender, Race
@@ -42,7 +48,7 @@ Note: The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-202
 	- BMI Group: Underweight (BMI < 18.5), Healthy Weight (18.5 <= BMI < 25),  Overweight (25.0 <= BMI < 30), Obesity (30.0 or higher)
 	- Sleep Hours: 4 hours and less, 5-6 Hours, 7-8 Hours, 9 hours and more
 
-- Merged all datasets by the respondent sequence number (`SEQN,` renamed to `ID`), resulting in a dataframe with 6509 rows, 10 columns.
+- Merged all datasets by the respondent sequence number (`SEQN,` renamed to `ID`), resulting in 6509 rows x 10 columns.
 
 Note: Binning of continuous variables (age, BMI, sleep hours) was just used in Exploratory Data Analysis (EDA) for easier interpretation and better visualization.
 In machine learning models, these variables were kept as continuous to avoid discarding potentially meaningful data.
@@ -121,26 +127,17 @@ This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approa
 
 </div>
 
-**ADASYN** has the best performance, so it's been applied to the training dataset.
+All 3 resampling methods sigfinicantly improved recall and F1 score, with **ADASYN** performing best (recall increased from 2.3% to 81.4%). Therefore it's applied to the training dataset.
 
 ## Model Selection
-Compared 4 models in this project:
+Benchmarking 4 popular classification algorithms:
 
-#### Logistic Regression
-Pros: easier to set up and train than other machine learning applications<br/>
-Cons: fails to capture complex relationships
-
-#### Support Vector Machines (SVM)
-Pros: works well with a clear maring of separation; effective in high-dimensional spaces<br/>
-Cons: doesn't perform well when the dataset is large or has more noise
-
-#### Random Forest
-Pros: works well with non-linear data; lower risk of overfitting<br/>
-Cons: not suitable for dataset with a lot of sparse features 
-
-#### Neural Networks
-Pros: works well with non-linear data with large number of inputs; fast predictions once trained<br/>
-Cons: works like a black box and not interpretable; computation is expensive and time consuming
+| Model                         | Pros                | Cons                                |
+|------------------------------ |-------------------- |-------------------------------------|
+| Logistic Regression       | easier to set up and train than other machine learning applications; very efficient when the dataset has features that are linearly separable | fails to capture complex relationships; overfits on high dimensional data  |
+| Support Vector Machines (SVM) | works well with a clear margin of separation; effective in high-dimensional spaces   | doesn't perform well when the dataset is large or has more noise    |
+| Random Forest                 | works well with non-linear data; lower risk of overfitting   | not suitable for dataset with a lot of sparse features  |
+| Neural Networks               |  works well with non-linear data with large number of inputs; fast predictions once trained | works like a black box and not interpretable; computation is expensive and time consuming |
 
 ## Results
 Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition with above models,
@@ -165,7 +162,7 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 ## Conclusions
 
 This study focused on finding the association between age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition with osteoporosis.
-The results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arithritis, and liver conditions. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
+The results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and liver conditions. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
 
 ## References
 
@@ -179,7 +176,7 @@ The results showed that women had a higher risk of osteoporosis than men, and it
 <br/>
 <a id="5">[5]</a> Ochs-Balcom HM, Hovey KM, Andrews C, Cauley JA, Hale L, Li W, Bea JW, Sarto GE, Stefanick ML, Stone KL, Watts NB, Zaslavsky O, Wactawski-Wende J. Short Sleep Is Associated With Low Bone Mineral Density and Osteoporosis in the Women's Health Initiative. J Bone Miner Res. 2020 Feb;35(2):261-268. doi: 10.1002/jbmr.3879. Epub 2019 Nov 6. PMID: 31692127; PMCID: PMC8223077.
 <br/>
-<a id="6">[6]</a> [What People With Rheumatoid Arthritis Need To Know About Osteoporosis](#https://www.bones.nih.gov/health-info/bone/osteoporosis/conditions-behaviors/osteoporosis-ra)
+<a id="6">[6]</a> [What People With Rheumatoid Arthritis Need To Know About Osteoporosis](https://www.bones.nih.gov/health-info/bone/osteoporosis/conditions-behaviors/osteoporosis-ra)
 <br/>
 <a id="7">[7]</a> Handzlik-Orlik G, Holecki M, Wilczyński K, Duława J. Osteoporosis in liver disease: pathogenesis and management. Ther Adv Endocrinol Metab. 2016 Jun;7(3):128-35. doi: 10.1177/2042018816641351. Epub 2016 Apr 6. PMID: 27293541; PMCID: PMC4892399.
 <br/>
