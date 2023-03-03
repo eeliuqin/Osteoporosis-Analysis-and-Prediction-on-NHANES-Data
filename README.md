@@ -71,9 +71,9 @@ Reasons of missing values:
 
 For 1), just ignore the missing values from Osteoporosis to focus on aged 40+, because osteoporosis is rare in young people and more common among people over age 50 [[8](#8), [9](#9)].
 
-For 2), here is the distribution of all data vs. the distribution of missing data:
+For 2), this is the distribution of all data vs missing data:
 <div align="center">
-  <img alt="Missing Data Distribution" src="images/missing-data.png" width="50%">
+  <img alt="Missing Data Distribution" src="images/missing-data.png" width="60%">
 </div>
 
 They have similar distributions, removing missing data should not cause too much bias, besides, data imputation is not considered in this study as it leads to inaccracy and uncertainty.
@@ -85,21 +85,21 @@ Therefore, the study analyzed complete data only, with a dimension of 6509 rows 
 
 The dataset is imbalanced with a 9:1 ratio of people with and without osteoporosis:
 <div align="center">
-  <img alt="Overall Data" src="images/overall-data.png" width="50%">
+  <img alt="Overall Data" src="images/overall-data.png" width="60%">
 </div>
 
 The prevalence of osteoporosis is associated differently with variables, such as:
 
 <div align="center">
-  <img alt="Female vs. Male" src="images/gender.png" width="46%">
+  <img alt="Female vs. Male" src="images/gender.png" width="43%">
 &nbsp; &nbsp; 
-  <img alt="Age" src="images/age.png" width="46%">  
+  <img alt="Age" src="images/age.png" width="43%">  
 </div>
-
+&nbsp;
 <div align="center">
-  <img alt="Race" src="images/race.png" width="46%">
+  <img alt="Race" src="images/race.png" width="43%">
 &nbsp; &nbsp; 
-  <img alt="BMI" src="images/bmi.png" width="46%">  
+  <img alt="BMI" src="images/bmi.png" width="43%">  
 </div>
 
 ## Handling Imbalanced Data
@@ -174,7 +174,7 @@ The analyzed results showed that women had a higher risk of osteoporosis than me
 <br/>
 <a id="7">[7]</a> Handzlik-Orlik G, Holecki M, Wilczyński K, Duława J. Osteoporosis in liver disease: pathogenesis and management. Ther Adv Endocrinol Metab. 2016 Jun;7(3):128-35. doi: 10.1177/2042018816641351. Epub 2016 Apr 6. PMID: 27293541; PMCID: PMC4892399.
 <br/>
-<a id="8">[8]</a> [What People With Rheumatoid Arthritis Need To Know About Osteoporosis](https://www.bones.nih.gov/health-info/bone/osteoporosis/conditions-behaviors/osteoporosis-ra)
+<a id="8">[8]</a> [Does Osteoporosis Run in Your Family](https://www.cdc.gov/genomics/disease/osteoporosis.htm#:~:text=Osteoporosis%20is%20more%20common%20in,until%20they%20break%20a%20bone.)
 <br/>
 <a id="9">[9]</a> [Juvenile Osteoporosis](https://www.bones.nih.gov/health-info/bone/bone-health/juvenile/juvenile-osteoporosis)
 <br/>
