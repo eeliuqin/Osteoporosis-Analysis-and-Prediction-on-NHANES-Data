@@ -265,7 +265,37 @@ def barplot_percentage(data, var_col, target_col, order='', title=''):
     
     return ax
 
-
+def multi_hist(data, hue, var_list):
+    nrow = int(np.ceil(len(var_list)/2))
+    ncol = 2
+    i = 1
+    for var in var_list:
+        plt.subplot(nrow, ncol, int(i))
+        plt.gca().set_title(f"{var}",
+                    fontsize=14, weight='bold')
+        # histplot for each variable
+        if data[var].dtype.name == 'category':
+            sns.histplot(
+                data=data,
+                y=var,
+                discrete=True,
+                stat='probability',
+                hue=hue,
+                multiple='dodge', 
+                shrink=.8
+            )
+        else:
+            sns.boxplot(data=data, x=var, y=hue)
+#             sns.histplot(
+#                 data=data,
+#                 x=var,
+#                 hue=hue,
+#                 multiple='dodge',
+#                 shrink=.9
+#             )
+        i += 1
+    plt.tight_layout()
+    
 def countplot_by_category(data, category):
     df_counts = data[category].value_counts()
     ax = sns.countplot(data=data, y=category, order=df_counts.index)
@@ -274,7 +304,7 @@ def countplot_by_category(data, category):
     for p in ax.patches:
         percentage = '{:.1f}%'.format(100 * p.get_width()/total)
         x = p.get_width()*0.5
-        y = p.get_y() + p.get_height()/2
+        y = p.get_y() + p.get_height()/1.5
         ax.annotate(percentage, (x, y), ha='center', color="white", fontsize=8, weight="bold")
 
 
@@ -292,6 +322,7 @@ def multi_countplot(data, var_list):
             sns.histplot(data=data, x=var)
         i += 1
     plt.tight_layout()
+    
     
 def plot_by_gender(data, gender, var_col, target_col, 
                    annotate_x=0, annotate_y=0, annotate_text='',

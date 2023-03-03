@@ -6,7 +6,7 @@
 * [Objective](#objective)
 * [Language and Tools](#language-and-tools)
 * [Data Source](#data-source)
-* [Data Preparation for Analysis](#data-preparation-for-analysis)
+* [Data Processing](#data-processing)
 * [EDA](#eda)
 * [Handling Imbalanced Data](#handling-imbalanced-data)
 * [Model Selection](#model-selection)
@@ -40,72 +40,60 @@ This study focuses on NHANES data for the years [2013-2014](https://wwwn.cdc.gov
 
 Note: The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-2020 were participants aged 40+ and 50+, respectively. Osteoporosis assessment in NHANES for 2015-2016 was not completed, so it's not included in this study.
 
-## Data Preparation for Analysis
+## Data Processing
+
+### Cleaning and Merging the Data
 - Renamed variables based on the data documents. For example, renamed `RIDAGEYR` to `Age`, `SLD010H` to `Sleep Hours`.
 - Converted code values to corresponding text values. For example,  "1" should be converted to "Mexican American" for variable `Race` and "Male" for variable `Gender`.
-- For better interpretation, binning the continuous variables into categorical ones:
-	- Age Group: 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80+
-	- BMI Group: Underweight (BMI < 18.5), Healthy Weight (18.5 <= BMI < 25),  Overweight (25.0 <= BMI < 30), Obesity (30.0 or higher)
-	- Sleep Hours: 4 hours and less, 5-6 Hours, 7-8 Hours, 9 hours and more
+- Full joined datasets by the respondent sequence number (`SEQN,` renamed to `ID`).
 
-- Merged all datasets by the respondent sequence number (`SEQN,` renamed to `ID`), resulting in 6509 rows x 10 columns.
+After merging, the data has 25735 rows x 10 columns, and the percentage of missing values is shown in the table:
 
-Note: Binning of continuous variables (age, BMI, sleep hours) was just used in Exploratory Data Analysis (EDA) for easier interpretation and better visualization.
-In machine learning models, these variables were kept as continuous to avoid discarding potentially meaningful data.
+| Variable        | Missing (%) |
+|-----------------|-------------|
+| BMI             | 13.8        |
+| Sleep Hours     | 35.7        |
+| Smoking         | 38.6        |
+| Arthritis       | 42.0        |
+| Liver Condition | 42.0        |
+| Heavy Drinking  | 53.5        |
+| Osteoporosis    | 65.9        |
+
+### Handling Missing Values
+
+Reasons of missing values:
+- 1) The Osteoporosis Questionnaire focused on 8802 respondents (aged 40+ in 2013-2014, aged 50+ in 2017-2020), while other data such as Demographic, focused on 25735 respondents aged 0-80.
+- 2) People didn't answer all questions.
+
+For 1), just ignore the missing values from Osteoporosis to focus on aged 40+, because osteoporosis is rare in young people and more common among people over age 50 [[8](#8), [9](#9)].
+For 2), here is the distribution of all data vs. the distribution of missing data:
+<div align="center">
+  <img alt="Missing Data Distribution" src="images/missing-data.png" width="50%">
+</div>
+
+All data and missing data have a similar distribution, removing missing data should not cause too much bias. 
+Due to the uncertainty of data imputation, the study analyzed complete data only. The final complete data is 6509 rows x 10 columns.
+
 
 ## EDA
 
-#### Overall distributions of the NHANES data
-The dataset is imbalanced with a ratio of 9:1 with and without osteoporosis
+The dataset is imbalanced with a 9:1 ratio of people with and without osteoporosis:
 <div align="center">
   <img alt="Overall Data" src="images/overall-data.png" width="50%">
 </div>
 
-Age, race, BMI, alcohol, smoking, sleep hours, arthritis, and liver condition affected the prevalence of osteoporosis differently for men and women.
+The prevalence of osteoporosis is associated differently with variables, such as:
 
-#### The prevalence of osteoporosis was higher among women (17.57%) when compared to men (2.87%)
 <div align="center">
-  <img alt="Female vs. Male" src="images/gender.png" width="50%">
+  <img alt="Female vs. Male" src="images/gender.png" width="46%">
+&nbsp; &nbsp; 
+  <img alt="Age" src="images/age.png" width="46%">  
 </div>
 
-#### The prevalence of osteoporosis for women increased significantly after age 65
 <div align="center">
-  <img alt="Age Group" src="images/age-by-gender.png" width="50%">
-</div>
-
-#### The risk of getting osteoporosis for Non-Hispanic White females was 1.6 times the risk for Mexican American females
-<div align="center">
-  <img alt="Race" src="images/race.png" width="50%">
-</div>
-
-#### Underweighted people, especially men, had higher risk of osteoporosis when compared to healthy weighted people
-<div align="center">
-  <img alt="BMI Group" src="images/bmi.png" width="50%">
-</div>
-
-#### Heavy drinking had opposite effects on men and women, although neither was statistically significant in this study
-<div align="center">
-  <img alt="Alcohol" src="images/alcohol.png" width="50%">
-</div>
-
-#### People who smoked appear to have a higher risk of osteoporosis, although it's not statistically significant in this study
-<div align="center">
-  <img alt="Smoking" src="images/smoking.png" width="50%">
-</div>
-
-#### People had 5-6 hours sleep appear to have lower risk of osteoporosis, although it's not statistically significant in this study
-<div align="center">
-  <img alt="Sleep" src="images/sleep.png" width="50%">
-</div>
-
-#### People with arthritis had higher risk of osteoporosis when compared to those without arthritis
-<div align="center">
-  <img alt="Arthritis" src="images/arthritis.png" width="50%">
-</div>
-
-#### People with liver condition had higher risk of osteoporosis when compared to those without liver condition
-<div align="center">
-  <img alt="Liver Condition" src="images/liver-condition.png" width="50%">
+  <img alt="Race" src="images/race.png" width="46%">
+&nbsp; &nbsp; 
+  <img alt="BMI" src="images/bmi.png" width="46%">  
 </div>
 
 ## Handling Imbalanced Data
@@ -114,7 +102,7 @@ For such an imbalanced data (with osteoporosis: 9.9%, without osteoporosis: 90.1
 
 There are 3 options for addressing imbalanced data: Undersampling, Oversampling, and Combination of undersampling and oversampling. The main disadvantage of undersampling is that it will discard potentially useful data, so it will not be considered in this project. Oversampling does not cause any loss of information, and in some cases, may perform better than undersampling. However, oversampling often involves duplicating a small number of events, which leads to overfitting. To balance these concerns, some scenarios may require a combination of undersampling and oversampling to obtain the most realistic dataset and accurate results.
 
-This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approach (ADASYN)[[8](#8)], Synthetic Minority Oversampling Technique (SMOTE) [[9](#9)]）and 1 combination method (SMOTETomek [[10](#10)]), here is the performance metrics of Logistic Regression with original data only, after ADASYN, after SMOTE, and after SMOTETomek:
+This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approach (ADASYN)[[10](#10)], Synthetic Minority Oversampling Technique (SMOTE) [[11](#11)]）and 1 combination method (SMOTETomek [[12](#12)]), here is the performance metrics of Logistic Regression with original data only, after ADASYN, after SMOTE, and after SMOTETomek:
 
 <div align="center">
 
@@ -153,7 +141,7 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 
 | Model               | Accuracy | Precision | Recall | F1 Score | AUC   |
 |---------------------|----------|-----------|--------|----------|-------|
-| Neural Networks             | 0.780    | 0.272     | 0.729  | 0.397    | 0.832 |
+| Neural Networks             | 0.785    | 0.279     | 0.736  | 0.404    | 0.822 |
 | Logistic Regression | 0.742    | 0.252     | 0.814  | 0.385    | 0.827 |
 | SVM     | 0.754    | 0.243     | 0.698  | 0.360    | 0.781 |
 | Random Forest | 0.846    | 0.263     | 0.310  | 0.285    | 0.769 |
@@ -180,10 +168,14 @@ The results showed that women had a higher risk of osteoporosis than men, and it
 <br/>
 <a id="7">[7]</a> Handzlik-Orlik G, Holecki M, Wilczyński K, Duława J. Osteoporosis in liver disease: pathogenesis and management. Ther Adv Endocrinol Metab. 2016 Jun;7(3):128-35. doi: 10.1177/2042018816641351. Epub 2016 Apr 6. PMID: 27293541; PMCID: PMC4892399.
 <br/>
-<a id="8">[8]</a> Haibo He, Yang Bai, E. A. Garcia and Shutao Li, "ADASYN: Adaptive synthetic sampling approach for imbalanced learning," 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, 2008, pp. 1322-1328, doi: 10.1109/IJCNN.2008.4633969.
+<a id="8">[8]</a> [What People With Rheumatoid Arthritis Need To Know About Osteoporosis](https://www.bones.nih.gov/health-info/bone/osteoporosis/conditions-behaviors/osteoporosis-ra)
 <br/>
-<a id="9">[9]</a> Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16, 321–357.
+<a id="9">[9]</a> [Juvenile Osteoporosis](https://www.bones.nih.gov/health-info/bone/bone-health/juvenile/juvenile-osteoporosis)
 <br/>
-<a id="10">[10]</a> G. Batista, B. Bazzan, M. Monard, “Balancing Training Data for Automated Annotation of Keywords: a Case Study,” In WOB, 10-18, 2003.
+<a id="10">[10]</a> Haibo He, Yang Bai, E. A. Garcia and Shutao Li, "ADASYN: Adaptive synthetic sampling approach for imbalanced learning," 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, 2008, pp. 1322-1328, doi: 10.1109/IJCNN.2008.4633969.
+<br/>
+<a id="11">[11]</a> Chawla, N. V., Bowyer, K. W., Hall, L. O., & Kegelmeyer, W. P. (2002). SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 16, 321–357.
+<br/>
+<a id="12">[12]</a> G. Batista, B. Bazzan, M. Monard, “Balancing Training Data for Automated Annotation of Keywords: a Case Study,” In WOB, 10-18, 2003.
 
 
