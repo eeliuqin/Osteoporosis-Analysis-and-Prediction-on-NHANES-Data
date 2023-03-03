@@ -135,7 +135,7 @@ Benchmarking 4 popular classification algorithms:
 
 ## Results
 Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition with above models,
-**Neural Networks** performed best, with sensitivity (recall) 73%, precision 27.2%, f1 score 0.397 and AUC 0.832.
+**Neural Networks** performed best, with sensitivity (recall) 73.6%, precision 27.9%, f1 score 0.404 and AUC 0.822.
 
 **ROC Curves**
 <div align="center">
