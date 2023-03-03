@@ -49,6 +49,8 @@ Note: The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-202
 
 After merging, the data has 25735 rows x 10 columns, and the percentage of missing values is shown in the table:
 
+ <div align="center">
+
 | Variable        | Missing (%) |
 |-----------------|-------------|
 | BMI             | 13.8        |
@@ -59,20 +61,24 @@ After merging, the data has 25735 rows x 10 columns, and the percentage of missi
 | Heavy Drinking  | 53.5        |
 | Osteoporosis    | 65.9        |
 
+</div>
+
 ### Handling Missing Values
 
 Reasons of missing values:
-- 1) The Osteoporosis Questionnaire focused on 8802 respondents (aged 40+ in 2013-2014, aged 50+ in 2017-2020), while other data such as Demographic, focused on 25735 respondents aged 0-80.
-- 2) People didn't answer all questions.
+1. The Osteoporosis Questionnaire focused on 8802 people (aged 40+ in 2013-2014, aged 50+ in 2017-2020), while other data such as Demographic, focused on 25735 people aged 0-80.
+2. Someone people didn't answer all questions.
 
 For 1), just ignore the missing values from Osteoporosis to focus on aged 40+, because osteoporosis is rare in young people and more common among people over age 50 [[8](#8), [9](#9)].
+
 For 2), here is the distribution of all data vs. the distribution of missing data:
 <div align="center">
   <img alt="Missing Data Distribution" src="images/missing-data.png" width="50%">
 </div>
 
-All data and missing data have a similar distribution, removing missing data should not cause too much bias. 
-Due to the uncertainty of data imputation, the study analyzed complete data only. The final complete data is 6509 rows x 10 columns.
+They have similar distributions, removing missing data should not cause too much bias, besides, data imputation is not considered in this study as it leads to inaccracy and uncertainty.
+
+Therefore, the study analyzed complete data only, with a dimension of 6509 rows x 10 columns.
 
 
 ## EDA
@@ -149,8 +155,8 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 
 ## Conclusions
 
-This study focused on finding the association between age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition with osteoporosis.
-The results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and liver conditions. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
+This study focused on predicting osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, and liver condition.
+The analyzed results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and liver conditions. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
 
 ## References
 
