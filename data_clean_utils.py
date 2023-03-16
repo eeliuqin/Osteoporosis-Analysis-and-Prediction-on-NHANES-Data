@@ -15,6 +15,8 @@ DATA_TYPES = {
     "MCQ160A": "category",
     "MCQ160L": "category",
     "OSQ060": "category",
+    "OSQ150": "category",
+    "BPQ020": "category",    
 }
 
 COLUMN_NAMES_REPLACED = {
@@ -29,6 +31,8 @@ COLUMN_NAMES_REPLACED = {
     "MCQ160A": "Arthritis",
     "MCQ160L": "Liver Condition",
     "OSQ060": "Osteoporosis",
+    "OSQ150": "Parent Osteoporosis",
+    "BPQ020": "High blood Pressure", 
 }
 
 GENERAL_CODE_REPLACED = {
@@ -62,13 +66,6 @@ THRESHOLD_DICT = {
         75: "75-79", 
         80: "80+",
     },
-#     'Age':  {
-#         0: "40-49",
-#         50: "50-59",
-#         60: "60-69",
-#         70: "70-79",
-#         80: "80+",
-#     },
     'BMI': {
         0: "Underweight",
         18.5: "Healthy Weight", 
@@ -84,7 +81,11 @@ THRESHOLD_DICT = {
 }
 
 
-def import_data(file, folder1='data/2013-2014-NHANES', folder2='data/2017-2020-NHANES', split=False):
+
+def import_data(file,
+                folder1='data/2013-2014-NHANES',
+                folder2='data/2017-2020-NHANES', 
+                split=False):
     data1 = pd.read_sas(f"{folder1}/{file}")
     data2 = pd.read_sas(f"{folder2}/{file}")
     if not split:
@@ -221,6 +222,7 @@ def clean_variable(data, col_list):
     Returns:
         a clean dataframe
     """
+    
     df = data.copy()
     # only keep rows answered "Yes" or "No" in the target_col 
     for target_col in col_list:
@@ -249,6 +251,7 @@ def barplot_percentage(data, var_col, target_col, order='', title=''):
     Returns:
         a dataframe displays percentage of the target variable
     """
+    
     # get percentage
     df = get_percentage(data, var_col, target_col)
     
@@ -265,7 +268,24 @@ def barplot_percentage(data, var_col, target_col, order='', title=''):
     
     return ax
 
+def move_legend(ax, new_loc, **kws):
+    old_legend = ax.legend_
+    handles = old_legend.legendHandles
+    labels = [t.get_text() for t in old_legend.get_texts()]
+    title = old_legend.get_title().get_text()
+    ax.legend(handles, labels, loc=new_loc, title=None, **kws)
+    
+
+
 def multi_hist(data, hue, var_list):
+    """Plot histgrams or boxplots for multiple variables
+    
+    Args:
+        data: the input pandas dataframe
+        hue: the column in the data frame that should be used for colour encoding
+        var_list: the list of variables
+    """
+    
     nrow = int(np.ceil(len(var_list)/2))
     ncol = 2
     i = 1
@@ -273,9 +293,9 @@ def multi_hist(data, hue, var_list):
         plt.subplot(nrow, ncol, int(i))
         plt.gca().set_title(f"{var}",
                     fontsize=14, weight='bold')
-        # histplot for each variable
+        # histplot for each categorical variable
         if data[var].dtype.name == 'category':
-            sns.histplot(
+            ax = sns.histplot(
                 data=data,
                 y=var,
                 discrete=True,
@@ -284,16 +304,14 @@ def multi_hist(data, hue, var_list):
                 multiple='dodge', 
                 shrink=.8
             )
+#             move_legend(ax, "center left", bbox_to_anchor=(1, 0.5))
+            move_legend(ax, new_loc="lower right", fontsize=8)
         else:
             sns.boxplot(data=data, x=var, y=hue)
-#             sns.histplot(
-#                 data=data,
-#                 x=var,
-#                 hue=hue,
-#                 multiple='dodge',
-#                 shrink=.9
-#             )
+            
+        # increase subplot number
         i += 1
+        
     plt.tight_layout()
     
 def countplot_by_category(data, category):

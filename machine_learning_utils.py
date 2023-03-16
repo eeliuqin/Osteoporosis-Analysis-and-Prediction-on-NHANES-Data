@@ -19,8 +19,10 @@ from sklearn.metrics import (
 )
 import tensorflow as tf
 
-def make_mi_scores(X, y):
-    X = X.copy()
+# get mutual information scores
+def make_mi_scores(data, target_name):
+    X = data.copy()
+    y = X.pop(target_name)
     for colname in X.select_dtypes(["object", "category"]):
         # factorize() convert str to int, but will not increase new columns as get_dummies()
         X[colname], _ = X[colname].factorize()
@@ -33,20 +35,24 @@ def make_mi_scores(X, y):
     return mi_scores
 
 
-def train_test_standardscaler(X, y, test_size, random_state):
+def train_test_standardscaler(data, target_name, test_size, random_state):
     """Method for preparing train and test dataset, applying the mean
        and standard deviation of training dataset to testing dataset
     
     Args:
         data: the pandas dataframe
-        target: the target (dependent) variable
+        target_name: the target (dependent) variable
         test_size: 0-1, the ratio of test dataset size
         random_state: a number used for reproducing the same train and test every time
         
     Returns:
         train and test dataset, the mean and standard deviation of the train dataset
     """
-
+    
+    # split X, y
+    X = data.copy()
+    y = X.pop(target_name)
+    
     # split train and test
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state, stratify=y)
     
@@ -60,10 +66,11 @@ def train_test_standardscaler(X, y, test_size, random_state):
     # standardize test dataset
     X_test_ss = (X_test - X_train_mean)/X_train_std
 
-    return (X_train, X_test, 
-            y_train, y_test, 
-            X_train_ss, X_test_ss)
+    return (X_train_ss, X_test_ss, 
+            y_train, y_test)
 
+
+# get predicted probabilities
 def get_predict_proba(model, X):
     # predict probabilities
     model_predicted_probs = model.predict_proba(X)
@@ -71,7 +78,8 @@ def get_predict_proba(model, X):
     model_probs = model_predicted_probs[:, 1]
     
     return model_probs
-        
+
+
 def plot_auc(y, y_predict_probs, display_no_skill=True, model_name='Model', title=''):
     """Visualization for ROC curve
     
@@ -140,6 +148,17 @@ def plot_cf_matrix(cf_matrix, model_name):
 
     
 def binary_classification_scores(cf_matrix, auc='', model_name=''):
+    """Get performace metrics for binary classification
+    
+    Args:
+        cf_matrix: the confusion matrix
+        auc: the AUC score
+        model_name: name of the model that appears in the returned dataframe
+        
+    Returns:
+        A dataframe with model name and performance metrics (accuray, precision, recall, f1, auc)
+    """
+    
     accuracy = np.trace(cf_matrix) / float(np.sum(cf_matrix))
     precision = cf_matrix[1,1] / sum(cf_matrix[:,1])
     recall    = cf_matrix[1,1] / sum(cf_matrix[1,:])
@@ -149,7 +168,7 @@ def binary_classification_scores(cf_matrix, auc='', model_name=''):
     df_performance = round(
         pd.DataFrame(
             {
-                "Model": [model_name],
+                "Model_Name": [model_name],
                 "Accuracy": [accuracy],
                 "Precision": [precision],
                 "Recall": [recall],
@@ -159,10 +178,93 @@ def binary_classification_scores(cf_matrix, auc='', model_name=''):
         ),
         3,
     )
-    df_performance = df_performance.set_index('Model')
+    df_performance = df_performance.set_index('Model_Name')
     
     return df_performance
 
+def compare_oversampling_performance(X_train, y_train, X_test, y_test, 
+                                     model, oversampling_methods, sampling_strategy='auto'):
+    """Get performance metrics of various oversampling methods, with various sampling strategies
+    
+    Args:
+        X_train: the training data of independent variables
+        y_train: corresponding target variable for X_train
+        X_test: the test data of independent variables
+        y_test: corresponding target variable for X_test
+        model: the machine learning model used to train the data
+        oversampling_methods: a list of oversampling methods that will be applied to the data before training
+        sampling_strategy: when float, it refers to the ratio of # minority samples/ # majority samples
+        
+    Returns:
+        a dataframe contains performance metrics ("Accuracy", "Precision", "Recall", "F1 Score", "AUC")
+        and stored data after oversampling 
+    """
+    
+    # save performance metrics such as accuracy, precision, etc.
+    scores = pd.DataFrame()
+    # save predicted values, predicted probabilities, confusion matrix, X_train, y_train
+    results = dict()
+     
+    # ========== performance metrics of original data (no oversampling) ==========
+    original_model_name = "Original Data"
+    
+    # train and predict
+    clf_original = model(random_state=42)
+    clf_original.fit(X_train, y_train)
+    y_test_predict_original = clf_original.predict(X_test)
+    # confusion matrix
+    cm_original = confusion_matrix(y_test, y_test_predict_original)
+    # predicted probabilites
+    y_test_predict_probs_original = get_predict_proba(clf_original, X_test)
+    # AUC score
+    model_auc_original = round(roc_auc_score(y_test, y_test_predict_probs_original), 3)
+    # 5 performance metrics
+    scores = binary_classification_scores(cf_matrix=cm_original, auc=model_auc_original, model_name=original_model_name)
+    
+    # save results of original data in dict
+    results[original_model_name] = {
+        "model": clf_original,
+        "test_predict": y_test_predict_original,
+        "test_predict_probs": y_test_predict_probs_original,
+        "confusion_matrix": cm_original,
+        "X_train": X_train,
+        "y_train": y_train,
+    }
+    
+    
+    # =============== performance metrics of all oversampling methods ==============
+    for oversampler in oversampling_methods:
+        oversampler_model = oversampler(sampling_strategy=sampling_strategy)
+        # oversampling train data
+        X_train_oversample, y_train_oversample = oversampler_model.fit_resample(X_train, y_train)
+        # training with the train data after oversampling, predicting with the test data
+        clf = model(random_state=42)
+        clf.fit(X_train_oversample, y_train_oversample)
+        y_test_predict_oversample = clf.predict(X_test)
+        # confusion matrix
+        cm = confusion_matrix(y_test, y_test_predict_oversample)
+        # AUC
+        y_test_predict_probs_oversample = get_predict_proba(clf, X_test)
+        model_auc_oversample = round(roc_auc_score(y_test, y_test_predict_probs_oversample), 3)
+        # get scores of precision, accuracy, f1-score, and AUC
+        model_name = f'{type(clf).__name__} ({oversampler.__name__})'
+        model_scores = binary_classification_scores(cf_matrix=cm, 
+                                                    auc=model_auc_oversample,
+                                                    model_name=model_name)
+
+        # save results of oversampled data in dict
+        results[model_name] = {
+            "model": clf,
+            "test_predict": y_test_predict_oversample,
+            "test_predict_probs": y_test_predict_probs_oversample,
+            "confusion_matrix": cm,
+            "X_train": X_train_oversample,
+            "y_train": y_train_oversample,
+        }           
+
+        scores = scores.append(model_scores)
+
+    return scores, results
 
 def get_nn_models(input_shape: tuple,
                num_layers: int,
