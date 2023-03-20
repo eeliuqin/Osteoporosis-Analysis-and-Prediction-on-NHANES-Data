@@ -125,12 +125,12 @@ This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approa
 
 <div align="center">
 
-| Model                          | Accuracy                       | Precision | Recall | F1 Score | AUC   |
+| Oversampling Method                          | Accuracy                       | Precision | Recall | F1 Score | AUC   |
 |------------------- |-------------------- |-------  |--------|----------|-------|
-| Logistic Regression (SMOTE)         | 0.781     | 0.263     | 0.783  | 0.394    | 0.852 |
-| Logistic Regression (SMOTETomek)    | 0.777     | 0.261     | 0.792  | 0.393    | 0.851 |
-| Logistic Regression (ADASYN)        | 0.765     | 0.250     | 0.792  | 0.380    | 0.851 |
-| Logistic Regression (Original Data) | 0.908     | 0.484     | 0.142  | 0.219    | 0.853 |
+| SMOTE         | 0.781     | 0.263     | 0.783  | 0.394    | 0.852 |
+| SMOTETomek    | 0.777     | 0.261     | 0.792  | 0.393    | 0.851 |
+| ADASYN        | 0.765     | 0.250     | 0.792  | 0.380    | 0.851 |
+| Original Data | 0.908     | 0.484     | 0.142  | 0.219    | 0.853 |
 
 </div>
 
@@ -148,7 +148,7 @@ Benchmarking 4 popular classification algorithms:
 
 ## Results
 Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parental osteoporosis with above models,
-**Neural Networks** performed best, and after optimization, it achieved sensitivity (recall) 71.1%, precision 32.5%, f1 score 0.446 and AUC 0.852.
+**Neural Networks** performed best, and after optimization, it achieved sensitivity (recall) 72.6%, f1 score 44.5% and AUC 0.85.
 
 **ROC Curves**
 <div align="center">

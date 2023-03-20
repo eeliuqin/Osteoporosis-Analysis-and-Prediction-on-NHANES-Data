@@ -1,4 +1,4 @@
-Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition,Parent Osteoporosis,Osteoporosis
+Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Duration (Hours),Arthritis,Liver Condition,Parental Osteoporosis,Osteoporosis
 69.0,Male,Non-Hispanic Black,26.7,Yes,Yes,7.0,Yes,No,No,No
 54.0,Male,Non-Hispanic White,28.6,Yes,Yes,9.0,No,No,No,No
 72.0,Male,Non-Hispanic White,28.9,Yes,No,8.0,No,No,No,Yes
@@ -32,7 +32,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Other Hispanic,27.7,Yes,No,7.0,Yes,No,No,No
 44.0,Male,Non-Hispanic Black,31.2,No,No,8.0,No,No,No,No
 54.0,Male,Non-Hispanic White,28.0,No,No,8.0,No,No,Yes,No
-70.0,Female,Non-Hispanic White,46.1,No,No,6.0,Yes,No,No,No
 59.0,Male,Mexican American,35.1,No,No,10.0,No,No,No,No
 70.0,Male,Non-Hispanic Asian,26.3,Yes,No,6.0,No,No,No,No
 73.0,Male,Non-Hispanic White,27.0,Yes,No,8.0,No,No,Yes,No
@@ -70,7 +69,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 75.0,Female,Non-Hispanic White,36.0,Yes,No,9.0,Yes,No,Yes,No
 42.0,Male,Other Hispanic,28.5,Yes,No,6.0,No,No,No,No
 80.0,Female,Non-Hispanic Black,23.4,No,No,4.0,Yes,No,No,No
-62.0,Male,Mexican American,52.3,Yes,Yes,8.0,Yes,Yes,No,No
 62.0,Male,Non-Hispanic White,18.1,Yes,Yes,8.0,Yes,No,Yes,No
 48.0,Female,Non-Hispanic White,30.2,No,No,7.0,No,No,No,No
 68.0,Male,Non-Hispanic White,23.2,Yes,No,6.0,No,Yes,No,No
@@ -79,8 +77,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic White,30.2,Yes,No,5.0,No,No,No,No
 68.0,Female,Non-Hispanic White,28.9,No,No,8.0,No,No,No,No
 59.0,Male,Non-Hispanic White,29.9,Yes,No,5.0,Yes,No,No,No
-57.0,Female,Non-Hispanic White,64.7,Yes,Yes,7.0,Yes,No,No,No
-54.0,Female,Non-Hispanic White,54.2,Yes,No,8.0,Yes,No,No,No
 46.0,Female,Other Hispanic,23.0,No,No,5.0,No,No,No,No
 55.0,Male,Mexican American,30.8,Yes,No,7.0,No,No,No,No
 63.0,Male,Non-Hispanic Black,32.2,Yes,No,5.0,Yes,No,No,No
@@ -104,7 +100,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Male,Non-Hispanic Black,26.6,Yes,Yes,6.0,Yes,No,No,No
 77.0,Male,Non-Hispanic White,34.7,No,Yes,8.0,Yes,No,No,No
 48.0,Male,Non-Hispanic White,20.9,Yes,Yes,7.0,No,No,No,No
-47.0,Female,Other Hispanic,50.9,Yes,No,8.0,Yes,No,No,No
 80.0,Male,Non-Hispanic Asian,26.1,Yes,No,8.0,No,No,No,No
 43.0,Male,Other Hispanic,28.2,Yes,No,5.0,Yes,No,No,No
 45.0,Female,Non-Hispanic Black,25.4,No,No,8.0,No,No,No,No
@@ -161,8 +156,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 44.0,Female,Non-Hispanic White,25.1,No,No,6.0,No,No,No,No
 40.0,Female,Non-Hispanic White,23.9,Yes,No,4.0,Yes,No,No,No
 57.0,Male,Mexican American,26.1,Yes,No,7.0,No,No,No,No
-63.0,Female,Non-Hispanic Black,47.2,No,No,8.0,No,No,No,No
-60.0,Female,Non-Hispanic Black,34.2,Yes,No,2.0,No,No,No,No
 57.0,Male,Non-Hispanic White,28.2,No,Yes,7.0,Yes,No,Yes,No
 71.0,Female,Non-Hispanic White,23.0,No,No,7.0,No,No,No,No
 59.0,Female,Non-Hispanic White,40.7,No,No,6.0,Yes,No,No,No
@@ -171,7 +164,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Male,Non-Hispanic White,23.9,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,30.2,No,No,8.0,No,Yes,No,No
 67.0,Female,Non-Hispanic Black,30.1,No,No,6.0,No,No,No,No
-80.0,Female,Non-Hispanic White,26.4,No,No,7.0,Yes,No,No,No
 53.0,Male,Non-Hispanic White,26.9,Yes,Yes,6.0,No,No,No,No
 40.0,Female,Non-Hispanic White,37.0,Yes,No,6.0,No,No,No,No
 44.0,Male,Mexican American,28.7,Yes,No,7.0,No,No,No,No
@@ -186,7 +178,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 79.0,Female,Non-Hispanic White,36.2,No,No,9.0,Yes,No,No,No
 42.0,Female,Non-Hispanic White,30.9,No,Yes,4.0,Yes,Yes,Yes,Yes
 54.0,Female,Mexican American,27.3,Yes,No,8.0,Yes,No,No,No
-52.0,Female,Non-Hispanic Black,49.2,Yes,No,6.0,No,No,No,No
 66.0,Female,Other Hispanic,33.3,Yes,No,7.0,No,No,Yes,No
 56.0,Male,Non-Hispanic Black,31.6,No,No,6.0,No,No,No,No
 43.0,Female,Other Hispanic,19.8,Yes,No,6.0,No,No,No,No
@@ -203,7 +194,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Female,Other Hispanic,30.4,No,No,4.0,Yes,No,No,No
 44.0,Male,Mexican American,28.9,Yes,No,7.0,No,No,No,No
 67.0,Female,Non-Hispanic Black,31.1,No,No,8.0,Yes,No,No,No
-51.0,Female,Non-Hispanic White,47.7,Yes,Yes,8.0,No,No,No,No
 74.0,Female,Non-Hispanic Black,32.5,Yes,No,8.0,No,No,No,No
 72.0,Male,Non-Hispanic White,29.6,Yes,No,9.0,Yes,No,No,No
 74.0,Male,Non-Hispanic White,21.1,Yes,Yes,9.0,No,No,No,No
@@ -239,7 +229,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Male,Non-Hispanic White,27.6,No,No,7.0,No,No,No,No
 63.0,Male,Non-Hispanic Black,22.3,Yes,No,7.0,No,No,No,No
 61.0,Female,Non-Hispanic White,28.2,No,No,5.0,Yes,No,No,No
-74.0,Male,Non-Hispanic White,26.4,Yes,Yes,12.0,No,No,No,No
 53.0,Female,Non-Hispanic White,35.0,Yes,Yes,6.0,Yes,No,No,No
 63.0,Female,Mexican American,22.0,Yes,No,6.0,No,No,Yes,Yes
 43.0,Male,Non-Hispanic Black,25.5,No,No,4.0,No,No,No,No
@@ -260,9 +249,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 45.0,Male,Non-Hispanic Asian,26.5,No,No,6.0,No,No,No,No
 61.0,Female,Non-Hispanic White,43.3,Yes,No,8.0,Yes,No,No,No
 80.0,Male,Mexican American,30.8,Yes,No,6.0,Yes,Yes,No,No
-80.0,Male,Non-Hispanic White,24.4,No,No,12.0,No,No,No,No
 50.0,Female,Mexican American,26.1,No,No,7.0,No,No,No,No
-69.0,Female,Non-Hispanic Black,53.5,Yes,No,6.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,30.4,No,No,7.0,No,No,No,No
 40.0,Male,Mexican American,26.2,No,No,8.0,Yes,No,No,No
 59.0,Male,Non-Hispanic Black,29.1,Yes,Yes,6.0,Yes,No,No,No
@@ -294,7 +281,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Male,Non-Hispanic Black,24.0,Yes,Yes,8.0,No,Yes,No,No
 53.0,Female,Non-Hispanic Black,35.1,No,No,4.0,No,No,No,No
 45.0,Female,Non-Hispanic Black,29.2,Yes,Yes,7.0,No,No,No,No
-58.0,Male,Non-Hispanic White,32.9,No,No,12.0,Yes,No,No,No
 62.0,Female,Non-Hispanic White,27.6,Yes,No,7.0,Yes,No,No,No
 68.0,Male,Non-Hispanic Asian,23.8,Yes,No,8.0,No,No,No,No
 46.0,Female,Other Hispanic,26.8,No,No,9.0,No,No,No,No
@@ -344,7 +330,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Female,Non-Hispanic White,31.0,Yes,No,4.0,Yes,No,No,No
 45.0,Female,Non-Hispanic White,22.6,No,No,7.0,No,No,No,No
 45.0,Female,Non-Hispanic White,23.6,No,No,7.0,No,No,No,No
-67.0,Male,Non-Hispanic White,48.1,Yes,No,7.0,No,No,No,No
 66.0,Female,Non-Hispanic White,34.6,No,No,9.0,Yes,No,Yes,Yes
 47.0,Male,Non-Hispanic White,32.1,Yes,No,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,20.6,No,No,10.0,Yes,No,No,Yes
@@ -363,7 +348,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 44.0,Male,Non-Hispanic White,32.4,No,No,6.0,No,No,Yes,No
 48.0,Female,Non-Hispanic White,27.2,No,No,8.0,No,No,No,No
 64.0,Male,Other Hispanic,24.8,Yes,No,8.0,No,No,No,No
-50.0,Female,Non-Hispanic White,37.8,Yes,No,12.0,No,No,No,No
 49.0,Female,Mexican American,28.1,Yes,No,7.0,No,No,No,No
 66.0,Female,Non-Hispanic White,22.6,Yes,No,8.0,Yes,No,No,No
 50.0,Male,Mexican American,31.1,No,No,8.0,Yes,No,No,No
@@ -401,7 +385,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 72.0,Male,Other Race - Including Multi-Racial,31.5,Yes,Yes,8.0,No,No,No,No
 74.0,Female,Mexican American,36.0,No,No,8.0,Yes,No,No,No
 72.0,Male,Non-Hispanic White,26.6,Yes,No,6.0,Yes,No,Yes,Yes
-50.0,Female,Non-Hispanic Black,46.4,Yes,No,4.0,Yes,No,No,No
 62.0,Female,Non-Hispanic White,37.8,Yes,No,10.0,Yes,No,Yes,No
 47.0,Male,Non-Hispanic White,27.7,Yes,No,6.0,Yes,No,Yes,No
 44.0,Female,Non-Hispanic Black,23.5,No,No,6.0,No,No,No,No
@@ -411,7 +394,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,26.6,No,No,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,23.5,Yes,No,6.0,No,No,No,No
 64.0,Female,Non-Hispanic Black,34.3,Yes,No,7.0,No,No,No,No
-80.0,Female,Non-Hispanic White,24.9,Yes,No,9.0,Yes,No,No,No
 56.0,Male,Non-Hispanic White,27.1,Yes,No,8.0,Yes,No,No,No
 44.0,Male,Non-Hispanic Asian,31.3,Yes,No,9.0,No,No,No,No
 49.0,Male,Non-Hispanic Black,43.1,No,No,6.0,No,No,No,No
@@ -430,21 +412,18 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 40.0,Female,Other Race - Including Multi-Racial,18.9,No,No,6.0,No,No,No,No
 59.0,Male,Non-Hispanic Asian,24.4,No,No,7.0,No,No,No,Yes
 41.0,Male,Non-Hispanic White,28.4,Yes,No,8.0,No,No,No,No
-62.0,Female,Non-Hispanic Black,47.1,Yes,No,8.0,Yes,No,No,Yes
 64.0,Female,Non-Hispanic White,43.2,No,No,5.0,Yes,No,No,No
 65.0,Male,Non-Hispanic Asian,24.2,Yes,Yes,6.0,Yes,Yes,No,No
 40.0,Female,Non-Hispanic Black,35.5,Yes,No,10.0,No,No,No,No
 54.0,Male,Non-Hispanic White,33.7,Yes,Yes,7.0,No,No,No,No
 54.0,Male,Non-Hispanic White,28.1,Yes,No,8.0,Yes,No,No,No
 44.0,Male,Non-Hispanic White,38.2,Yes,Yes,5.0,No,No,No,No
-63.0,Female,Non-Hispanic Black,46.4,Yes,No,5.0,Yes,No,No,No
 43.0,Male,Non-Hispanic White,30.5,Yes,Yes,6.0,Yes,No,No,No
 44.0,Male,Other Hispanic,30.2,Yes,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,28.2,No,No,8.0,Yes,No,No,No
 61.0,Female,Non-Hispanic Asian,20.7,No,No,7.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,30.3,Yes,Yes,8.0,Yes,No,No,No
 75.0,Male,Non-Hispanic White,28.7,Yes,Yes,9.0,No,No,No,No
-70.0,Male,Non-Hispanic White,48.3,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,22.7,No,No,9.0,No,No,Yes,No
 75.0,Male,Non-Hispanic Black,26.0,Yes,No,6.0,No,No,No,No
 42.0,Female,Non-Hispanic White,37.4,No,No,6.0,Yes,No,No,Yes
@@ -476,7 +455,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 69.0,Female,Non-Hispanic White,32.0,No,No,7.0,Yes,No,No,No
 54.0,Male,Non-Hispanic Black,28.7,Yes,No,7.0,Yes,No,No,No
 61.0,Male,Non-Hispanic White,29.2,No,No,7.0,No,No,No,No
-43.0,Female,Non-Hispanic Black,50.7,No,No,6.0,No,No,No,No
 53.0,Male,Non-Hispanic Black,28.7,Yes,No,7.0,No,No,No,No
 43.0,Male,Other Hispanic,38.5,Yes,No,7.0,Yes,No,No,No
 76.0,Female,Non-Hispanic Black,17.2,No,No,8.0,Yes,No,Yes,Yes
@@ -513,12 +491,10 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 49.0,Female,Mexican American,31.1,Yes,No,6.0,No,No,No,No
 58.0,Male,Non-Hispanic White,21.1,No,Yes,8.0,Yes,No,No,No
 48.0,Male,Non-Hispanic Asian,27.6,Yes,No,6.0,No,Yes,Yes,No
-58.0,Female,Non-Hispanic White,55.7,No,No,10.0,Yes,No,No,No
 48.0,Male,Non-Hispanic White,37.5,No,No,6.0,No,No,No,No
 42.0,Female,Other Hispanic,22.9,No,No,8.0,No,No,No,No
 74.0,Female,Non-Hispanic White,27.2,No,No,8.0,No,No,No,Yes
 62.0,Female,Other Hispanic,28.1,Yes,No,4.0,Yes,No,No,No
-58.0,Female,Non-Hispanic Black,77.5,No,Yes,5.0,Yes,No,Yes,No
 50.0,Female,Non-Hispanic White,32.8,No,No,7.0,No,No,No,No
 66.0,Male,Non-Hispanic Black,25.4,Yes,Yes,7.0,Yes,No,No,No
 57.0,Male,Non-Hispanic Asian,27.0,No,No,6.0,No,No,No,No
@@ -599,7 +575,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Non-Hispanic White,32.7,No,No,7.0,Yes,No,Yes,No
 54.0,Male,Non-Hispanic White,28.0,No,No,6.0,Yes,No,No,No
 40.0,Male,Non-Hispanic White,23.8,No,No,9.0,No,No,No,No
-56.0,Female,Non-Hispanic Black,55.6,Yes,No,8.0,Yes,No,No,No
 44.0,Female,Non-Hispanic White,32.2,No,Yes,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,26.2,Yes,Yes,8.0,No,No,No,No
 55.0,Female,Non-Hispanic White,32.2,No,No,8.0,Yes,No,No,No
@@ -631,7 +606,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 48.0,Male,Non-Hispanic White,25.7,No,No,6.0,Yes,No,No,No
 61.0,Male,Non-Hispanic Black,28.2,Yes,No,8.0,No,No,No,No
 76.0,Female,Non-Hispanic White,27.4,Yes,No,8.0,No,No,Yes,Yes
-58.0,Female,Other Race - Including Multi-Racial,54.9,No,No,8.0,No,No,No,No
 68.0,Male,Mexican American,24.0,No,No,7.0,No,No,No,No
 59.0,Male,Non-Hispanic Asian,26.2,Yes,No,6.0,No,No,Yes,No
 79.0,Male,Non-Hispanic White,25.9,No,No,7.0,Yes,No,No,No
@@ -686,7 +660,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 51.0,Male,Non-Hispanic Black,31.5,Yes,Yes,7.0,No,No,No,No
 59.0,Male,Non-Hispanic White,25.8,No,No,6.0,Yes,No,Yes,No
 78.0,Male,Non-Hispanic White,26.1,Yes,Yes,8.0,Yes,No,Yes,No
-43.0,Female,Mexican American,47.5,No,No,6.0,No,No,No,No
 53.0,Female,Mexican American,35.9,Yes,No,8.0,Yes,No,Yes,No
 56.0,Male,Non-Hispanic White,25.8,No,No,8.0,Yes,No,No,No
 76.0,Male,Non-Hispanic White,30.1,Yes,No,7.0,No,No,No,No
@@ -696,7 +669,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 76.0,Female,Non-Hispanic White,24.0,Yes,No,8.0,Yes,No,No,No
 40.0,Female,Mexican American,34.8,No,No,6.0,No,No,No,No
 61.0,Female,Non-Hispanic Asian,34.8,Yes,No,7.0,Yes,No,No,No
-59.0,Female,Mexican American,50.4,Yes,No,5.0,No,No,No,No
 44.0,Male,Other Hispanic,21.4,Yes,No,8.0,No,No,No,No
 70.0,Female,Non-Hispanic White,29.5,No,No,8.0,Yes,No,No,Yes
 50.0,Female,Non-Hispanic White,26.7,Yes,No,7.0,Yes,No,No,No
@@ -760,7 +732,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 42.0,Female,Non-Hispanic Black,42.2,No,No,6.0,No,No,No,No
 41.0,Male,Mexican American,20.2,Yes,No,7.0,No,No,No,No
 55.0,Female,Non-Hispanic White,32.7,Yes,No,10.0,No,Yes,Yes,No
-52.0,Female,Non-Hispanic White,30.8,Yes,Yes,2.0,Yes,No,No,No
 52.0,Female,Non-Hispanic White,33.5,Yes,No,6.0,No,No,No,No
 47.0,Male,Other Hispanic,29.8,Yes,Yes,7.0,Yes,No,No,No
 68.0,Male,Non-Hispanic White,22.6,Yes,No,7.0,No,No,No,No
@@ -769,12 +740,10 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Male,Non-Hispanic White,33.1,Yes,No,6.0,Yes,No,No,No
 69.0,Male,Non-Hispanic White,33.8,No,No,7.0,No,No,No,No
 40.0,Male,Non-Hispanic White,28.1,Yes,Yes,7.0,No,No,No,No
-62.0,Male,Non-Hispanic Black,33.0,Yes,Yes,12.0,Yes,No,No,No
 70.0,Male,Other Hispanic,25.0,Yes,Yes,7.0,Yes,No,No,No
 45.0,Male,Mexican American,29.8,Yes,Yes,7.0,No,No,No,No
 54.0,Male,Mexican American,27.8,Yes,No,7.0,No,No,No,No
 61.0,Male,Mexican American,24.3,Yes,No,5.0,Yes,No,No,No
-64.0,Female,Non-Hispanic Black,50.8,Yes,No,8.0,Yes,No,No,No
 69.0,Female,Non-Hispanic White,32.7,No,No,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,28.0,Yes,No,9.0,Yes,No,No,Yes
 43.0,Male,Mexican American,28.5,Yes,No,8.0,No,No,No,No
@@ -785,7 +754,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 40.0,Male,Mexican American,23.2,No,Yes,5.0,No,Yes,No,No
 63.0,Male,Non-Hispanic Black,32.6,Yes,No,4.0,Yes,No,No,No
 40.0,Female,Non-Hispanic White,25.0,No,No,8.0,No,No,No,No
-40.0,Female,Non-Hispanic Black,51.5,No,No,8.0,No,No,No,No
 61.0,Male,Non-Hispanic White,25.9,Yes,No,7.0,Yes,No,Yes,No
 57.0,Female,Non-Hispanic Asian,35.0,No,No,7.0,Yes,No,No,No
 41.0,Female,Non-Hispanic White,43.3,No,No,6.0,No,No,No,No
@@ -819,7 +787,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic White,34.4,Yes,No,8.0,No,No,Yes,No
 47.0,Female,Non-Hispanic White,25.9,Yes,No,8.0,Yes,No,Yes,No
 79.0,Male,Non-Hispanic Black,24.0,Yes,Yes,6.0,Yes,No,No,No
-68.0,Male,Non-Hispanic White,49.4,Yes,No,8.0,Yes,No,No,No
 58.0,Female,Non-Hispanic White,43.8,No,No,8.0,No,No,Yes,No
 53.0,Male,Mexican American,33.8,No,No,6.0,Yes,No,No,No
 62.0,Male,Non-Hispanic Black,20.9,No,No,8.0,No,No,No,No
@@ -866,7 +833,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Female,Non-Hispanic Black,39.4,Yes,No,6.0,No,No,No,No
 55.0,Female,Non-Hispanic Black,23.6,Yes,No,9.0,Yes,No,No,No
 51.0,Male,Non-Hispanic White,31.3,Yes,No,7.0,No,No,Yes,No
-54.0,Male,Other Hispanic,26.6,Yes,No,2.0,Yes,Yes,No,No
 80.0,Male,Non-Hispanic White,35.5,No,No,5.0,Yes,No,No,No
 62.0,Male,Non-Hispanic White,25.9,Yes,No,4.0,Yes,No,No,No
 60.0,Female,Non-Hispanic White,28.8,Yes,No,7.0,No,No,No,No
@@ -892,10 +858,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Non-Hispanic White,25.3,No,No,6.0,Yes,No,No,No
 53.0,Male,Non-Hispanic Asian,31.3,Yes,No,8.0,No,No,Yes,No
 69.0,Male,Non-Hispanic Black,19.3,Yes,No,8.0,Yes,No,No,No
-43.0,Male,Non-Hispanic White,47.4,Yes,No,7.0,Yes,No,No,No
 67.0,Male,Non-Hispanic Asian,25.4,Yes,No,8.0,No,No,No,No
 67.0,Male,Other Hispanic,26.1,Yes,No,6.0,Yes,No,No,No
-55.0,Female,Non-Hispanic White,50.3,No,No,8.0,Yes,No,Yes,No
 40.0,Female,Non-Hispanic White,34.3,Yes,No,5.0,No,No,No,No
 80.0,Female,Non-Hispanic White,17.7,No,No,7.0,Yes,No,No,No
 45.0,Female,Non-Hispanic White,32.8,Yes,Yes,6.0,No,No,No,No
@@ -923,13 +887,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Male,Non-Hispanic White,17.0,Yes,No,8.0,Yes,No,No,No
 58.0,Male,Non-Hispanic Black,24.2,Yes,Yes,5.0,No,No,No,No
 42.0,Female,Non-Hispanic Black,20.5,No,No,7.0,No,No,No,No
-50.0,Male,Non-Hispanic Black,74.1,No,No,8.0,Yes,No,No,No
 67.0,Male,Non-Hispanic White,32.2,Yes,No,5.0,No,Yes,No,No
 77.0,Female,Non-Hispanic White,25.4,No,No,8.0,No,No,Yes,Yes
 46.0,Male,Non-Hispanic White,25.7,No,No,7.0,No,No,No,No
 63.0,Male,Mexican American,27.4,Yes,No,7.0,No,No,No,No
 76.0,Male,Non-Hispanic White,28.8,Yes,No,7.0,Yes,No,No,No
-61.0,Male,Non-Hispanic White,49.4,No,Yes,5.0,Yes,No,No,No
 73.0,Female,Mexican American,28.3,No,No,8.0,No,No,No,No
 42.0,Female,Non-Hispanic White,29.6,Yes,No,8.0,No,No,No,No
 50.0,Female,Other Race - Including Multi-Racial,27.6,No,No,6.0,No,No,No,No
@@ -938,7 +900,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Male,Non-Hispanic Black,22.4,Yes,Yes,6.0,Yes,Yes,No,No
 58.0,Female,Non-Hispanic Black,34.7,Yes,No,5.0,No,No,No,No
 47.0,Female,Non-Hispanic White,22.3,No,No,6.0,No,No,No,No
-52.0,Male,Non-Hispanic White,57.3,No,No,6.0,No,No,No,No
 72.0,Female,Non-Hispanic White,40.3,No,No,7.0,No,No,No,No
 58.0,Female,Other Hispanic,26.2,No,No,6.0,No,No,No,No
 42.0,Male,Non-Hispanic Asian,23.5,Yes,No,7.0,No,No,No,No
@@ -951,7 +912,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic Black,29.8,No,No,8.0,No,No,No,No
 41.0,Male,Non-Hispanic White,27.2,Yes,No,7.0,No,No,No,No
 47.0,Female,Non-Hispanic Black,34.0,No,No,7.0,No,No,No,No
-54.0,Female,Non-Hispanic White,28.2,Yes,No,12.0,Yes,Yes,No,No
 68.0,Female,Non-Hispanic Black,38.1,Yes,No,10.0,Yes,No,No,No
 57.0,Female,Non-Hispanic Asian,23.4,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,32.5,Yes,No,6.0,Yes,No,No,No
@@ -964,7 +924,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Female,Non-Hispanic Asian,26.7,No,No,5.0,Yes,Yes,Yes,Yes
 68.0,Male,Non-Hispanic Black,24.8,No,No,8.0,Yes,No,No,No
 78.0,Male,Mexican American,24.8,Yes,Yes,7.0,No,No,Yes,No
-60.0,Female,Non-Hispanic White,63.0,Yes,Yes,10.0,Yes,No,Yes,Yes
 61.0,Male,Other Hispanic,30.6,Yes,No,6.0,No,No,No,No
 44.0,Female,Mexican American,30.0,No,No,8.0,Yes,No,No,No
 41.0,Female,Non-Hispanic Black,41.3,No,No,4.0,Yes,No,No,No
@@ -975,7 +934,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 44.0,Female,Non-Hispanic Black,28.5,Yes,No,7.0,No,No,Yes,No
 42.0,Female,Non-Hispanic White,28.0,Yes,No,6.0,No,No,No,Yes
 63.0,Male,Non-Hispanic White,44.5,Yes,Yes,6.0,Yes,No,No,No
-67.0,Female,Non-Hispanic Black,44.0,No,No,12.0,Yes,No,No,No
 60.0,Female,Non-Hispanic Black,25.8,No,No,6.0,Yes,No,No,Yes
 58.0,Female,Non-Hispanic White,26.6,Yes,Yes,7.0,No,No,Yes,Yes
 73.0,Male,Other Hispanic,29.1,Yes,No,6.0,No,No,No,No
@@ -992,8 +950,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 78.0,Male,Non-Hispanic White,25.5,Yes,No,9.0,No,No,No,No
 41.0,Male,Non-Hispanic White,33.6,Yes,Yes,5.0,No,No,No,No
 75.0,Female,Non-Hispanic White,40.6,No,No,7.0,Yes,No,No,Yes
-66.0,Female,Non-Hispanic White,50.6,No,No,7.0,Yes,No,No,No
-43.0,Female,Mexican American,30.2,No,No,8.0,No,No,No,No
 70.0,Female,Non-Hispanic White,25.5,Yes,No,6.0,Yes,No,No,No
 74.0,Female,Non-Hispanic White,23.9,No,No,8.0,Yes,No,No,No
 46.0,Female,Non-Hispanic Black,23.8,Yes,No,8.0,No,No,No,No
@@ -1029,7 +985,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 40.0,Male,Non-Hispanic Asian,24.1,Yes,Yes,8.0,No,No,No,No
 49.0,Female,Non-Hispanic Black,29.1,Yes,No,6.0,No,No,No,No
 80.0,Female,Non-Hispanic White,22.5,No,No,8.0,No,No,No,No
-74.0,Male,Non-Hispanic White,30.5,Yes,No,8.0,Yes,No,No,No
 59.0,Female,Non-Hispanic White,24.6,No,No,7.0,No,No,Yes,Yes
 55.0,Female,Non-Hispanic White,42.0,Yes,No,6.0,Yes,Yes,No,No
 53.0,Male,Non-Hispanic Black,31.5,Yes,No,8.0,No,No,No,No
@@ -1069,7 +1024,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 46.0,Male,Non-Hispanic Black,22.4,Yes,No,5.0,Yes,No,No,No
 63.0,Female,Non-Hispanic White,31.5,Yes,No,7.0,Yes,No,No,No
 60.0,Male,Non-Hispanic White,29.9,Yes,No,4.0,No,No,Yes,No
-52.0,Female,Mexican American,27.7,No,No,8.0,No,No,No,No
 68.0,Male,Other Hispanic,30.4,No,No,9.0,Yes,No,No,No
 55.0,Female,Other Hispanic,28.8,No,No,8.0,No,No,No,No
 40.0,Male,Non-Hispanic White,25.2,Yes,No,6.0,No,No,No,No
@@ -1134,7 +1088,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Mexican American,36.3,No,No,4.0,Yes,No,No,No
 40.0,Male,Non-Hispanic Black,28.8,No,Yes,7.0,No,No,No,No
 56.0,Male,Non-Hispanic White,28.7,Yes,Yes,6.0,No,No,No,No
-80.0,Female,Non-Hispanic White,26.4,No,No,7.0,Yes,No,No,No
 61.0,Male,Non-Hispanic Black,27.9,Yes,No,8.0,Yes,Yes,No,No
 78.0,Female,Other Race - Including Multi-Racial,33.9,Yes,Yes,8.0,Yes,No,No,Yes
 58.0,Male,Non-Hispanic White,29.9,Yes,Yes,7.0,Yes,No,No,No
@@ -1160,11 +1113,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 53.0,Male,Other Hispanic,33.6,Yes,No,8.0,No,No,No,No
 66.0,Male,Other Hispanic,29.0,Yes,No,6.0,No,No,No,No
 76.0,Male,Non-Hispanic White,24.3,Yes,No,7.0,No,No,Yes,No
-64.0,Male,Mexican American,50.6,Yes,No,6.0,Yes,No,No,No
 51.0,Male,Other Hispanic,22.6,Yes,No,5.0,Yes,No,No,No
 80.0,Female,Non-Hispanic Black,32.2,Yes,No,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic Black,23.8,Yes,Yes,6.0,Yes,No,No,No
-73.0,Male,Other Race - Including Multi-Racial,20.1,Yes,Yes,2.0,Yes,No,No,No
 45.0,Female,Non-Hispanic Black,27.3,No,No,5.0,No,No,No,No
 47.0,Male,Mexican American,30.4,Yes,No,8.0,No,No,No,No
 47.0,Female,Mexican American,27.3,Yes,No,5.0,No,No,No,No
@@ -1186,7 +1137,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 46.0,Male,Non-Hispanic White,23.9,Yes,Yes,6.0,No,No,No,No
 51.0,Male,Other Hispanic,36.3,Yes,No,9.0,No,No,No,No
 73.0,Male,Non-Hispanic White,24.7,No,No,7.0,No,No,No,No
-40.0,Female,Other Race - Including Multi-Racial,49.5,Yes,No,5.0,Yes,No,No,No
 58.0,Male,Non-Hispanic Asian,28.3,No,No,3.0,No,No,No,No
 63.0,Female,Other Hispanic,27.4,No,No,6.0,No,No,No,No
 40.0,Male,Non-Hispanic White,22.3,No,No,7.0,No,No,No,No
@@ -1218,7 +1168,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Female,Non-Hispanic White,23.7,No,No,8.0,No,No,No,No
 80.0,Female,Non-Hispanic White,23.1,No,No,8.0,No,No,No,No
 63.0,Male,Non-Hispanic White,34.8,No,No,6.0,No,Yes,No,No
-51.0,Female,Non-Hispanic White,49.3,No,No,7.0,Yes,No,Yes,No
 67.0,Female,Non-Hispanic White,24.2,Yes,No,6.0,No,No,No,No
 66.0,Male,Non-Hispanic Black,29.4,Yes,No,6.0,No,No,No,No
 79.0,Female,Non-Hispanic White,23.5,No,No,5.0,No,No,No,No
@@ -1232,7 +1181,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 40.0,Female,Mexican American,26.7,No,No,8.0,No,No,No,No
 76.0,Female,Non-Hispanic White,22.9,Yes,Yes,8.0,No,No,Yes,No
 47.0,Male,Non-Hispanic White,24.4,No,No,8.0,No,No,No,No
-47.0,Female,Non-Hispanic Black,65.5,No,No,6.0,No,No,No,No
 78.0,Male,Non-Hispanic Black,33.0,Yes,Yes,8.0,No,No,No,No
 72.0,Female,Non-Hispanic Asian,29.7,No,No,4.0,No,No,No,No
 40.0,Male,Mexican American,32.4,Yes,Yes,6.0,No,No,No,No
@@ -1242,7 +1190,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,20.5,No,No,7.0,Yes,No,No,Yes
 44.0,Female,Mexican American,28.7,No,No,7.0,No,No,No,No
 70.0,Female,Non-Hispanic White,33.8,No,No,4.0,No,No,No,No
-77.0,Male,Non-Hispanic White,25.9,No,No,12.0,No,No,No,No
 59.0,Male,Other Hispanic,29.3,Yes,Yes,8.0,No,No,No,No
 60.0,Male,Non-Hispanic White,22.4,Yes,Yes,6.0,Yes,Yes,No,Yes
 43.0,Female,Non-Hispanic White,32.5,Yes,No,6.0,No,No,No,No
@@ -1288,7 +1235,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Female,Mexican American,28.3,No,No,8.0,Yes,Yes,No,No
 57.0,Male,Non-Hispanic White,23.6,Yes,No,6.0,No,No,No,No
 51.0,Male,Non-Hispanic White,30.1,Yes,Yes,6.0,No,No,No,No
-40.0,Male,Non-Hispanic Black,45.9,No,No,7.0,No,No,No,No
 45.0,Male,Non-Hispanic Black,23.3,Yes,No,6.0,No,No,Yes,No
 70.0,Male,Non-Hispanic Asian,30.9,Yes,No,6.0,No,Yes,No,No
 60.0,Female,Non-Hispanic Asian,20.8,No,No,7.0,No,No,Yes,No
@@ -1298,7 +1244,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Female,Other Hispanic,29.1,No,No,5.0,Yes,No,No,Yes
 41.0,Female,Mexican American,34.9,No,No,8.0,No,No,No,No
 60.0,Female,Non-Hispanic White,28.9,Yes,No,6.0,Yes,No,Yes,No
-70.0,Female,Non-Hispanic White,39.2,No,No,12.0,No,No,No,No
 80.0,Male,Non-Hispanic White,27.4,No,No,10.0,Yes,No,No,No
 48.0,Male,Non-Hispanic White,35.3,Yes,No,8.0,No,No,No,No
 43.0,Male,Non-Hispanic White,23.8,No,Yes,4.0,No,No,No,No
@@ -1317,13 +1262,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Male,Non-Hispanic Asian,26.4,No,No,7.0,No,No,No,No
 51.0,Male,Mexican American,27.1,No,No,7.0,No,No,No,No
 69.0,Male,Non-Hispanic White,32.4,No,No,6.0,No,No,No,No
-55.0,Female,Non-Hispanic White,48.4,Yes,No,12.0,Yes,No,Yes,No
 40.0,Male,Non-Hispanic Black,32.0,No,No,4.0,No,No,No,No
 66.0,Male,Other Hispanic,26.2,Yes,Yes,7.0,No,No,No,No
 64.0,Male,Non-Hispanic Black,21.4,Yes,Yes,7.0,No,No,No,No
 56.0,Male,Non-Hispanic Black,28.2,No,No,5.0,No,No,No,No
 48.0,Male,Non-Hispanic Black,26.1,No,No,7.0,No,No,No,No
-63.0,Male,Non-Hispanic White,46.8,Yes,Yes,8.0,Yes,No,No,No
 67.0,Female,Non-Hispanic Black,36.0,No,No,10.0,Yes,No,No,No
 61.0,Female,Non-Hispanic White,21.7,No,No,8.0,Yes,No,No,No
 44.0,Female,Non-Hispanic White,25.2,No,No,7.0,Yes,No,No,No
@@ -1335,12 +1278,10 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic White,23.5,No,No,7.0,No,No,No,No
 56.0,Male,Non-Hispanic Black,19.6,Yes,No,8.0,Yes,No,No,No
 53.0,Female,Non-Hispanic White,29.4,Yes,Yes,7.0,No,No,No,No
-64.0,Female,Non-Hispanic White,50.2,No,No,5.0,Yes,No,No,Yes
 45.0,Female,Mexican American,26.3,No,No,8.0,No,No,No,No
 66.0,Female,Mexican American,26.5,Yes,No,7.0,Yes,No,No,No
 70.0,Female,Non-Hispanic White,28.9,Yes,No,8.0,No,No,No,No
 44.0,Male,Non-Hispanic White,30.2,No,No,7.0,No,No,No,No
-41.0,Male,Non-Hispanic White,50.9,Yes,No,7.0,No,No,No,No
 53.0,Male,Non-Hispanic White,26.2,Yes,No,6.0,No,No,No,No
 53.0,Male,Non-Hispanic White,25.5,Yes,No,6.0,Yes,No,No,No
 55.0,Female,Non-Hispanic White,22.9,No,No,8.0,No,No,No,No
@@ -1369,7 +1310,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 76.0,Male,Non-Hispanic White,29.3,Yes,No,8.0,No,No,No,No
 68.0,Male,Non-Hispanic White,26.2,No,No,7.0,Yes,No,No,No
 67.0,Female,Other Hispanic,28.7,Yes,No,8.0,No,No,No,No
-42.0,Female,Non-Hispanic Black,55.0,Yes,No,8.0,No,No,Yes,No
 56.0,Female,Non-Hispanic White,19.9,No,No,7.0,No,No,Yes,No
 47.0,Male,Non-Hispanic White,26.6,Yes,No,4.0,No,No,No,No
 78.0,Male,Non-Hispanic White,25.9,Yes,Yes,7.0,No,No,Yes,No
@@ -1383,7 +1323,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 66.0,Female,Non-Hispanic White,19.5,Yes,No,8.0,No,No,No,No
 70.0,Female,Non-Hispanic White,28.0,No,No,7.0,No,No,No,Yes
 51.0,Male,Non-Hispanic White,20.5,Yes,No,6.0,Yes,No,Yes,No
-61.0,Female,Mexican American,49.4,No,No,6.0,Yes,No,No,No
 62.0,Male,Mexican American,31.1,Yes,Yes,8.0,No,No,No,No
 63.0,Female,Non-Hispanic Black,35.2,No,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,24.0,No,No,7.0,Yes,No,No,No
@@ -1422,7 +1361,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Female,Non-Hispanic White,22.2,Yes,No,6.0,Yes,No,No,Yes
 71.0,Female,Mexican American,32.8,No,No,7.0,No,No,No,No
 52.0,Male,Non-Hispanic White,26.1,No,No,8.0,Yes,No,No,No
-68.0,Male,Non-Hispanic Black,51.2,Yes,No,6.0,No,No,No,Yes
 75.0,Male,Non-Hispanic White,26.1,Yes,No,4.0,No,No,No,No
 61.0,Male,Mexican American,31.3,No,No,6.0,No,No,Yes,Yes
 54.0,Female,Non-Hispanic Black,43.6,No,No,6.0,No,No,No,No
@@ -1439,7 +1377,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 44.0,Male,Non-Hispanic Black,31.2,Yes,No,7.0,No,No,No,No
 42.0,Female,Non-Hispanic White,33.8,No,No,7.0,No,No,No,No
 54.0,Female,Non-Hispanic Black,34.6,No,No,7.0,Yes,No,No,No
-48.0,Female,Non-Hispanic White,45.9,Yes,No,2.0,No,No,No,No
 52.0,Male,Non-Hispanic White,25.8,Yes,No,8.0,No,No,No,No
 68.0,Male,Non-Hispanic Black,25.3,Yes,No,7.0,No,No,No,No
 41.0,Male,Non-Hispanic White,25.0,Yes,No,8.0,No,No,No,No
@@ -1450,7 +1387,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 48.0,Male,Non-Hispanic Asian,28.0,No,No,6.0,No,No,No,No
 53.0,Female,Other Hispanic,22.5,No,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,25.7,Yes,No,7.0,No,No,No,No
-60.0,Female,Non-Hispanic Black,46.0,No,No,7.0,No,No,No,No
 42.0,Female,Mexican American,33.1,Yes,No,7.0,Yes,No,No,No
 46.0,Female,Non-Hispanic White,23.9,No,No,9.0,Yes,No,No,No
 55.0,Female,Non-Hispanic White,18.4,Yes,Yes,3.0,Yes,Yes,No,Yes
@@ -1476,8 +1412,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Other Hispanic,21.6,Yes,No,8.0,Yes,No,No,No
 55.0,Female,Non-Hispanic White,33.3,No,No,8.0,No,No,No,No
 74.0,Male,Non-Hispanic Black,22.4,No,No,6.0,No,No,No,No
-41.0,Male,Mexican American,45.9,No,No,4.0,No,No,No,No
-66.0,Female,Non-Hispanic Black,26.9,Yes,No,12.0,Yes,No,No,No
 46.0,Male,Other Hispanic,27.7,Yes,No,6.0,No,Yes,No,No
 80.0,Female,Mexican American,32.6,No,No,8.0,Yes,No,No,Yes
 80.0,Female,Other Hispanic,27.2,No,No,4.0,No,No,No,No
@@ -1497,7 +1431,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 66.0,Female,Non-Hispanic Black,41.4,Yes,No,7.0,No,No,No,No
 49.0,Female,Non-Hispanic White,21.9,No,No,8.0,No,No,No,No
 48.0,Female,Non-Hispanic White,22.9,Yes,No,6.0,No,No,No,No
-44.0,Female,Mexican American,56.5,Yes,No,8.0,Yes,No,No,No
 49.0,Female,Non-Hispanic Black,32.0,Yes,No,5.0,Yes,No,No,No
 72.0,Male,Non-Hispanic White,27.9,No,No,7.0,No,No,No,No
 62.0,Female,Other Hispanic,22.5,No,No,9.0,Yes,No,Yes,No
@@ -1512,7 +1445,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Male,Non-Hispanic White,28.9,Yes,Yes,7.0,Yes,No,No,No
 72.0,Female,Non-Hispanic White,28.9,No,No,7.0,Yes,No,No,No
 58.0,Male,Non-Hispanic White,33.2,Yes,Yes,6.0,No,No,No,No
-51.0,Female,Non-Hispanic Black,47.3,No,No,6.0,No,No,No,No
 45.0,Male,Mexican American,28.9,No,No,6.0,No,No,No,No
 61.0,Female,Non-Hispanic Asian,18.2,Yes,No,8.0,No,No,No,No
 44.0,Male,Non-Hispanic Asian,25.4,No,No,8.0,No,No,No,No
@@ -1544,7 +1476,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Male,Mexican American,29.2,No,No,8.0,No,No,No,No
 73.0,Male,Non-Hispanic Asian,29.2,Yes,Yes,7.0,No,No,No,No
 48.0,Female,Other Hispanic,23.8,No,No,8.0,No,No,No,No
-60.0,Male,Non-Hispanic Black,51.8,No,No,7.0,Yes,No,No,No
 67.0,Female,Non-Hispanic Black,39.7,Yes,No,6.0,Yes,No,No,No
 45.0,Male,Non-Hispanic White,26.5,No,No,7.0,No,No,No,No
 44.0,Male,Non-Hispanic Black,40.7,No,Yes,6.0,No,No,No,No
@@ -1577,7 +1508,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 47.0,Female,Non-Hispanic White,19.9,Yes,Yes,8.0,No,No,No,Yes
 53.0,Male,Non-Hispanic White,26.6,Yes,No,6.0,No,No,No,No
 65.0,Male,Non-Hispanic Black,24.8,Yes,Yes,5.0,Yes,No,No,No
-59.0,Male,Non-Hispanic White,25.5,Yes,No,12.0,No,No,No,No
 69.0,Female,Non-Hispanic White,31.1,Yes,No,9.0,No,No,No,No
 56.0,Female,Non-Hispanic Black,23.9,Yes,No,6.0,No,No,No,No
 61.0,Male,Non-Hispanic White,30.8,Yes,Yes,8.0,No,No,No,No
@@ -1597,7 +1527,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,24.3,No,No,7.0,Yes,No,No,No
 51.0,Male,Non-Hispanic White,30.4,No,No,7.0,No,No,No,No
 69.0,Female,Non-Hispanic White,24.0,Yes,No,8.0,No,No,No,No
-63.0,Female,Other Hispanic,47.6,No,No,10.0,No,No,No,No
 68.0,Female,Non-Hispanic White,27.0,No,No,7.0,Yes,No,No,No
 49.0,Male,Mexican American,41.8,No,Yes,8.0,Yes,No,No,No
 41.0,Female,Non-Hispanic Black,43.3,Yes,No,8.0,No,No,No,No
@@ -1620,7 +1549,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 45.0,Male,Mexican American,28.2,No,No,8.0,No,No,No,No
 52.0,Male,Non-Hispanic White,21.9,No,No,7.0,No,No,No,No
 66.0,Female,Non-Hispanic Asian,27.6,No,No,5.0,Yes,No,No,No
-55.0,Female,Non-Hispanic White,53.9,Yes,No,8.0,Yes,No,No,No
 65.0,Male,Non-Hispanic White,39.4,No,No,7.0,Yes,No,No,No
 75.0,Male,Non-Hispanic Black,27.3,Yes,No,9.0,No,No,No,No
 49.0,Male,Non-Hispanic White,34.6,No,No,8.0,No,No,No,No
@@ -1638,7 +1566,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Male,Non-Hispanic White,36.4,Yes,No,6.0,No,No,Yes,No
 49.0,Female,Non-Hispanic White,24.6,Yes,No,6.0,No,No,No,No
 45.0,Female,Non-Hispanic White,24.0,Yes,No,6.0,No,No,No,No
-43.0,Female,Mexican American,30.2,No,No,8.0,No,No,No,No
 65.0,Male,Non-Hispanic White,23.7,No,No,6.0,Yes,No,No,No
 41.0,Female,Other Hispanic,30.9,Yes,No,7.0,No,No,No,No
 52.0,Female,Non-Hispanic Black,28.4,No,No,7.0,No,No,No,No
@@ -1690,7 +1617,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Female,Mexican American,44.4,Yes,Yes,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,30.4,No,No,7.0,Yes,No,No,No
 40.0,Male,Mexican American,30.4,No,Yes,7.0,No,No,No,No
-44.0,Male,Non-Hispanic White,25.6,Yes,Yes,2.0,No,Yes,No,No
 55.0,Female,Non-Hispanic White,43.7,Yes,No,8.0,Yes,No,No,No
 63.0,Male,Non-Hispanic Asian,25.9,No,No,8.0,No,No,No,No
 41.0,Male,Non-Hispanic White,16.8,Yes,No,7.0,No,No,No,No
@@ -1723,7 +1649,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 71.0,Male,Non-Hispanic Black,24.5,Yes,No,6.0,No,No,No,No
 70.0,Male,Non-Hispanic White,32.7,No,Yes,6.0,Yes,No,No,No
 57.0,Male,Non-Hispanic White,35.0,Yes,No,6.0,No,No,No,No
-76.0,Male,Non-Hispanic White,46.3,No,No,7.0,Yes,No,No,Yes
 51.0,Male,Other Race - Including Multi-Racial,21.1,No,No,7.0,No,No,Yes,No
 65.0,Male,Mexican American,29.4,Yes,No,8.0,Yes,No,No,No
 50.0,Male,Non-Hispanic White,26.1,No,Yes,7.0,No,No,No,No
@@ -1732,9 +1657,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 53.0,Female,Non-Hispanic Black,38.0,No,No,7.0,No,No,No,No
 52.0,Male,Other Hispanic,22.4,No,No,7.0,No,No,No,No
 65.0,Female,Other Hispanic,38.5,No,No,4.0,No,No,No,No
-64.0,Male,Non-Hispanic Black,47.6,No,Yes,5.0,Yes,No,No,No
 69.0,Female,Non-Hispanic Black,27.1,No,No,8.0,Yes,No,Yes,Yes
-75.0,Male,Non-Hispanic Black,45.8,Yes,No,6.0,No,No,No,No
 61.0,Male,Mexican American,25.6,No,No,8.0,No,No,No,No
 60.0,Male,Non-Hispanic Black,25.9,Yes,Yes,8.0,No,No,No,No
 55.0,Male,Non-Hispanic Black,23.5,Yes,No,8.0,Yes,No,No,No
@@ -1774,7 +1697,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 72.0,Male,Non-Hispanic Black,28.7,Yes,No,7.0,Yes,Yes,No,No
 55.0,Female,Non-Hispanic Asian,20.2,No,No,7.0,No,No,No,No
 52.0,Female,Non-Hispanic White,33.7,Yes,No,7.0,No,No,No,No
-71.0,Female,Non-Hispanic White,62.2,Yes,No,6.0,No,No,No,No
 73.0,Male,Non-Hispanic Asian,27.4,No,No,7.0,No,No,No,No
 45.0,Female,Mexican American,24.3,No,No,6.0,No,No,No,No
 61.0,Male,Non-Hispanic Black,28.3,Yes,Yes,8.0,No,No,No,No
@@ -1787,7 +1709,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 46.0,Male,Non-Hispanic White,27.2,Yes,No,7.0,No,No,No,No
 42.0,Male,Non-Hispanic Asian,26.8,No,No,7.0,No,No,No,No
 47.0,Male,Non-Hispanic Black,23.8,No,No,8.0,No,No,No,No
-44.0,Male,Non-Hispanic Black,58.4,No,No,8.0,Yes,No,No,No
 67.0,Male,Non-Hispanic White,26.7,Yes,Yes,8.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,26.8,Yes,No,9.0,No,No,No,No
 78.0,Male,Non-Hispanic Black,38.8,Yes,No,8.0,No,No,No,No
@@ -1827,7 +1748,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Male,Non-Hispanic White,20.8,No,Yes,6.0,No,Yes,No,No
 52.0,Male,Mexican American,24.3,Yes,No,7.0,No,No,No,No
 48.0,Female,Non-Hispanic White,29.5,Yes,No,6.0,No,No,Yes,No
-59.0,Male,Non-Hispanic White,23.5,Yes,Yes,12.0,Yes,Yes,No,No
 46.0,Female,Other Hispanic,25.2,No,No,6.0,No,No,No,No
 66.0,Female,Other Hispanic,36.1,No,No,6.0,Yes,Yes,No,Yes
 65.0,Male,Non-Hispanic Black,26.2,Yes,No,7.0,No,No,No,No
@@ -1836,7 +1756,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Male,Non-Hispanic White,32.2,No,No,6.0,Yes,No,No,No
 55.0,Male,Non-Hispanic Black,23.2,Yes,Yes,9.0,Yes,No,No,No
 76.0,Male,Non-Hispanic Asian,29.9,No,No,8.0,No,No,No,No
-72.0,Female,Non-Hispanic White,46.1,Yes,No,9.0,Yes,No,No,Yes
 41.0,Female,Non-Hispanic White,24.3,No,No,8.0,No,No,No,No
 55.0,Female,Non-Hispanic White,28.2,No,No,7.0,No,Yes,No,No
 75.0,Male,Non-Hispanic White,18.5,No,No,7.0,Yes,No,No,No
@@ -1914,7 +1833,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 48.0,Female,Non-Hispanic Black,36.5,No,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,27.8,Yes,No,8.0,No,Yes,No,No
 59.0,Female,Non-Hispanic Asian,32.1,No,No,7.0,No,No,No,Yes
-56.0,Female,Non-Hispanic White,49.4,Yes,No,8.0,No,No,No,No
 67.0,Female,Non-Hispanic White,31.1,Yes,No,8.0,Yes,No,No,No
 66.0,Male,Mexican American,32.2,No,No,8.0,Yes,No,No,No
 61.0,Male,Non-Hispanic White,27.3,No,No,8.0,Yes,No,No,No
@@ -1980,7 +1898,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Female,Mexican American,44.9,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic Black,27.3,No,No,6.0,No,No,No,No
 48.0,Female,Mexican American,41.3,No,No,6.0,No,No,No,No
-43.0,Male,Non-Hispanic White,63.3,Yes,Yes,8.0,No,No,No,No
 41.0,Female,Other Race - Including Multi-Racial,23.7,No,No,4.0,No,No,No,No
 56.0,Male,Mexican American,26.0,No,Yes,8.0,No,No,No,No
 65.0,Female,Non-Hispanic Black,42.3,Yes,No,5.0,Yes,No,No,No
@@ -2020,7 +1937,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Male,Non-Hispanic White,28.4,Yes,No,5.0,No,No,No,No
 63.0,Female,Non-Hispanic Black,32.9,No,No,7.0,Yes,No,Yes,No
 61.0,Female,Non-Hispanic Black,37.9,Yes,No,8.0,Yes,Yes,No,No
-55.0,Male,Non-Hispanic White,31.7,Yes,No,2.0,Yes,No,Yes,No
 59.0,Male,Mexican American,31.0,Yes,No,8.0,No,No,No,No
 63.0,Female,Non-Hispanic Black,33.8,Yes,No,6.0,No,No,No,No
 42.0,Male,Non-Hispanic White,21.2,No,No,8.0,No,No,Yes,No
@@ -2040,7 +1956,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Other Race - Including Multi-Racial,25.4,No,No,4.0,Yes,No,No,No
 67.0,Male,Non-Hispanic Black,24.7,No,No,7.0,No,No,No,No
 50.0,Female,Non-Hispanic White,20.5,No,No,9.0,Yes,No,Yes,No
-61.0,Female,Non-Hispanic Black,47.3,No,No,10.0,Yes,No,No,No
 52.0,Male,Mexican American,26.3,No,No,6.0,Yes,No,No,No
 62.0,Male,Non-Hispanic White,34.7,Yes,Yes,7.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,18.9,Yes,No,8.0,No,No,No,No
@@ -2071,9 +1986,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 49.0,Female,Other Hispanic,38.5,Yes,No,8.0,No,No,No,No
 46.0,Female,Other Hispanic,25.2,Yes,No,8.0,No,No,No,No
 55.0,Female,Other Hispanic,31.2,Yes,No,7.0,No,No,No,No
-60.0,Female,Non-Hispanic White,30.4,Yes,No,2.0,Yes,No,Yes,Yes
 51.0,Male,Non-Hispanic White,27.4,No,No,7.0,Yes,No,No,No
-62.0,Female,Non-Hispanic Black,45.9,No,No,10.0,Yes,No,No,No
 50.0,Male,Non-Hispanic Asian,24.7,Yes,No,7.0,No,No,No,No
 52.0,Male,Non-Hispanic White,23.2,Yes,No,5.0,No,No,No,No
 60.0,Male,Non-Hispanic White,31.7,Yes,Yes,7.0,Yes,No,Yes,No
@@ -2094,7 +2007,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 54.0,Male,Mexican American,34.5,No,No,6.0,Yes,Yes,No,No
 60.0,Male,Mexican American,25.1,Yes,No,8.0,No,No,No,No
 41.0,Female,Non-Hispanic White,34.6,Yes,No,5.0,No,No,No,No
-52.0,Male,Other Hispanic,25.4,Yes,Yes,12.0,No,No,No,No
 65.0,Female,Other Hispanic,37.9,No,No,6.0,No,No,No,No
 63.0,Female,Non-Hispanic Asian,25.8,Yes,No,9.0,Yes,No,No,Yes
 62.0,Female,Non-Hispanic White,23.2,No,No,6.0,No,No,No,No
@@ -2158,7 +2070,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Mexican American,32.4,No,Yes,7.0,No,No,No,No
 44.0,Female,Other Hispanic,22.7,Yes,No,6.0,No,No,No,No
 47.0,Male,Other Hispanic,44.6,Yes,No,6.0,No,No,Yes,No
-80.0,Male,Non-Hispanic White,27.3,Yes,No,8.0,No,No,No,No
 67.0,Female,Other Hispanic,25.6,Yes,Yes,5.0,No,No,No,No
 64.0,Female,Non-Hispanic Black,23.2,Yes,No,9.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,20.3,Yes,No,8.0,No,No,No,Yes
@@ -2213,7 +2124,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Male,Non-Hispanic Black,23.3,Yes,Yes,8.0,Yes,No,No,No
 73.0,Male,Non-Hispanic White,24.3,Yes,No,7.0,No,No,No,No
 50.0,Female,Non-Hispanic White,23.7,Yes,Yes,4.0,Yes,No,No,Yes
-56.0,Female,Non-Hispanic Black,47.5,No,No,6.0,No,No,No,No
 53.0,Male,Mexican American,32.6,Yes,Yes,6.0,No,No,Yes,No
 61.0,Male,Non-Hispanic White,25.0,No,No,7.0,No,No,No,No
 60.0,Female,Non-Hispanic Black,31.2,Yes,No,7.0,Yes,No,No,No
@@ -2239,7 +2149,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 46.0,Male,Non-Hispanic White,24.2,No,No,7.0,Yes,No,Yes,No
 49.0,Male,Non-Hispanic White,26.4,No,No,8.0,Yes,No,No,No
 55.0,Male,Mexican American,35.9,No,No,6.0,No,No,Yes,No
-80.0,Male,Non-Hispanic Black,25.0,Yes,No,12.0,No,No,No,No
 79.0,Female,Non-Hispanic White,20.2,No,No,7.0,No,No,No,Yes
 53.0,Male,Non-Hispanic White,21.3,Yes,No,7.0,Yes,No,No,No
 47.0,Female,Non-Hispanic White,35.5,Yes,No,4.0,Yes,Yes,No,No
@@ -2250,7 +2159,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 41.0,Female,Non-Hispanic Black,42.1,No,Yes,6.0,No,No,No,No
 48.0,Male,Mexican American,34.0,Yes,No,7.0,No,No,No,No
 55.0,Male,Non-Hispanic White,23.3,Yes,No,8.0,No,No,No,No
-43.0,Male,Mexican American,31.4,Yes,Yes,12.0,No,No,No,No
 62.0,Female,Non-Hispanic White,29.8,No,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,24.1,Yes,No,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,23.6,No,No,9.0,Yes,No,Yes,No
@@ -2259,13 +2167,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Male,Mexican American,33.2,No,No,6.0,No,No,No,No
 45.0,Male,Non-Hispanic White,25.3,No,No,6.0,No,No,Yes,No
 51.0,Female,Non-Hispanic Black,25.6,No,No,7.0,Yes,No,Yes,No
-50.0,Female,Non-Hispanic Black,52.0,Yes,No,6.0,Yes,No,No,No
 52.0,Male,Non-Hispanic White,32.9,No,No,8.0,Yes,No,No,No
 70.0,Male,Non-Hispanic Black,22.7,Yes,Yes,8.0,No,No,No,No
 51.0,Female,Non-Hispanic Black,40.1,Yes,Yes,6.0,Yes,No,No,No
 65.0,Male,Non-Hispanic Black,24.9,Yes,No,8.0,No,No,No,No
 53.0,Male,Non-Hispanic Asian,27.3,No,No,6.0,No,No,No,No
-57.0,Female,Non-Hispanic White,49.0,Yes,Yes,5.0,No,No,No,No
 70.0,Female,Other Hispanic,27.4,Yes,No,6.0,No,No,No,Yes
 63.0,Female,Non-Hispanic Black,30.3,Yes,No,6.0,No,No,No,No
 48.0,Male,Non-Hispanic White,39.0,No,Yes,5.0,Yes,Yes,No,No
@@ -2313,8 +2219,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Male,Non-Hispanic White,27.7,Yes,Yes,8.0,Yes,No,No,No
 46.0,Male,Non-Hispanic White,28.7,Yes,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic Black,24.3,Yes,No,7.0,No,No,No,No
-80.0,Male,Non-Hispanic White,33.7,Yes,No,12.0,Yes,No,No,No
-64.0,Female,Non-Hispanic White,51.6,Yes,No,6.0,Yes,Yes,No,Yes
 51.0,Female,Non-Hispanic White,37.1,Yes,Yes,8.0,Yes,No,No,No
 71.0,Male,Non-Hispanic Black,31.9,Yes,Yes,5.0,No,No,No,No
 48.0,Female,Non-Hispanic White,27.5,No,No,6.0,No,No,Yes,Yes
@@ -2345,14 +2249,12 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 58.0,Female,Non-Hispanic White,18.7,No,No,8.0,No,No,Yes,No
 41.0,Male,Non-Hispanic White,24.6,Yes,Yes,5.0,No,No,No,No
 42.0,Female,Other Hispanic,33.6,No,No,7.0,No,No,No,No
-47.0,Male,Non-Hispanic White,33.1,Yes,No,2.0,No,Yes,No,No
 74.0,Male,Non-Hispanic Black,32.1,Yes,Yes,7.0,Yes,No,No,No
 64.0,Female,Non-Hispanic Black,23.6,Yes,No,6.0,Yes,No,No,Yes
 41.0,Male,Non-Hispanic White,37.2,No,No,7.0,No,No,No,No
 78.0,Female,Non-Hispanic White,18.1,No,No,9.0,Yes,No,No,No
 61.0,Female,Non-Hispanic White,23.7,Yes,Yes,5.0,Yes,No,No,No
 61.0,Female,Non-Hispanic White,39.7,No,No,6.0,Yes,No,No,No
-56.0,Female,Non-Hispanic White,53.0,No,No,7.0,Yes,No,No,No
 58.0,Male,Non-Hispanic Asian,23.9,No,No,7.0,No,No,No,No
 49.0,Male,Non-Hispanic White,23.4,Yes,No,8.0,No,No,No,No
 74.0,Female,Non-Hispanic White,21.6,No,No,8.0,Yes,No,No,Yes
@@ -2362,14 +2264,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Male,Non-Hispanic Black,23.3,No,Yes,5.0,Yes,Yes,No,No
 70.0,Male,Non-Hispanic White,41.6,No,Yes,8.0,Yes,No,No,No
 47.0,Female,Non-Hispanic White,22.7,No,No,8.0,Yes,No,Yes,No
-43.0,Female,Non-Hispanic Black,49.0,Yes,No,9.0,Yes,No,No,No
-64.0,Male,Non-Hispanic White,50.7,No,Yes,7.0,Yes,No,Yes,Yes
 52.0,Male,Non-Hispanic White,33.5,Yes,Yes,6.0,No,No,No,No
 46.0,Female,Non-Hispanic White,23.9,No,No,7.0,No,Yes,No,No
 41.0,Male,Non-Hispanic White,36.8,Yes,No,8.0,Yes,No,No,No
 60.0,Female,Non-Hispanic White,33.1,No,No,7.0,No,No,No,No
 57.0,Male,Other Hispanic,27.2,Yes,No,8.0,No,No,No,No
-57.0,Male,Non-Hispanic Black,38.7,No,No,2.0,Yes,No,No,No
 63.0,Female,Non-Hispanic White,26.5,No,No,6.0,No,No,Yes,No
 53.0,Male,Other Hispanic,25.8,Yes,No,6.0,No,No,No,No
 43.0,Male,Non-Hispanic Asian,21.4,No,No,7.0,No,No,No,No
@@ -2394,14 +2293,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,25.8,Yes,No,8.0,No,No,No,No
 68.0,Male,Mexican American,31.9,Yes,No,8.0,No,No,No,No
 44.0,Male,Other Race - Including Multi-Racial,31.2,Yes,No,3.0,Yes,No,No,No
-47.0,Female,Non-Hispanic Black,48.4,No,No,7.0,No,No,No,No
 48.0,Male,Non-Hispanic White,25.7,No,No,7.0,No,No,No,No
 78.0,Male,Non-Hispanic White,22.2,Yes,Yes,9.0,No,No,No,No
-59.0,Female,Non-Hispanic White,51.3,No,No,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic Asian,28.6,Yes,No,10.0,No,No,No,No
 76.0,Female,Non-Hispanic Black,27.3,Yes,Yes,8.0,Yes,No,No,No
 70.0,Male,Non-Hispanic White,26.1,No,No,6.0,No,No,No,No
-80.0,Male,Non-Hispanic White,30.0,No,No,7.0,No,No,No,No
 66.0,Male,Non-Hispanic White,31.7,Yes,Yes,6.0,Yes,No,No,No
 49.0,Male,Non-Hispanic Asian,25.6,No,No,8.0,No,No,No,No
 57.0,Female,Other Hispanic,30.6,No,No,6.0,Yes,Yes,No,No
@@ -2412,7 +2308,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Male,Mexican American,32.6,No,No,6.0,Yes,No,No,No
 57.0,Female,Other Hispanic,30.0,No,No,8.0,No,No,No,No
 72.0,Male,Non-Hispanic White,19.8,Yes,No,8.0,Yes,No,No,No
-55.0,Male,Non-Hispanic White,45.8,No,Yes,6.0,No,No,No,No
 70.0,Male,Non-Hispanic White,42.3,Yes,Yes,7.0,Yes,No,No,No
 53.0,Female,Non-Hispanic White,24.0,Yes,No,9.0,Yes,No,No,No
 42.0,Male,Non-Hispanic Asian,30.7,No,No,6.0,No,No,No,No
@@ -2435,7 +2330,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,22.8,Yes,No,8.0,No,No,No,No
 79.0,Female,Non-Hispanic White,27.4,No,No,7.0,Yes,No,Yes,No
 54.0,Male,Mexican American,41.7,Yes,No,4.0,No,No,No,No
-60.0,Male,Mexican American,32.0,No,Yes,12.0,No,No,No,No
 54.0,Male,Mexican American,25.5,Yes,No,8.0,No,No,No,No
 44.0,Female,Non-Hispanic White,27.9,Yes,No,8.0,Yes,No,Yes,No
 41.0,Female,Non-Hispanic Asian,21.7,No,No,9.0,No,No,Yes,No
@@ -2463,7 +2357,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 76.0,Male,Non-Hispanic Black,28.1,Yes,No,8.0,Yes,No,No,No
 53.0,Female,Non-Hispanic Black,30.1,No,No,8.0,No,No,No,No
 44.0,Female,Non-Hispanic Black,26.2,Yes,No,8.0,No,No,No,No
-59.0,Female,Mexican American,47.2,No,No,7.0,No,No,No,No
 77.0,Female,Non-Hispanic Asian,21.9,No,No,9.0,Yes,No,Yes,No
 41.0,Male,Non-Hispanic White,42.1,Yes,Yes,7.0,No,Yes,No,No
 50.0,Male,Mexican American,27.1,No,No,7.0,No,No,No,No
@@ -2495,7 +2388,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Male,Non-Hispanic White,20.7,Yes,No,8.0,No,No,No,No
 62.0,Female,Non-Hispanic Asian,27.5,No,No,7.0,No,No,No,No
 57.0,Male,Mexican American,32.5,Yes,Yes,7.0,No,No,No,No
-61.0,Female,Non-Hispanic Black,34.7,No,No,2.0,Yes,No,Yes,No
 53.0,Female,Non-Hispanic White,24.6,Yes,No,6.0,No,No,Yes,No
 73.0,Male,Non-Hispanic White,33.1,Yes,No,8.0,Yes,No,No,No
 60.0,Male,Mexican American,38.8,No,No,8.0,Yes,No,No,No
@@ -2522,7 +2414,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Female,Mexican American,31.7,No,No,8.0,No,No,No,No
 66.0,Male,Non-Hispanic White,27.2,No,No,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,38.3,Yes,No,9.0,No,No,No,No
-53.0,Female,Mexican American,53.6,No,No,7.0,No,No,No,No
 42.0,Female,Non-Hispanic Asian,23.0,No,No,6.0,No,No,No,No
 54.0,Male,Non-Hispanic Black,39.7,No,No,8.0,No,No,No,No
 63.0,Male,Mexican American,31.2,Yes,Yes,7.0,Yes,No,No,No
@@ -2608,17 +2499,14 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Male,Non-Hispanic Black,23.1,Yes,No,7.0,No,No,No,No
 60.0,Female,Mexican American,34.7,No,No,7.0,No,No,No,No
 40.0,Male,Other Hispanic,29.4,Yes,No,5.0,No,No,No,No
-80.0,Male,Non-Hispanic White,28.4,Yes,Yes,6.0,No,No,No,No
 50.0,Female,Non-Hispanic Black,34.3,No,No,9.0,No,No,No,No
 58.0,Female,Mexican American,24.6,No,No,6.0,No,No,No,No
 80.0,Female,Non-Hispanic White,26.0,No,No,7.0,No,No,No,No
 47.0,Male,Non-Hispanic White,29.1,Yes,No,4.0,No,No,No,No
 45.0,Male,Non-Hispanic White,29.7,Yes,No,8.0,No,No,No,No
 51.0,Male,Non-Hispanic White,27.5,Yes,No,8.0,No,No,No,No
-40.0,Male,Mexican American,48.0,No,No,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,14.2,Yes,Yes,8.0,Yes,No,No,Yes
 79.0,Female,Other Hispanic,28.0,Yes,No,6.0,Yes,Yes,No,No
-41.0,Male,Non-Hispanic White,48.1,Yes,Yes,6.0,No,No,No,No
 50.0,Female,Other Hispanic,32.7,Yes,No,4.0,No,No,No,No
 72.0,Female,Non-Hispanic White,27.9,No,No,8.0,Yes,No,No,No
 41.0,Male,Non-Hispanic White,22.4,No,Yes,8.0,No,No,No,No
@@ -2655,7 +2543,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Female,Mexican American,35.8,No,No,10.5,No,No,No,No
 56.0,Male,Other Race - Including Multi-Racial,26.3,No,No,6.5,Yes,No,No,No
 76.0,Male,Non-Hispanic Black,21.5,Yes,No,9.0,Yes,No,No,No
-56.0,Male,Non-Hispanic Black,24.0,No,No,2.0,Yes,No,No,No
 51.0,Male,Non-Hispanic Black,40.0,Yes,Yes,5.5,Yes,No,No,No
 55.0,Female,Non-Hispanic Black,20.2,No,No,7.0,No,No,No,No
 59.0,Female,Non-Hispanic Asian,28.7,No,No,6.5,Yes,No,No,Yes
@@ -2713,7 +2600,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Male,Mexican American,42.1,No,No,6.0,No,Yes,No,No
 50.0,Male,Other Hispanic,34.9,Yes,No,7.5,No,No,No,No
 62.0,Female,Mexican American,27.8,No,No,9.0,No,No,No,No
-80.0,Male,Non-Hispanic White,30.0,No,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,27.6,Yes,No,6.5,Yes,No,No,No
 56.0,Male,Non-Hispanic Black,30.6,No,No,6.0,Yes,No,No,No
 53.0,Male,Other Hispanic,27.4,Yes,Yes,7.5,No,No,No,Yes
@@ -2724,7 +2610,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,29.5,Yes,No,6.0,Yes,No,No,No
 66.0,Female,Non-Hispanic Black,33.7,Yes,No,10.0,Yes,No,No,No
 63.0,Female,Non-Hispanic White,26.3,Yes,No,8.0,Yes,No,No,Yes
-61.0,Male,Non-Hispanic Black,32.3,Yes,No,2.0,Yes,No,No,No
 63.0,Male,Non-Hispanic White,34.9,Yes,Yes,6.5,Yes,No,No,No
 52.0,Male,Non-Hispanic Asian,26.8,Yes,No,7.0,No,No,No,No
 72.0,Female,Non-Hispanic Black,26.4,No,No,7.0,No,No,No,No
@@ -2732,7 +2617,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Female,Non-Hispanic White,19.7,No,No,9.0,No,No,No,No
 80.0,Female,Other Race - Including Multi-Racial,28.5,No,No,10.0,No,No,No,No
 50.0,Male,Non-Hispanic White,24.8,No,No,6.0,Yes,No,No,No
-59.0,Male,Other Hispanic,46.2,Yes,Yes,11.0,Yes,No,Yes,No
 77.0,Female,Non-Hispanic White,38.6,No,No,9.0,Yes,No,No,Yes
 50.0,Female,Mexican American,26.8,No,No,8.0,No,No,No,No
 67.0,Male,Other Race - Including Multi-Racial,19.0,No,No,6.5,Yes,No,Yes,No
@@ -2741,16 +2625,13 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Female,Other Race - Including Multi-Racial,25.4,Yes,No,5.0,Yes,No,No,No
 75.0,Female,Non-Hispanic White,26.2,No,No,9.0,No,No,No,Yes
 55.0,Male,Non-Hispanic White,26.9,Yes,Yes,8.5,Yes,No,No,No
-55.0,Female,Mexican American,45.7,Yes,No,8.0,No,No,No,No
 75.0,Male,Non-Hispanic White,28.8,No,No,9.0,No,No,No,No
 55.0,Male,Other Hispanic,26.4,No,No,8.5,No,No,No,No
 60.0,Female,Other Hispanic,25.8,No,No,6.5,No,No,No,No
-64.0,Male,Non-Hispanic White,50.7,No,Yes,6.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,31.3,No,No,11.0,Yes,No,No,No
 80.0,Male,Non-Hispanic Black,37.1,Yes,No,9.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,28.2,No,Yes,8.0,No,No,No,No
 75.0,Female,Non-Hispanic Black,42.7,No,No,6.5,Yes,No,No,No
-52.0,Female,Non-Hispanic White,48.6,Yes,No,7.5,Yes,No,No,No
 58.0,Male,Mexican American,31.5,Yes,No,4.0,No,No,No,No
 54.0,Female,Non-Hispanic White,22.3,No,No,8.0,No,No,Yes,No
 66.0,Male,Mexican American,32.3,No,Yes,9.5,Yes,No,No,No
@@ -2801,11 +2682,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Female,Mexican American,37.3,No,No,11.0,Yes,No,No,Yes
 70.0,Male,Non-Hispanic Asian,23.4,No,No,9.0,No,No,Yes,No
 52.0,Female,Non-Hispanic Black,35.2,No,No,8.5,No,No,Yes,No
-54.0,Male,Non-Hispanic White,55.0,No,No,7.0,No,No,No,No
 54.0,Female,Non-Hispanic Black,31.1,No,No,7.0,No,No,No,No
 53.0,Female,Other Hispanic,28.1,Yes,No,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,23.4,Yes,No,8.0,No,No,No,No
-61.0,Female,Non-Hispanic White,48.6,Yes,No,10.0,Yes,No,No,No
 59.0,Female,Non-Hispanic Asian,26.9,No,No,9.5,No,No,No,No
 80.0,Female,Non-Hispanic White,30.0,No,No,7.5,Yes,No,Yes,Yes
 58.0,Female,Non-Hispanic Black,44.0,Yes,No,9.0,No,No,No,No
@@ -2816,7 +2695,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Female,Other Race - Including Multi-Racial,37.9,Yes,No,10.5,No,No,No,No
 60.0,Female,Other Hispanic,26.6,No,No,9.0,Yes,No,No,No
 71.0,Male,Non-Hispanic White,31.1,Yes,No,7.5,Yes,No,Yes,No
-62.0,Male,Non-Hispanic Black,51.2,Yes,Yes,7.0,Yes,No,No,No
 60.0,Male,Non-Hispanic Black,29.3,No,No,6.0,No,No,No,No
 60.0,Female,Non-Hispanic Black,24.5,Yes,No,7.0,Yes,No,No,No
 70.0,Male,Other Race - Including Multi-Racial,21.5,Yes,Yes,7.0,Yes,No,No,No
@@ -2829,7 +2707,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Male,Non-Hispanic White,26.5,Yes,No,9.0,No,No,No,No
 64.0,Male,Non-Hispanic White,30.0,No,Yes,7.0,No,No,No,No
 79.0,Male,Non-Hispanic White,27.8,Yes,No,8.0,No,No,No,No
-53.0,Female,Non-Hispanic Black,61.7,Yes,No,7.0,No,No,No,No
 74.0,Female,Other Hispanic,34.6,No,No,6.0,No,No,No,No
 79.0,Female,Non-Hispanic White,22.3,No,No,8.0,No,No,No,No
 64.0,Female,Non-Hispanic Black,26.3,No,No,8.0,No,No,No,No
@@ -2874,7 +2751,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 69.0,Female,Non-Hispanic Black,30.3,No,No,6.0,Yes,No,No,No
 77.0,Male,Non-Hispanic White,31.8,Yes,No,6.0,No,No,No,No
 71.0,Male,Non-Hispanic Black,37.9,Yes,No,8.0,Yes,No,No,No
-54.0,Female,Non-Hispanic White,62.1,No,No,7.0,No,No,No,No
 52.0,Female,Non-Hispanic White,32.0,No,No,7.5,Yes,No,Yes,No
 54.0,Female,Non-Hispanic Asian,26.1,No,No,4.0,Yes,No,No,No
 65.0,Male,Non-Hispanic White,22.3,Yes,Yes,7.5,Yes,No,Yes,No
@@ -2887,7 +2763,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Male,Non-Hispanic Black,33.8,Yes,Yes,8.0,Yes,Yes,No,No
 58.0,Male,Non-Hispanic Black,33.2,No,No,8.0,Yes,No,No,No
 68.0,Female,Non-Hispanic Black,36.9,No,No,8.0,No,No,No,No
-63.0,Female,Non-Hispanic Black,56.1,No,No,11.0,Yes,No,No,Yes
 61.0,Male,Non-Hispanic White,29.8,Yes,No,5.5,No,No,No,No
 55.0,Female,Mexican American,36.0,Yes,No,3.0,No,No,No,No
 59.0,Female,Non-Hispanic Black,24.7,No,No,6.5,No,No,No,No
@@ -2907,7 +2782,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Non-Hispanic White,24.6,No,No,9.0,No,Yes,No,Yes
 80.0,Female,Non-Hispanic White,25.6,No,No,7.5,Yes,No,No,Yes
 55.0,Female,Non-Hispanic White,28.2,No,No,7.5,No,No,No,No
-60.0,Male,Mexican American,56.3,Yes,Yes,8.0,No,No,No,No
 52.0,Male,Non-Hispanic White,32.6,Yes,No,7.0,No,No,No,No
 59.0,Female,Non-Hispanic White,32.2,Yes,No,7.0,Yes,No,No,No
 63.0,Male,Non-Hispanic Black,26.1,Yes,No,6.0,Yes,No,No,No
@@ -2952,7 +2826,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Male,Mexican American,34.3,Yes,No,7.5,Yes,Yes,No,No
 79.0,Female,Non-Hispanic White,31.9,Yes,Yes,8.0,Yes,No,Yes,Yes
 68.0,Female,Non-Hispanic White,25.7,Yes,No,8.0,Yes,No,No,Yes
-72.0,Male,Non-Hispanic White,49.7,Yes,No,6.5,Yes,No,No,No
 50.0,Female,Non-Hispanic Black,34.2,No,No,7.0,No,No,No,No
 54.0,Male,Non-Hispanic White,44.4,Yes,Yes,7.5,No,Yes,No,No
 51.0,Male,Non-Hispanic Asian,21.4,No,No,8.0,No,No,No,No
@@ -2967,7 +2840,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 79.0,Male,Non-Hispanic White,23.7,Yes,Yes,5.0,Yes,No,No,No
 64.0,Male,Non-Hispanic White,32.0,No,No,6.5,No,Yes,Yes,No
 68.0,Female,Non-Hispanic Black,35.2,Yes,No,8.5,No,No,No,No
-71.0,Female,Non-Hispanic Black,29.8,No,No,11.5,Yes,No,No,Yes
 71.0,Female,Non-Hispanic White,30.8,No,No,9.0,Yes,No,No,Yes
 50.0,Female,Non-Hispanic Black,39.2,No,No,10.0,Yes,No,No,No
 50.0,Male,Non-Hispanic Asian,27.4,Yes,No,7.0,No,No,No,No
@@ -2997,7 +2869,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic White,26.4,Yes,No,7.5,No,No,No,No
 70.0,Male,Non-Hispanic Black,30.0,Yes,No,8.0,No,No,No,No
 64.0,Male,Non-Hispanic Black,32.3,No,No,8.0,Yes,No,No,No
-54.0,Female,Other Race - Including Multi-Racial,52.9,No,No,5.0,Yes,No,No,Yes
 80.0,Male,Non-Hispanic Black,24.1,No,No,8.0,Yes,No,No,No
 69.0,Male,Mexican American,27.0,Yes,No,8.0,No,No,No,No
 61.0,Female,Non-Hispanic White,39.0,Yes,No,8.0,Yes,No,No,No
@@ -3022,7 +2893,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Female,Other Race - Including Multi-Racial,45.0,Yes,No,5.0,Yes,No,No,Yes
 80.0,Male,Non-Hispanic White,29.6,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,22.3,No,No,9.0,No,No,No,No
-57.0,Female,Non-Hispanic White,74.8,Yes,No,7.5,Yes,No,No,No
 80.0,Female,Non-Hispanic White,33.6,Yes,Yes,9.0,Yes,No,Yes,Yes
 80.0,Male,Non-Hispanic White,26.0,Yes,Yes,10.5,Yes,No,No,No
 60.0,Female,Non-Hispanic Black,27.9,No,No,8.0,Yes,No,No,No
@@ -3032,10 +2902,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Female,Mexican American,23.3,No,Yes,7.5,No,Yes,No,No
 69.0,Male,Other Hispanic,29.2,Yes,No,8.0,No,No,Yes,No
 74.0,Male,Non-Hispanic White,31.7,No,No,7.0,Yes,No,Yes,No
-51.0,Female,Non-Hispanic White,18.7,Yes,No,2.0,Yes,No,No,No
 54.0,Male,Non-Hispanic Asian,26.2,Yes,No,8.0,No,No,No,No
 63.0,Female,Mexican American,28.8,Yes,No,7.0,Yes,No,No,No
-56.0,Female,Non-Hispanic Black,49.1,Yes,No,8.5,Yes,No,No,Yes
 50.0,Male,Non-Hispanic Black,25.8,No,No,8.0,No,No,No,No
 62.0,Female,Other Race - Including Multi-Racial,30.6,No,No,6.0,Yes,No,No,No
 61.0,Male,Other Hispanic,25.5,No,No,6.5,No,No,No,No
@@ -3056,10 +2924,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 78.0,Male,Non-Hispanic White,20.2,No,No,8.5,No,No,No,No
 63.0,Female,Non-Hispanic Black,26.1,No,No,8.0,No,No,No,No
 70.0,Male,Non-Hispanic Black,31.5,Yes,No,6.5,No,No,No,No
-71.0,Female,Other Race - Including Multi-Racial,46.1,No,No,8.0,Yes,No,No,Yes
 57.0,Male,Other Hispanic,27.1,No,No,6.5,No,No,No,No
 76.0,Male,Non-Hispanic White,31.6,Yes,Yes,9.0,Yes,No,No,No
-79.0,Male,Non-Hispanic White,21.6,Yes,Yes,11.5,Yes,No,No,No
 69.0,Male,Non-Hispanic Black,33.5,Yes,No,8.5,No,No,No,No
 80.0,Male,Non-Hispanic Black,36.0,No,No,9.0,No,No,No,No
 54.0,Female,Non-Hispanic White,33.4,Yes,No,8.0,Yes,No,Yes,No
@@ -3071,7 +2937,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Non-Hispanic Black,45.1,Yes,No,8.5,Yes,No,Yes,Yes
 79.0,Male,Non-Hispanic White,28.6,Yes,No,8.0,Yes,No,No,No
 68.0,Male,Non-Hispanic Black,27.5,No,Yes,7.0,No,No,No,No
-57.0,Female,Non-Hispanic White,49.6,No,No,8.5,Yes,No,No,No
 63.0,Female,Other Hispanic,27.0,Yes,No,8.0,No,Yes,No,No
 64.0,Male,Non-Hispanic White,24.7,No,No,10.0,No,No,No,No
 50.0,Female,Other Race - Including Multi-Racial,25.4,Yes,Yes,10.0,Yes,No,No,No
@@ -3086,7 +2951,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Female,Non-Hispanic White,33.5,Yes,Yes,8.0,Yes,No,No,No
 67.0,Male,Non-Hispanic Black,32.5,Yes,No,5.5,No,No,No,No
 63.0,Female,Mexican American,32.6,Yes,No,7.0,No,No,No,No
-67.0,Male,Non-Hispanic White,48.8,Yes,Yes,8.0,Yes,No,Yes,Yes
 60.0,Male,Mexican American,36.7,No,No,11.0,No,No,No,No
 63.0,Female,Non-Hispanic Black,28.9,No,No,6.0,Yes,No,No,No
 65.0,Female,Other Hispanic,33.1,Yes,No,6.0,Yes,No,No,No
@@ -3099,11 +2963,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Male,Non-Hispanic Asian,26.1,No,No,8.5,No,No,No,No
 79.0,Male,Non-Hispanic Black,32.1,Yes,No,8.0,Yes,No,No,No
 60.0,Male,Mexican American,29.2,Yes,No,7.5,No,No,Yes,No
-68.0,Female,Non-Hispanic White,49.6,No,No,8.5,No,No,No,No
 62.0,Male,Mexican American,26.9,No,No,6.0,No,No,No,No
 59.0,Male,Non-Hispanic White,23.2,Yes,Yes,8.0,No,No,Yes,No
 62.0,Male,Mexican American,23.8,Yes,No,7.5,Yes,No,No,Yes
-62.0,Male,Mexican American,25.2,No,No,14.0,Yes,No,Yes,No
 54.0,Male,Non-Hispanic White,30.0,No,Yes,10.0,No,No,Yes,No
 80.0,Female,Non-Hispanic White,24.2,No,No,8.0,Yes,No,Yes,Yes
 63.0,Male,Non-Hispanic White,29.1,Yes,No,7.5,Yes,Yes,No,No
@@ -3121,10 +2983,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Female,Non-Hispanic White,26.2,Yes,No,9.0,Yes,Yes,No,No
 53.0,Male,Non-Hispanic White,24.4,No,No,5.5,No,No,No,No
 58.0,Male,Non-Hispanic Black,28.0,Yes,No,7.0,No,No,No,No
-79.0,Male,Other Race - Including Multi-Racial,33.5,Yes,No,12.0,Yes,No,No,No
 76.0,Female,Non-Hispanic White,30.5,No,No,9.5,Yes,No,No,Yes
 79.0,Male,Non-Hispanic Black,23.9,No,No,7.5,No,No,No,No
-52.0,Female,Non-Hispanic Black,49.0,No,No,6.5,Yes,No,No,No
 80.0,Male,Non-Hispanic White,24.2,No,No,10.5,No,No,No,No
 72.0,Female,Non-Hispanic Black,36.3,Yes,No,8.5,Yes,No,No,No
 61.0,Male,Non-Hispanic Black,33.6,No,No,9.0,No,No,No,No
@@ -3136,7 +2996,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Female,Non-Hispanic White,36.1,Yes,No,7.0,Yes,No,No,No
 63.0,Male,Non-Hispanic Black,20.1,Yes,No,11.0,Yes,No,No,No
 58.0,Female,Non-Hispanic Black,40.9,Yes,No,7.0,Yes,No,No,No
-63.0,Female,Non-Hispanic Black,49.3,No,No,7.0,Yes,No,No,Yes
 55.0,Male,Non-Hispanic Black,27.1,Yes,Yes,9.0,No,No,No,No
 80.0,Male,Other Race - Including Multi-Racial,26.9,Yes,No,9.0,Yes,No,No,No
 57.0,Male,Non-Hispanic White,21.7,Yes,No,10.0,Yes,Yes,No,No
@@ -3156,7 +3015,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic Black,34.8,No,No,6.0,No,No,No,No
 52.0,Male,Non-Hispanic White,44.9,No,No,7.5,Yes,No,No,No
 61.0,Male,Non-Hispanic White,39.8,No,No,7.5,No,No,No,No
-77.0,Male,Non-Hispanic White,56.0,Yes,Yes,6.0,No,No,No,No
 59.0,Female,Mexican American,32.0,No,No,7.0,No,No,No,No
 72.0,Male,Non-Hispanic Black,26.4,Yes,No,7.5,No,No,No,No
 65.0,Female,Non-Hispanic White,38.1,Yes,Yes,8.0,Yes,No,No,Yes
@@ -3173,12 +3031,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Female,Non-Hispanic White,38.6,No,No,6.0,Yes,No,Yes,No
 51.0,Male,Other Hispanic,27.2,No,No,7.0,Yes,No,No,No
 66.0,Female,Mexican American,26.6,Yes,No,7.0,No,No,No,No
-64.0,Female,Non-Hispanic Black,56.1,Yes,No,7.0,Yes,Yes,Yes,No
 60.0,Female,Non-Hispanic Black,33.6,No,No,11.0,Yes,No,No,No
 70.0,Female,Non-Hispanic Black,32.8,No,No,8.0,Yes,No,No,Yes
 53.0,Female,Non-Hispanic Black,31.8,No,No,7.0,No,No,No,No
-72.0,Female,Non-Hispanic White,46.0,Yes,No,8.5,Yes,No,No,No
-78.0,Female,Non-Hispanic White,26.9,Yes,No,12.0,No,No,No,No
 75.0,Male,Non-Hispanic White,24.1,Yes,No,9.0,Yes,No,No,No
 57.0,Male,Other Race - Including Multi-Racial,30.5,Yes,No,9.0,Yes,No,No,No
 72.0,Male,Non-Hispanic White,28.9,Yes,No,9.0,No,No,No,No
@@ -3195,7 +3050,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 54.0,Male,Non-Hispanic Asian,27.5,No,Yes,7.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,24.8,No,No,5.0,Yes,No,No,No
 63.0,Male,Non-Hispanic Asian,24.0,Yes,No,10.0,No,No,Yes,No
-61.0,Female,Other Hispanic,49.6,Yes,No,4.0,Yes,No,Yes,Yes
 72.0,Male,Non-Hispanic White,20.9,No,No,7.5,No,No,No,No
 53.0,Female,Non-Hispanic Black,30.7,Yes,No,7.0,Yes,No,No,No
 78.0,Female,Non-Hispanic White,33.8,No,No,8.0,No,No,Yes,No
@@ -3218,7 +3072,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 53.0,Female,Non-Hispanic Black,29.7,Yes,Yes,6.0,No,No,No,No
 64.0,Female,Non-Hispanic White,26.5,Yes,Yes,8.5,No,No,No,No
 56.0,Female,Non-Hispanic Black,41.0,Yes,Yes,10.0,Yes,No,No,No
-80.0,Female,Non-Hispanic White,49.5,No,No,7.0,Yes,No,No,No
 52.0,Male,Mexican American,44.1,No,No,5.0,No,No,No,No
 80.0,Male,Non-Hispanic White,21.3,No,No,8.5,No,No,No,No
 54.0,Female,Other Hispanic,33.6,No,No,5.0,Yes,Yes,No,No
@@ -3247,7 +3100,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 77.0,Female,Non-Hispanic Black,37.9,Yes,No,8.0,Yes,No,No,No
 55.0,Female,Non-Hispanic White,21.8,No,No,9.0,No,No,Yes,No
 63.0,Male,Other Hispanic,25.6,No,No,7.0,No,No,No,No
-62.0,Male,Non-Hispanic White,47.5,Yes,No,7.5,No,No,No,No
 61.0,Male,Non-Hispanic Asian,24.7,No,No,5.5,Yes,No,No,No
 70.0,Female,Non-Hispanic Asian,24.8,No,No,8.0,No,No,No,No
 56.0,Male,Non-Hispanic Asian,27.2,No,No,8.5,No,No,No,No
@@ -3269,7 +3121,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 54.0,Female,Mexican American,32.2,No,No,7.0,No,No,Yes,No
 55.0,Female,Non-Hispanic White,30.7,Yes,No,7.0,No,No,No,No
 64.0,Male,Non-Hispanic Black,24.6,Yes,No,11.0,No,No,No,No
-61.0,Male,Non-Hispanic White,47.0,Yes,Yes,5.5,Yes,No,No,No
 57.0,Female,Non-Hispanic White,31.4,No,No,8.0,Yes,No,No,No
 60.0,Female,Non-Hispanic Black,24.7,No,No,9.0,Yes,No,No,No
 60.0,Male,Non-Hispanic White,28.6,No,No,8.5,Yes,No,No,No
@@ -3294,12 +3145,10 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Female,Mexican American,25.5,No,No,8.0,Yes,No,No,No
 61.0,Female,Non-Hispanic Black,30.0,No,No,8.5,Yes,No,No,No
 50.0,Female,Non-Hispanic Black,30.6,Yes,No,8.5,No,No,No,No
-65.0,Male,Non-Hispanic Black,46.1,No,No,7.0,No,No,No,No
 65.0,Male,Non-Hispanic White,23.7,Yes,Yes,9.0,Yes,No,No,No
 56.0,Male,Mexican American,28.8,No,No,7.0,No,No,No,No
 64.0,Male,Non-Hispanic White,31.6,Yes,Yes,11.0,No,No,No,No
 63.0,Female,Other Race - Including Multi-Racial,45.0,Yes,No,7.0,Yes,No,No,No
-67.0,Female,Non-Hispanic Black,53.3,Yes,No,10.0,Yes,No,No,No
 70.0,Female,Mexican American,34.4,No,No,4.5,No,No,Yes,No
 55.0,Female,Non-Hispanic Black,35.0,No,No,4.0,Yes,No,No,Yes
 75.0,Male,Non-Hispanic White,29.9,Yes,Yes,5.0,No,No,No,No
@@ -3307,7 +3156,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Male,Mexican American,25.2,No,Yes,6.0,No,No,No,No
 56.0,Male,Non-Hispanic White,31.0,No,No,9.0,No,No,No,No
 59.0,Female,Non-Hispanic White,36.0,Yes,Yes,8.0,No,No,No,Yes
-55.0,Female,Non-Hispanic Black,51.2,No,No,7.0,Yes,No,Yes,Yes
 58.0,Female,Other Hispanic,25.0,No,No,7.0,No,No,No,No
 56.0,Male,Mexican American,24.6,No,No,7.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,35.4,No,No,6.5,Yes,No,No,Yes
@@ -3323,7 +3171,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,42.3,No,No,9.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,27.5,Yes,No,8.5,Yes,No,No,No
 65.0,Male,Non-Hispanic Asian,25.8,Yes,No,8.0,No,No,Yes,No
-60.0,Female,Non-Hispanic Black,47.0,Yes,No,6.0,Yes,No,No,No
 66.0,Female,Non-Hispanic Black,25.1,No,No,7.0,No,No,No,No
 57.0,Male,Non-Hispanic Black,23.4,Yes,Yes,5.0,No,No,No,No
 79.0,Male,Non-Hispanic Black,39.2,No,Yes,7.0,Yes,No,No,No
@@ -3361,7 +3208,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 53.0,Male,Non-Hispanic Black,30.6,No,No,6.5,No,No,No,No
 65.0,Female,Non-Hispanic Black,34.4,Yes,No,9.0,Yes,No,No,No
 55.0,Male,Non-Hispanic White,30.3,Yes,Yes,10.5,No,No,No,No
-60.0,Female,Non-Hispanic White,46.9,No,No,12.0,Yes,No,Yes,No
 50.0,Female,Other Hispanic,35.2,No,No,6.5,No,No,Yes,No
 76.0,Male,Non-Hispanic White,30.9,Yes,No,5.5,No,Yes,No,No
 53.0,Male,Non-Hispanic Asian,21.1,No,No,7.5,No,No,No,No
@@ -3383,7 +3229,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Male,Non-Hispanic Black,28.8,No,No,7.0,No,No,No,No
 68.0,Female,Non-Hispanic Asian,20.0,No,No,8.0,No,No,No,No
 67.0,Male,Non-Hispanic White,26.8,Yes,No,7.0,Yes,No,Yes,No
-52.0,Female,Non-Hispanic Black,52.8,No,No,4.0,Yes,No,No,No
 56.0,Male,Non-Hispanic Black,23.3,No,No,6.5,No,No,No,No
 52.0,Male,Non-Hispanic Black,28.1,Yes,No,3.0,Yes,No,Yes,No
 57.0,Male,Other Race - Including Multi-Racial,24.9,Yes,No,7.5,No,No,Yes,No
@@ -3442,18 +3287,14 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Male,Non-Hispanic White,20.4,Yes,Yes,5.5,No,No,No,No
 54.0,Female,Mexican American,30.8,No,No,6.5,No,No,Yes,No
 51.0,Female,Mexican American,33.9,No,No,6.0,No,No,No,No
-53.0,Female,Non-Hispanic Black,50.9,No,No,8.0,Yes,No,No,No
 52.0,Female,Other Hispanic,18.8,No,No,7.5,No,No,Yes,No
 53.0,Male,Other Race - Including Multi-Racial,18.6,Yes,Yes,7.5,No,No,No,No
-68.0,Female,Non-Hispanic Black,62.1,No,No,4.5,No,No,No,No
-80.0,Male,Non-Hispanic White,28.4,Yes,Yes,6.0,No,No,No,No
 51.0,Male,Non-Hispanic White,24.7,Yes,No,9.0,Yes,Yes,Yes,No
 60.0,Male,Non-Hispanic White,24.8,No,No,8.5,No,No,No,No
 80.0,Male,Non-Hispanic White,29.5,No,No,6.0,Yes,No,No,No
 63.0,Female,Non-Hispanic Black,39.4,No,No,5.5,No,No,Yes,No
 69.0,Male,Non-Hispanic White,24.3,Yes,Yes,8.0,Yes,No,No,No
 51.0,Female,Mexican American,19.0,No,No,9.5,Yes,Yes,No,No
-75.0,Male,Non-Hispanic Black,22.9,Yes,No,14.0,Yes,No,No,No
 53.0,Male,Non-Hispanic White,36.5,Yes,No,7.0,No,No,No,No
 58.0,Male,Non-Hispanic White,43.6,Yes,Yes,4.0,Yes,No,Yes,No
 73.0,Female,Other Hispanic,34.2,Yes,No,8.0,No,No,Yes,No
@@ -3463,10 +3304,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Male,Non-Hispanic Black,25.0,Yes,No,10.5,No,No,No,No
 62.0,Female,Non-Hispanic Black,37.1,Yes,Yes,7.0,No,No,No,No
 80.0,Male,Non-Hispanic White,21.3,Yes,No,9.0,Yes,No,No,No
-56.0,Female,Non-Hispanic Black,47.6,No,No,5.0,No,No,No,No
 57.0,Female,Other Hispanic,20.9,No,No,8.0,No,No,No,Yes
 68.0,Male,Non-Hispanic Black,25.0,No,No,8.0,No,No,No,No
-77.0,Male,Non-Hispanic White,54.6,Yes,No,10.0,No,No,No,No
 72.0,Male,Non-Hispanic Black,25.7,Yes,No,7.0,No,No,No,No
 55.0,Female,Non-Hispanic White,35.4,Yes,Yes,9.0,Yes,No,Yes,Yes
 78.0,Male,Non-Hispanic Black,27.4,Yes,No,7.0,Yes,No,No,No
@@ -3479,7 +3318,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Non-Hispanic White,27.6,Yes,Yes,10.0,No,Yes,Yes,No
 52.0,Male,Non-Hispanic White,31.9,Yes,No,7.0,No,No,No,No
 54.0,Female,Other Hispanic,27.5,No,No,5.0,No,No,Yes,No
-55.0,Female,Non-Hispanic White,23.2,No,No,12.0,No,Yes,No,No
 62.0,Female,Mexican American,33.3,No,No,7.0,No,No,No,No
 72.0,Male,Non-Hispanic White,22.7,No,No,7.5,No,No,Yes,Yes
 79.0,Male,Non-Hispanic White,24.4,Yes,No,7.5,No,No,No,Yes
@@ -3487,13 +3325,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,26.7,Yes,No,8.0,Yes,No,No,No
 65.0,Female,Non-Hispanic White,23.5,No,No,8.5,No,No,No,No
 54.0,Female,Non-Hispanic White,41.7,No,No,8.0,Yes,No,Yes,No
-69.0,Female,Non-Hispanic Black,38.5,No,No,11.5,Yes,No,No,No
 71.0,Male,Non-Hispanic White,33.7,No,No,7.0,Yes,Yes,No,No
 54.0,Male,Mexican American,31.0,No,No,7.0,No,No,No,No
 71.0,Female,Non-Hispanic White,28.9,No,No,8.0,Yes,No,Yes,No
 55.0,Female,Mexican American,31.7,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,20.9,No,No,7.5,No,No,No,No
-52.0,Male,Non-Hispanic Black,32.4,Yes,Yes,11.5,Yes,No,Yes,No
 70.0,Female,Non-Hispanic White,24.6,No,No,7.5,Yes,No,No,No
 54.0,Male,Mexican American,27.5,No,No,7.0,No,No,No,No
 52.0,Female,Non-Hispanic Black,26.7,No,No,8.0,Yes,No,No,No
@@ -3513,7 +3349,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic Black,28.6,No,No,7.0,No,No,No,No
 53.0,Male,Non-Hispanic White,33.1,No,No,8.0,Yes,No,No,No
 67.0,Female,Other Hispanic,27.3,No,No,9.5,Yes,No,Yes,Yes
-63.0,Female,Non-Hispanic Black,35.3,Yes,No,12.0,No,No,No,No
 76.0,Female,Non-Hispanic White,31.0,No,No,7.0,No,No,No,Yes
 70.0,Male,Non-Hispanic White,23.2,Yes,No,7.0,No,No,No,No
 55.0,Female,Non-Hispanic Asian,28.9,No,No,7.0,No,No,No,No
@@ -3539,7 +3374,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Male,Non-Hispanic White,37.0,No,No,8.0,No,No,No,No
 51.0,Male,Other Hispanic,32.0,No,No,7.0,Yes,No,No,No
 67.0,Male,Other Hispanic,24.6,Yes,Yes,8.0,Yes,No,No,No
-62.0,Female,Non-Hispanic Black,46.5,Yes,No,9.5,Yes,No,No,No
 62.0,Male,Non-Hispanic Black,33.2,No,Yes,6.0,No,No,No,No
 56.0,Female,Non-Hispanic Black,21.1,Yes,No,9.0,No,No,No,No
 80.0,Male,Other Hispanic,28.7,Yes,No,8.5,Yes,No,Yes,No
@@ -3549,7 +3383,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Male,Non-Hispanic Black,24.3,No,No,5.0,No,No,No,No
 60.0,Male,Non-Hispanic Black,29.8,No,No,5.0,No,No,No,No
 67.0,Female,Non-Hispanic Black,29.6,No,No,10.0,No,No,No,No
-60.0,Male,Non-Hispanic Black,29.1,Yes,Yes,12.0,Yes,No,No,No
 59.0,Female,Other Hispanic,29.5,No,No,8.0,Yes,No,Yes,No
 65.0,Female,Mexican American,32.0,No,No,7.5,No,No,Yes,No
 55.0,Female,Other Hispanic,26.0,Yes,No,8.0,No,No,No,No
@@ -3568,11 +3401,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,22.6,No,No,7.0,Yes,No,Yes,No
 60.0,Female,Non-Hispanic White,23.8,No,No,6.0,No,No,No,Yes
 67.0,Male,Non-Hispanic White,34.5,Yes,Yes,7.0,Yes,No,No,No
-52.0,Female,Non-Hispanic Black,46.6,No,No,9.0,Yes,No,No,No
 61.0,Male,Non-Hispanic Black,24.0,No,Yes,9.0,No,No,No,No
 80.0,Female,Non-Hispanic White,27.9,No,No,7.5,No,No,Yes,No
 56.0,Male,Other Hispanic,45.1,Yes,No,7.5,No,No,No,No
-68.0,Male,Non-Hispanic White,51.5,No,No,7.5,Yes,No,No,No
 68.0,Female,Non-Hispanic Black,31.5,No,No,7.0,Yes,No,No,No
 66.0,Female,Non-Hispanic Black,37.0,No,No,9.5,No,No,No,Yes
 65.0,Female,Non-Hispanic White,37.3,Yes,No,6.5,Yes,No,No,No
@@ -3607,7 +3438,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 58.0,Male,Mexican American,28.4,No,Yes,7.5,No,No,No,No
 61.0,Male,Non-Hispanic Black,27.5,No,No,7.0,No,No,No,No
 55.0,Male,Non-Hispanic White,41.3,No,No,5.5,Yes,No,No,No
-62.0,Female,Non-Hispanic Asian,44.6,No,No,2.0,Yes,No,No,Yes
 55.0,Male,Non-Hispanic Asian,24.7,No,No,8.5,No,No,No,No
 80.0,Male,Non-Hispanic Black,21.9,No,No,10.0,No,No,No,No
 50.0,Male,Non-Hispanic Black,39.8,Yes,Yes,9.0,Yes,No,No,No
@@ -3623,7 +3453,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Male,Mexican American,26.7,Yes,No,4.0,No,No,No,No
 80.0,Male,Non-Hispanic White,29.0,Yes,No,11.0,Yes,No,No,No
 68.0,Male,Other Hispanic,33.8,Yes,No,9.0,No,No,No,No
-74.0,Male,Non-Hispanic White,30.5,Yes,No,8.0,Yes,No,No,No
 50.0,Male,Non-Hispanic White,30.6,No,No,8.0,No,No,No,No
 60.0,Male,Non-Hispanic Asian,37.0,No,No,7.0,Yes,Yes,No,No
 80.0,Male,Other Hispanic,29.1,Yes,No,8.0,Yes,No,No,No
@@ -3632,7 +3461,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Male,Non-Hispanic White,28.3,Yes,Yes,8.0,No,No,No,No
 68.0,Male,Non-Hispanic White,31.7,No,No,8.5,No,Yes,No,No
 67.0,Female,Other Hispanic,23.5,No,No,7.0,No,No,Yes,No
-53.0,Male,Mexican American,47.5,Yes,Yes,7.0,Yes,No,No,No
 69.0,Male,Non-Hispanic Black,26.7,Yes,No,5.5,No,No,No,No
 50.0,Female,Mexican American,29.4,No,No,7.5,No,Yes,No,No
 71.0,Male,Non-Hispanic White,31.7,Yes,No,8.0,No,No,No,No
@@ -3650,7 +3478,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Non-Hispanic Black,37.5,Yes,No,8.0,Yes,No,No,No
 78.0,Female,Mexican American,27.9,Yes,No,8.0,Yes,No,No,Yes
 70.0,Female,Other Hispanic,36.2,No,No,8.0,No,No,No,No
-63.0,Female,Non-Hispanic White,49.1,No,No,10.0,Yes,No,Yes,No
 51.0,Female,Non-Hispanic Asian,28.9,No,No,8.0,No,No,No,No
 61.0,Female,Other Hispanic,18.8,No,No,9.0,No,No,Yes,No
 66.0,Female,Non-Hispanic Black,29.8,Yes,No,7.5,No,No,No,No
@@ -3670,8 +3497,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Female,Mexican American,27.9,No,No,9.0,Yes,No,No,Yes
 55.0,Female,Non-Hispanic Asian,28.2,No,No,5.0,No,No,No,No
 58.0,Male,Mexican American,29.9,Yes,No,6.0,No,No,No,No
-80.0,Male,Non-Hispanic White,31.7,Yes,No,7.0,Yes,No,No,No
-66.0,Female,Non-Hispanic White,61.6,Yes,Yes,10.0,No,No,No,No
 62.0,Male,Non-Hispanic White,26.6,No,No,8.5,No,No,No,No
 57.0,Male,Non-Hispanic White,31.1,Yes,No,10.0,No,No,No,No
 55.0,Male,Non-Hispanic Asian,25.8,Yes,No,4.5,No,No,No,No
@@ -3682,7 +3507,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Female,Non-Hispanic White,36.0,No,No,8.0,Yes,No,Yes,Yes
 57.0,Male,Other Hispanic,35.4,No,No,6.5,No,No,No,No
 66.0,Male,Non-Hispanic White,34.0,No,No,11.0,Yes,No,No,No
-72.0,Female,Non-Hispanic Black,32.7,No,Yes,12.0,Yes,Yes,No,Yes
 53.0,Female,Non-Hispanic White,27.6,Yes,No,7.5,No,No,No,No
 66.0,Male,Non-Hispanic White,28.1,No,No,5.0,No,No,No,No
 62.0,Male,Non-Hispanic White,29.0,Yes,Yes,6.5,Yes,No,Yes,No
@@ -3718,7 +3542,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Male,Non-Hispanic White,36.1,Yes,No,7.0,No,No,No,No
 63.0,Male,Non-Hispanic Black,27.9,No,No,7.0,No,No,No,No
 68.0,Female,Non-Hispanic White,34.3,Yes,No,8.0,Yes,No,No,No
-74.0,Male,Non-Hispanic White,29.6,Yes,No,2.0,No,Yes,No,No
 63.0,Female,Non-Hispanic Asian,20.9,No,No,9.5,Yes,No,Yes,No
 57.0,Male,Non-Hispanic White,25.5,No,No,6.0,No,No,No,No
 60.0,Male,Non-Hispanic Asian,24.0,No,No,6.5,No,No,No,No
@@ -3730,7 +3553,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Male,Non-Hispanic Black,33.9,Yes,No,8.0,No,No,No,No
 64.0,Female,Non-Hispanic White,27.0,No,Yes,9.0,No,No,No,No
 50.0,Male,Non-Hispanic White,27.0,Yes,No,7.0,No,No,No,No
-71.0,Male,Non-Hispanic Black,23.7,No,Yes,12.0,No,No,No,No
 54.0,Male,Non-Hispanic White,31.2,Yes,No,8.0,No,No,No,No
 55.0,Male,Non-Hispanic White,27.2,Yes,No,8.0,Yes,No,No,No
 51.0,Male,Non-Hispanic Black,29.1,Yes,Yes,7.5,No,No,No,No
@@ -3747,14 +3569,12 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 79.0,Male,Non-Hispanic White,31.4,Yes,Yes,7.5,Yes,No,No,No
 63.0,Female,Other Hispanic,28.3,No,No,7.0,Yes,No,No,No
 57.0,Female,Non-Hispanic Asian,26.0,No,No,7.0,No,No,No,No
-69.0,Female,Non-Hispanic Black,48.2,Yes,No,6.0,Yes,No,No,No
 76.0,Female,Non-Hispanic White,31.3,No,No,9.5,Yes,Yes,No,No
 78.0,Female,Non-Hispanic White,29.1,No,No,8.0,Yes,No,Yes,Yes
 75.0,Male,Non-Hispanic White,26.4,Yes,No,8.0,No,No,No,No
 69.0,Male,Non-Hispanic Asian,21.8,Yes,No,8.0,Yes,No,Yes,No
 60.0,Male,Other Hispanic,28.8,Yes,No,5.0,No,No,No,No
 54.0,Female,Other Hispanic,26.8,Yes,No,7.5,No,No,No,No
-64.0,Female,Non-Hispanic White,31.3,Yes,No,12.0,No,No,No,No
 75.0,Female,Non-Hispanic Asian,32.6,No,No,7.0,Yes,No,No,No
 52.0,Male,Mexican American,27.1,No,No,9.0,No,No,No,No
 54.0,Female,Mexican American,30.8,No,No,10.0,Yes,No,No,No
@@ -3764,7 +3584,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,28.2,Yes,No,8.0,Yes,No,Yes,No
 70.0,Female,Non-Hispanic White,25.4,Yes,No,9.0,No,No,No,No
 64.0,Female,Non-Hispanic White,31.7,Yes,Yes,8.0,No,No,No,No
-61.0,Male,Non-Hispanic Black,19.5,Yes,No,12.0,No,Yes,No,No
 58.0,Male,Non-Hispanic Black,19.7,Yes,No,6.5,No,No,No,No
 55.0,Female,Non-Hispanic White,31.7,Yes,No,7.0,Yes,No,Yes,No
 70.0,Female,Non-Hispanic White,24.9,No,No,9.0,Yes,No,Yes,No
@@ -3793,7 +3612,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 54.0,Female,Non-Hispanic Black,35.7,No,No,7.0,No,No,No,No
 69.0,Female,Non-Hispanic Black,35.9,Yes,No,6.5,No,No,No,No
 65.0,Male,Non-Hispanic White,43.3,Yes,No,8.0,Yes,No,No,No
-74.0,Female,Non-Hispanic White,45.7,No,No,8.0,Yes,No,Yes,No
 52.0,Male,Mexican American,25.1,Yes,No,8.0,No,No,No,No
 73.0,Male,Non-Hispanic White,21.9,Yes,No,8.0,No,No,Yes,Yes
 60.0,Male,Non-Hispanic White,26.7,Yes,Yes,7.5,Yes,No,No,No
@@ -3813,7 +3631,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 69.0,Female,Non-Hispanic Black,27.9,Yes,No,7.5,No,No,No,No
 70.0,Male,Other Hispanic,25.1,No,Yes,3.0,No,No,No,No
 80.0,Male,Non-Hispanic White,28.7,Yes,No,7.5,Yes,No,No,No
-64.0,Male,Non-Hispanic White,32.8,Yes,No,14.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,34.3,Yes,Yes,9.0,No,No,No,No
 55.0,Female,Non-Hispanic White,32.8,No,No,7.5,No,No,No,No
 80.0,Male,Non-Hispanic White,31.0,Yes,No,8.5,No,No,No,No
@@ -3847,13 +3664,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic White,36.2,Yes,No,9.0,No,No,No,No
 75.0,Female,Non-Hispanic Black,25.4,Yes,No,7.0,Yes,No,No,Yes
 58.0,Male,Non-Hispanic White,26.8,No,No,8.0,No,No,No,No
-57.0,Female,Non-Hispanic Black,48.4,No,No,8.0,No,No,No,No
 50.0,Male,Other Hispanic,30.2,No,No,8.0,No,No,No,No
 61.0,Female,Non-Hispanic Black,22.1,No,No,8.0,Yes,No,No,No
 57.0,Male,Non-Hispanic White,37.2,Yes,Yes,8.5,Yes,Yes,No,No
 55.0,Female,Non-Hispanic Asian,20.6,No,No,8.0,No,No,No,No
 63.0,Male,Mexican American,33.5,No,No,7.0,No,No,No,No
-70.0,Male,Non-Hispanic Black,55.2,No,Yes,6.5,Yes,No,No,No
 63.0,Female,Non-Hispanic Black,38.6,Yes,No,6.5,Yes,No,No,No
 76.0,Female,Non-Hispanic White,29.7,No,No,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,26.1,No,No,9.5,Yes,No,No,Yes
@@ -3861,7 +3676,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Female,Non-Hispanic White,27.5,No,No,7.0,Yes,No,Yes,No
 80.0,Female,Non-Hispanic Black,22.4,No,No,10.0,Yes,No,No,Yes
 65.0,Female,Non-Hispanic White,31.9,No,No,10.0,No,No,No,No
-66.0,Female,Non-Hispanic Black,58.7,No,No,8.0,No,No,No,No
 65.0,Male,Other Hispanic,31.9,Yes,Yes,5.0,Yes,Yes,No,No
 68.0,Male,Non-Hispanic White,33.4,Yes,No,3.5,Yes,No,No,No
 64.0,Male,Non-Hispanic Black,33.7,Yes,Yes,8.5,No,No,No,No
@@ -3875,8 +3689,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 79.0,Female,Non-Hispanic Black,19.0,Yes,No,7.0,No,No,No,No
 78.0,Male,Non-Hispanic Black,26.2,No,No,10.0,No,No,No,No
 57.0,Female,Non-Hispanic White,28.3,Yes,No,6.5,No,No,No,No
-73.0,Female,Non-Hispanic White,34.0,No,No,12.0,Yes,No,No,No
-54.0,Female,Non-Hispanic White,46.2,Yes,Yes,7.0,Yes,No,No,No
 54.0,Female,Non-Hispanic Black,30.0,No,No,6.0,No,No,No,No
 56.0,Female,Non-Hispanic Black,26.4,Yes,No,7.0,No,No,No,No
 75.0,Male,Non-Hispanic White,28.5,No,Yes,9.0,Yes,No,No,No
@@ -3893,7 +3705,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 74.0,Male,Other Hispanic,24.2,Yes,No,10.0,No,No,No,No
 80.0,Male,Other Hispanic,27.0,No,No,7.5,No,No,No,No
 80.0,Male,Non-Hispanic White,26.4,Yes,No,7.5,Yes,No,No,No
-58.0,Male,Non-Hispanic Black,31.4,Yes,No,11.5,No,No,No,No
 69.0,Male,Non-Hispanic Black,32.8,Yes,No,9.0,Yes,No,No,No
 80.0,Male,Non-Hispanic Black,24.2,Yes,No,6.0,Yes,No,No,No
 60.0,Male,Mexican American,25.6,No,Yes,8.5,No,No,Yes,No
@@ -3902,7 +3713,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Mexican American,29.6,No,Yes,6.0,No,No,No,No
 72.0,Female,Non-Hispanic White,33.5,Yes,No,6.0,Yes,No,No,No
 73.0,Female,Non-Hispanic White,26.4,Yes,No,7.0,Yes,No,No,Yes
-80.0,Male,Non-Hispanic White,27.3,Yes,No,8.0,No,No,No,No
 68.0,Female,Mexican American,31.2,Yes,Yes,9.5,Yes,No,Yes,Yes
 54.0,Female,Non-Hispanic White,23.6,No,No,7.0,No,No,No,No
 52.0,Male,Non-Hispanic Black,26.0,No,No,5.0,No,No,No,No
@@ -3967,7 +3777,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 78.0,Male,Non-Hispanic White,23.3,Yes,Yes,6.0,No,No,No,No
 80.0,Male,Non-Hispanic White,25.8,Yes,No,7.0,No,No,No,No
 58.0,Male,Non-Hispanic White,41.1,No,Yes,9.0,Yes,No,No,No
-56.0,Female,Non-Hispanic Black,49.8,No,No,6.5,Yes,No,No,No
 73.0,Male,Non-Hispanic White,29.2,Yes,No,9.0,Yes,No,No,No
 51.0,Female,Non-Hispanic Black,34.0,No,No,8.0,Yes,No,No,No
 55.0,Male,Non-Hispanic Asian,22.3,No,No,9.0,Yes,No,No,No
@@ -3975,7 +3784,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Female,Non-Hispanic Black,36.1,Yes,No,8.5,Yes,No,Yes,Yes
 60.0,Male,Non-Hispanic White,23.8,Yes,No,8.0,Yes,No,No,No
 62.0,Male,Non-Hispanic White,29.9,No,No,7.0,No,No,No,No
-50.0,Female,Other Race - Including Multi-Racial,48.4,Yes,Yes,6.0,Yes,No,Yes,No
 80.0,Female,Non-Hispanic White,33.5,Yes,No,8.0,Yes,No,No,Yes
 58.0,Female,Non-Hispanic Black,30.7,No,No,8.0,Yes,No,No,No
 71.0,Male,Other Race - Including Multi-Racial,27.8,Yes,No,8.0,No,No,Yes,No
@@ -4013,16 +3821,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 72.0,Male,Non-Hispanic Black,33.9,Yes,Yes,9.5,Yes,No,No,No
 59.0,Female,Non-Hispanic Black,44.9,Yes,No,7.0,Yes,No,Yes,Yes
 70.0,Female,Non-Hispanic White,27.9,No,No,8.0,No,No,No,Yes
-51.0,Male,Non-Hispanic Black,30.4,Yes,No,2.0,No,No,No,No
-80.0,Male,Non-Hispanic White,31.7,Yes,No,7.0,Yes,No,No,No
 60.0,Male,Non-Hispanic White,41.9,Yes,No,7.0,Yes,No,No,No
-71.0,Female,Non-Hispanic White,28.9,No,No,11.5,Yes,Yes,Yes,Yes
 56.0,Male,Non-Hispanic Black,23.5,Yes,Yes,3.5,Yes,No,No,No
 56.0,Female,Non-Hispanic Asian,25.7,No,No,9.0,No,No,No,No
-58.0,Female,Non-Hispanic White,21.8,Yes,No,12.0,No,No,No,No
 54.0,Female,Non-Hispanic White,35.9,No,No,8.0,Yes,No,Yes,Yes
 80.0,Male,Non-Hispanic White,28.9,Yes,No,11.0,No,No,No,No
-80.0,Female,Non-Hispanic White,22.9,No,No,12.0,No,No,No,No
 69.0,Female,Non-Hispanic Black,34.8,Yes,No,8.0,Yes,No,No,Yes
 56.0,Female,Non-Hispanic Black,42.1,No,No,8.0,No,No,No,No
 65.0,Male,Non-Hispanic Black,27.7,Yes,No,5.5,Yes,No,No,No
@@ -4053,7 +3856,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Female,Non-Hispanic White,30.8,No,No,8.0,No,No,No,No
 67.0,Female,Non-Hispanic Black,34.9,No,No,8.0,No,Yes,No,No
 65.0,Male,Non-Hispanic White,43.6,Yes,No,8.0,Yes,No,No,No
-56.0,Female,Non-Hispanic White,48.1,Yes,No,10.0,No,No,No,No
 51.0,Female,Other Hispanic,28.2,No,No,6.5,No,No,No,No
 80.0,Female,Non-Hispanic White,21.1,Yes,No,8.5,No,No,No,No
 65.0,Male,Non-Hispanic Black,28.0,No,No,8.0,No,No,No,No
@@ -4102,7 +3904,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Male,Non-Hispanic Black,22.2,Yes,No,8.0,No,No,No,No
 53.0,Male,Non-Hispanic Black,29.6,No,Yes,7.0,No,No,No,No
 54.0,Female,Non-Hispanic Black,37.5,Yes,Yes,8.0,Yes,No,No,No
-67.0,Female,Non-Hispanic White,46.9,Yes,No,9.0,Yes,No,No,No
 68.0,Female,Other Race - Including Multi-Racial,42.7,Yes,No,6.5,Yes,No,No,Yes
 66.0,Female,Non-Hispanic White,26.2,No,No,9.5,Yes,Yes,Yes,Yes
 68.0,Female,Non-Hispanic White,25.3,Yes,No,9.0,No,No,No,No
@@ -4114,7 +3915,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Non-Hispanic White,23.1,Yes,Yes,7.0,Yes,No,Yes,No
 63.0,Male,Non-Hispanic Asian,27.0,No,No,8.5,No,No,No,No
 65.0,Male,Non-Hispanic Black,20.6,Yes,No,8.0,No,No,No,No
-55.0,Female,Non-Hispanic Black,50.5,Yes,No,9.0,No,No,No,No
 74.0,Male,Non-Hispanic Black,29.1,No,No,9.0,Yes,No,No,No
 75.0,Female,Non-Hispanic White,23.1,No,No,9.0,Yes,No,No,No
 57.0,Male,Other Hispanic,37.3,No,No,7.0,No,No,No,No
@@ -4181,7 +3981,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic White,42.4,Yes,No,3.0,Yes,No,No,No
 64.0,Male,Non-Hispanic White,22.4,No,No,6.0,Yes,No,No,No
 52.0,Female,Non-Hispanic White,39.4,Yes,No,7.0,Yes,No,No,No
-60.0,Female,Mexican American,34.5,No,No,2.0,Yes,No,Yes,No
 62.0,Male,Non-Hispanic Asian,29.0,No,No,6.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,24.4,Yes,No,6.5,No,No,No,No
 74.0,Male,Non-Hispanic Black,31.7,No,No,10.0,Yes,No,No,No
@@ -4210,9 +4009,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,23.9,No,No,4.5,No,No,No,No
 50.0,Female,Non-Hispanic Asian,25.8,No,No,6.0,No,Yes,No,No
 72.0,Male,Non-Hispanic White,35.2,Yes,Yes,7.0,Yes,Yes,No,No
-79.0,Male,Non-Hispanic White,33.8,Yes,Yes,12.0,No,Yes,No,No
 63.0,Female,Non-Hispanic White,38.3,No,No,9.5,Yes,No,No,No
-56.0,Female,Non-Hispanic Black,49.2,No,No,6.0,Yes,No,No,No
 55.0,Female,Mexican American,26.6,No,No,10.0,Yes,No,Yes,No
 52.0,Male,Non-Hispanic Asian,20.8,Yes,Yes,9.5,No,No,No,No
 54.0,Male,Non-Hispanic White,31.5,No,No,7.0,Yes,Yes,No,No
@@ -4221,9 +4018,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic White,26.2,No,No,8.0,Yes,No,No,No
 67.0,Female,Other Hispanic,31.9,Yes,No,5.5,Yes,Yes,Yes,Yes
 61.0,Female,Other Hispanic,29.9,No,No,8.0,No,No,No,No
-60.0,Female,Non-Hispanic Black,50.1,No,No,3.0,Yes,No,No,Yes
 56.0,Female,Non-Hispanic Black,37.0,Yes,No,6.5,No,No,No,No
-75.0,Female,Non-Hispanic White,48.7,No,No,6.5,Yes,No,No,Yes
 80.0,Female,Other Race - Including Multi-Racial,33.7,Yes,No,8.5,Yes,No,No,Yes
 74.0,Female,Non-Hispanic White,17.5,No,No,8.5,No,No,No,Yes
 80.0,Male,Other Hispanic,24.2,Yes,No,3.0,No,No,No,No
@@ -4293,9 +4088,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 50.0,Female,Non-Hispanic White,36.9,Yes,Yes,6.5,No,No,No,No
 63.0,Female,Non-Hispanic White,22.6,Yes,No,9.5,Yes,No,Yes,Yes
 69.0,Female,Non-Hispanic Black,36.2,No,No,8.5,No,No,No,No
-60.0,Male,Non-Hispanic Black,50.3,No,No,9.0,Yes,No,No,No
 62.0,Male,Mexican American,19.5,No,No,6.0,No,No,No,No
-50.0,Female,Non-Hispanic Black,78.6,No,No,12.0,Yes,No,No,No
 50.0,Male,Mexican American,26.0,Yes,Yes,9.0,No,No,No,No
 57.0,Female,Non-Hispanic White,27.7,Yes,No,7.5,No,No,No,No
 51.0,Male,Other Hispanic,25.6,Yes,No,9.0,No,No,No,No
@@ -4322,8 +4115,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 76.0,Female,Non-Hispanic Black,33.4,Yes,No,4.0,No,No,No,No
 65.0,Male,Mexican American,34.1,No,No,9.0,No,Yes,No,No
 57.0,Female,Non-Hispanic White,44.3,No,No,6.5,No,No,Yes,No
-59.0,Female,Non-Hispanic White,25.4,Yes,Yes,12.0,Yes,Yes,No,No
-70.0,Female,Non-Hispanic White,56.3,No,No,5.0,Yes,No,No,No
 78.0,Male,Non-Hispanic White,23.8,Yes,Yes,9.0,Yes,No,No,No
 76.0,Male,Non-Hispanic Black,24.8,No,No,7.5,No,No,No,No
 51.0,Male,Non-Hispanic White,32.2,No,No,4.5,Yes,Yes,No,No
@@ -4371,9 +4162,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Non-Hispanic White,43.0,No,No,8.5,Yes,No,No,No
 64.0,Male,Non-Hispanic Asian,22.2,Yes,No,7.0,No,No,No,No
 64.0,Female,Non-Hispanic Black,39.4,No,No,9.0,Yes,No,No,No
-55.0,Female,Non-Hispanic Black,50.8,Yes,No,4.5,Yes,No,No,No
 67.0,Female,Non-Hispanic Asian,24.3,No,No,6.5,No,No,No,Yes
-80.0,Female,Non-Hispanic White,28.1,No,No,12.5,Yes,No,No,Yes
 57.0,Male,Other Race - Including Multi-Racial,23.8,Yes,Yes,8.0,No,Yes,No,No
 71.0,Male,Other Race - Including Multi-Racial,37.6,Yes,No,8.5,No,No,Yes,No
 75.0,Female,Other Hispanic,29.6,No,No,8.0,Yes,No,No,Yes
@@ -4397,7 +4186,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 71.0,Female,Non-Hispanic Asian,25.7,No,No,9.0,No,No,No,No
 72.0,Male,Non-Hispanic White,22.1,Yes,No,7.5,Yes,No,No,No
 55.0,Female,Non-Hispanic Asian,28.6,No,No,7.0,No,No,No,No
-57.0,Female,Non-Hispanic White,47.3,No,No,4.0,Yes,No,No,No
 64.0,Male,Non-Hispanic White,31.8,No,No,9.0,No,No,Yes,No
 67.0,Female,Non-Hispanic White,24.3,No,No,7.5,Yes,No,No,No
 58.0,Female,Mexican American,32.7,No,No,8.5,Yes,No,No,No
@@ -4448,11 +4236,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 64.0,Male,Non-Hispanic Black,24.4,No,No,7.5,Yes,No,Yes,No
 80.0,Female,Non-Hispanic White,29.6,No,Yes,9.0,Yes,No,No,No
 59.0,Male,Non-Hispanic Black,38.2,Yes,Yes,7.0,No,No,No,No
-70.0,Female,Non-Hispanic White,50.3,Yes,No,6.0,Yes,No,No,No
-57.0,Female,Non-Hispanic Black,45.7,No,No,6.0,No,No,No,No
 52.0,Male,Other Race - Including Multi-Racial,23.4,Yes,No,7.5,No,No,No,No
 70.0,Male,Non-Hispanic Asian,23.7,No,No,7.0,No,No,No,No
-61.0,Female,Non-Hispanic White,58.8,Yes,No,7.0,Yes,No,No,No
 60.0,Male,Other Hispanic,22.5,Yes,No,6.5,No,No,No,No
 58.0,Female,Non-Hispanic Black,34.9,No,No,7.5,Yes,No,No,No
 72.0,Male,Other Hispanic,26.7,Yes,No,7.0,No,No,No,No
@@ -4496,7 +4281,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Female,Non-Hispanic White,29.8,Yes,No,7.5,No,No,No,Yes
 60.0,Male,Mexican American,26.7,Yes,Yes,6.5,No,No,No,No
 72.0,Female,Non-Hispanic White,26.1,No,No,7.5,No,No,No,No
-53.0,Female,Mexican American,49.1,No,No,7.0,No,Yes,No,No
 65.0,Female,Non-Hispanic Black,18.2,Yes,Yes,7.5,Yes,No,No,No
 76.0,Female,Non-Hispanic White,35.7,Yes,No,8.0,Yes,No,No,Yes
 62.0,Female,Non-Hispanic Black,32.0,Yes,Yes,9.0,No,No,No,No
@@ -4540,7 +4324,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic White,27.4,Yes,No,9.0,Yes,Yes,Yes,Yes
 53.0,Male,Mexican American,33.6,No,Yes,10.0,No,Yes,No,No
 61.0,Female,Non-Hispanic Black,32.3,No,No,5.0,Yes,No,No,No
-59.0,Female,Non-Hispanic White,56.1,No,No,7.0,No,No,No,No
 61.0,Male,Other Hispanic,28.3,Yes,No,7.0,Yes,No,No,No
 51.0,Female,Non-Hispanic Asian,26.8,No,No,7.5,No,No,Yes,No
 50.0,Female,Other Hispanic,15.8,No,No,8.0,Yes,No,No,No
@@ -4561,13 +4344,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Female,Non-Hispanic Asian,20.6,No,No,8.0,No,No,No,No
 76.0,Female,Non-Hispanic Black,41.9,No,No,8.0,Yes,No,No,No
 63.0,Male,Non-Hispanic Asian,24.2,Yes,No,9.0,No,Yes,No,No
-80.0,Male,Other Race - Including Multi-Racial,28.9,Yes,No,2.0,No,No,No,No
 60.0,Male,Non-Hispanic Black,25.0,Yes,No,7.0,No,No,No,No
 51.0,Male,Non-Hispanic White,30.7,Yes,Yes,7.0,Yes,No,No,No
 65.0,Female,Non-Hispanic Black,35.1,Yes,Yes,7.5,Yes,No,No,No
 64.0,Male,Non-Hispanic White,28.1,No,No,7.5,Yes,No,No,No
 69.0,Female,Non-Hispanic White,31.5,Yes,No,9.0,Yes,No,Yes,Yes
-52.0,Female,Mexican American,27.7,No,No,8.0,No,No,No,No
 75.0,Female,Non-Hispanic White,25.5,No,No,7.5,Yes,No,No,No
 80.0,Male,Non-Hispanic White,23.6,No,No,9.5,No,No,No,No
 55.0,Male,Non-Hispanic White,29.0,Yes,Yes,9.0,Yes,No,No,No
@@ -4589,10 +4370,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic White,26.2,No,No,9.0,No,No,No,No
 69.0,Male,Mexican American,38.6,Yes,Yes,8.5,Yes,No,Yes,No
 75.0,Female,Non-Hispanic White,30.9,Yes,No,9.0,Yes,No,No,No
-53.0,Female,Non-Hispanic Black,49.8,No,No,5.5,No,No,No,No
 65.0,Male,Other Race - Including Multi-Racial,20.1,Yes,No,8.5,No,No,No,No
 50.0,Male,Other Race - Including Multi-Racial,31.8,Yes,No,6.0,Yes,No,No,No
-69.0,Female,Mexican American,49.8,No,No,10.0,No,No,Yes,No
 56.0,Female,Mexican American,32.5,No,No,9.0,No,No,No,No
 72.0,Male,Non-Hispanic White,27.7,Yes,No,7.0,No,No,No,No
 63.0,Male,Non-Hispanic White,42.8,No,Yes,6.5,No,No,No,No
@@ -4613,7 +4392,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 54.0,Female,Non-Hispanic Black,18.0,Yes,No,6.5,No,No,No,No
 65.0,Female,Non-Hispanic White,32.4,Yes,No,9.0,Yes,No,Yes,No
 61.0,Female,Mexican American,33.6,No,No,10.0,No,No,No,No
-57.0,Female,Non-Hispanic Black,46.3,Yes,No,9.5,Yes,No,No,No
 56.0,Female,Non-Hispanic Black,43.2,No,No,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,31.6,No,No,7.0,Yes,No,No,No
 54.0,Female,Other Hispanic,29.2,Yes,No,9.0,Yes,No,Yes,No
@@ -4659,14 +4437,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,26.3,No,No,10.5,Yes,No,No,No
 58.0,Male,Non-Hispanic Asian,28.0,No,No,8.0,Yes,No,No,No
 55.0,Male,Non-Hispanic Asian,24.3,No,Yes,7.5,No,No,Yes,No
-80.0,Female,Non-Hispanic White,25.9,Yes,No,12.0,Yes,No,No,No
 76.0,Male,Non-Hispanic White,28.8,Yes,Yes,7.5,No,No,No,No
 56.0,Female,Mexican American,30.7,No,No,5.0,Yes,Yes,No,No
 61.0,Male,Non-Hispanic White,36.1,No,No,6.0,Yes,No,No,No
 51.0,Male,Non-Hispanic White,25.2,No,No,7.5,No,No,No,No
-80.0,Female,Non-Hispanic White,24.9,Yes,No,9.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,30.2,No,No,6.0,Yes,No,No,No
-65.0,Male,Other Hispanic,34.7,Yes,Yes,12.0,Yes,Yes,No,No
 80.0,Male,Non-Hispanic White,34.8,No,No,7.0,No,No,No,No
 70.0,Male,Non-Hispanic Black,28.1,No,No,7.0,Yes,No,No,No
 55.0,Female,Non-Hispanic Black,31.0,No,No,7.0,No,No,No,No
@@ -4684,7 +4459,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 71.0,Female,Other Hispanic,31.5,Yes,No,11.0,No,Yes,Yes,No
 80.0,Female,Non-Hispanic White,26.4,No,No,9.0,Yes,No,No,No
 64.0,Male,Non-Hispanic Black,15.7,Yes,No,5.0,No,No,No,No
-78.0,Female,Non-Hispanic White,48.0,Yes,Yes,7.0,No,No,No,No
 58.0,Male,Non-Hispanic Black,16.8,Yes,Yes,8.0,Yes,No,No,No
 63.0,Female,Non-Hispanic Black,26.3,Yes,Yes,11.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,21.6,Yes,No,7.5,Yes,No,No,No
@@ -4697,7 +4471,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Non-Hispanic Black,28.2,Yes,No,8.5,Yes,No,No,No
 63.0,Male,Mexican American,30.1,No,Yes,10.0,No,No,No,No
 68.0,Male,Other Hispanic,26.5,No,No,7.0,No,No,No,No
-57.0,Female,Non-Hispanic Black,55.1,No,No,8.0,Yes,No,No,No
 72.0,Male,Other Hispanic,27.6,Yes,Yes,7.0,No,No,No,No
 78.0,Male,Non-Hispanic White,36.9,Yes,Yes,7.0,Yes,No,No,No
 57.0,Male,Mexican American,37.1,No,No,7.5,Yes,No,No,No
@@ -4716,18 +4489,14 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Non-Hispanic White,34.0,Yes,No,7.5,Yes,No,No,No
 80.0,Male,Non-Hispanic White,34.4,Yes,No,3.5,No,No,No,No
 61.0,Male,Non-Hispanic Black,38.2,No,No,11.0,No,No,No,No
-50.0,Male,Non-Hispanic Asian,25.9,Yes,No,7.0,No,No,No,No
 53.0,Male,Non-Hispanic Black,31.3,No,No,9.0,No,No,No,No
 72.0,Male,Non-Hispanic Black,18.9,No,No,5.0,No,No,No,No
 71.0,Male,Non-Hispanic Black,32.4,Yes,Yes,9.0,Yes,No,Yes,No
 67.0,Female,Other Hispanic,25.7,Yes,No,10.0,No,No,No,No
 60.0,Male,Non-Hispanic White,44.0,Yes,No,8.0,No,No,No,No
-54.0,Female,Non-Hispanic White,27.0,Yes,Yes,11.5,Yes,Yes,No,Yes
 71.0,Female,Non-Hispanic White,29.0,No,No,9.0,Yes,Yes,Yes,Yes
-52.0,Female,Non-Hispanic Black,67.7,No,No,8.5,Yes,No,Yes,Yes
 69.0,Male,Non-Hispanic Black,33.4,No,No,8.0,Yes,No,No,No
 55.0,Female,Mexican American,41.2,No,No,8.5,No,No,No,No
-69.0,Female,Mexican American,48.2,No,No,7.5,Yes,No,No,No
 53.0,Female,Mexican American,23.6,Yes,Yes,9.5,No,No,Yes,No
 59.0,Male,Non-Hispanic White,24.9,No,No,7.0,No,No,No,No
 59.0,Female,Non-Hispanic White,29.4,Yes,No,7.5,Yes,No,No,No
@@ -4735,7 +4504,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Female,Non-Hispanic Black,43.7,No,No,6.0,Yes,No,No,No
 77.0,Female,Other Hispanic,30.3,Yes,No,9.5,No,No,Yes,No
 69.0,Female,Non-Hispanic Black,30.0,Yes,Yes,4.0,Yes,No,No,No
-80.0,Male,Other Hispanic,23.3,No,No,13.0,No,No,No,No
 74.0,Female,Non-Hispanic White,23.4,Yes,No,11.0,Yes,No,No,No
 60.0,Female,Other Hispanic,34.3,No,No,8.0,No,No,No,No
 70.0,Female,Non-Hispanic Asian,19.8,No,No,7.0,Yes,No,No,Yes
@@ -4759,8 +4527,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 51.0,Male,Other Hispanic,24.0,No,No,7.5,No,No,No,No
 65.0,Female,Other Race - Including Multi-Racial,26.6,No,No,9.0,No,No,No,Yes
 54.0,Male,Non-Hispanic Asian,25.8,No,No,7.5,No,No,No,No
-70.0,Female,Mexican American,46.3,Yes,No,7.0,Yes,No,No,No
-62.0,Female,Non-Hispanic Black,49.9,Yes,No,9.5,No,No,No,No
 62.0,Female,Non-Hispanic White,25.2,Yes,No,7.0,Yes,No,Yes,No
 66.0,Female,Other Hispanic,33.2,Yes,No,9.0,No,No,No,No
 67.0,Male,Non-Hispanic Black,20.6,Yes,No,9.0,No,No,No,No
@@ -4799,7 +4565,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Male,Other Hispanic,29.1,Yes,No,10.0,No,No,No,No
 59.0,Female,Non-Hispanic White,35.6,No,No,8.0,Yes,No,No,No
 75.0,Female,Non-Hispanic Black,28.7,No,No,9.0,Yes,No,No,Yes
-64.0,Female,Non-Hispanic Black,25.4,No,No,11.5,No,No,No,No
 67.0,Male,Mexican American,31.7,No,No,7.0,No,Yes,No,No
 52.0,Female,Non-Hispanic Black,27.3,No,Yes,6.5,No,No,No,No
 60.0,Male,Non-Hispanic Black,24.5,No,No,6.5,No,No,No,No
@@ -4815,7 +4580,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 51.0,Male,Non-Hispanic Black,18.2,Yes,No,3.0,Yes,No,No,Yes
 64.0,Female,Other Hispanic,33.1,No,No,7.0,No,No,No,No
 76.0,Female,Non-Hispanic White,31.8,No,No,7.5,Yes,No,No,Yes
-63.0,Female,Non-Hispanic Black,50.8,No,No,10.5,No,No,No,No
 69.0,Female,Non-Hispanic Black,24.9,No,No,8.0,Yes,No,No,No
 64.0,Female,Non-Hispanic Black,28.4,No,No,7.0,Yes,No,No,No
 71.0,Female,Non-Hispanic Asian,30.7,No,No,7.0,No,No,No,No
@@ -4828,7 +4592,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 53.0,Female,Non-Hispanic Asian,19.6,No,No,7.0,No,No,No,No
 51.0,Male,Non-Hispanic White,35.9,No,No,6.5,Yes,No,Yes,No
 60.0,Male,Other Race - Including Multi-Racial,30.6,Yes,Yes,6.0,No,No,No,No
-72.0,Male,Other Hispanic,29.1,No,No,14.0,Yes,No,No,No
 64.0,Female,Non-Hispanic Asian,27.4,No,No,7.0,No,Yes,No,No
 80.0,Female,Non-Hispanic Black,26.1,Yes,No,7.5,No,No,No,No
 56.0,Male,Non-Hispanic Asian,24.1,Yes,No,8.0,No,No,No,No
@@ -4847,7 +4610,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 55.0,Female,Non-Hispanic Black,29.4,No,No,6.0,No,No,No,No
 77.0,Female,Non-Hispanic Black,25.1,No,No,4.0,No,No,No,No
 56.0,Female,Non-Hispanic Asian,18.9,No,No,8.0,No,No,Yes,No
-67.0,Female,Non-Hispanic Black,51.9,No,No,9.5,Yes,No,No,No
 53.0,Male,Other Race - Including Multi-Racial,31.6,Yes,No,8.0,No,No,No,No
 77.0,Female,Non-Hispanic Asian,23.3,No,No,6.0,Yes,No,No,No
 72.0,Male,Non-Hispanic Asian,25.0,Yes,No,11.0,No,No,No,No
@@ -4907,7 +4669,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Non-Hispanic White,35.6,No,No,9.0,No,No,No,Yes
 64.0,Male,Non-Hispanic White,29.2,Yes,Yes,7.5,No,Yes,No,No
 56.0,Male,Non-Hispanic Black,29.9,Yes,No,8.0,No,No,No,No
-52.0,Female,Other Hispanic,51.3,Yes,No,8.0,Yes,No,No,No
 62.0,Female,Non-Hispanic Black,43.8,Yes,Yes,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,20.4,No,No,6.5,Yes,No,No,Yes
 77.0,Female,Non-Hispanic White,23.0,No,No,9.0,Yes,No,No,No
@@ -4938,7 +4699,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Non-Hispanic Black,23.5,No,No,5.0,Yes,No,No,No
 58.0,Female,Non-Hispanic Black,30.2,No,No,5.0,No,No,No,No
 52.0,Female,Non-Hispanic White,18.2,No,No,7.0,No,No,No,No
-54.0,Female,Non-Hispanic White,40.9,No,No,12.0,Yes,No,No,No
 67.0,Female,Mexican American,40.6,Yes,No,9.0,Yes,No,No,No
 75.0,Male,Mexican American,26.7,Yes,Yes,9.5,Yes,No,Yes,No
 66.0,Female,Non-Hispanic White,19.8,Yes,No,9.5,No,No,No,Yes
@@ -4950,13 +4710,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 51.0,Male,Other Race - Including Multi-Racial,34.2,Yes,Yes,6.0,Yes,No,No,No
 62.0,Female,Non-Hispanic Black,15.0,Yes,No,6.0,No,No,No,No
 52.0,Female,Other Race - Including Multi-Racial,26.3,No,No,8.0,No,No,No,No
-59.0,Female,Non-Hispanic White,28.0,No,No,14.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,25.2,No,No,8.5,Yes,No,No,No
 50.0,Male,Non-Hispanic Black,29.2,Yes,Yes,6.0,No,No,No,No
 56.0,Male,Mexican American,25.0,Yes,No,6.0,No,No,No,No
 56.0,Male,Non-Hispanic White,33.4,No,No,5.5,Yes,No,No,No
 80.0,Female,Non-Hispanic White,21.9,No,No,11.0,Yes,No,No,No
-67.0,Female,Non-Hispanic Black,47.1,Yes,No,9.0,Yes,No,No,No
 55.0,Male,Non-Hispanic Asian,22.8,No,No,7.0,No,No,No,No
 70.0,Male,Non-Hispanic White,28.2,Yes,No,5.0,Yes,No,No,No
 54.0,Male,Non-Hispanic White,20.1,No,No,8.5,No,No,No,Yes
@@ -4990,7 +4748,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Non-Hispanic Asian,26.8,No,No,9.0,Yes,No,No,Yes
 64.0,Male,Non-Hispanic Asian,25.4,Yes,No,7.0,No,Yes,No,No
 59.0,Female,Non-Hispanic White,35.8,Yes,Yes,8.0,No,No,No,No
-53.0,Male,Non-Hispanic White,25.1,No,No,12.0,Yes,No,Yes,No
 61.0,Male,Other Hispanic,38.5,Yes,No,7.5,No,No,No,No
 54.0,Female,Non-Hispanic White,36.4,No,No,4.5,Yes,No,No,No
 64.0,Female,Non-Hispanic Asian,26.0,No,No,7.5,No,No,No,No
@@ -5000,7 +4757,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 51.0,Female,Other Hispanic,26.7,Yes,No,9.0,Yes,Yes,Yes,No
 80.0,Male,Non-Hispanic White,24.3,Yes,No,9.0,Yes,No,No,No
 67.0,Female,Non-Hispanic Black,29.2,No,Yes,7.0,No,No,No,No
-80.0,Male,Other Hispanic,33.3,Yes,Yes,13.0,Yes,No,No,No
 73.0,Female,Non-Hispanic White,37.2,No,No,8.0,Yes,No,Yes,No
 63.0,Male,Non-Hispanic Black,32.8,Yes,No,10.0,No,No,No,No
 69.0,Male,Non-Hispanic White,36.1,No,No,8.5,Yes,No,No,No
@@ -5033,7 +4789,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 52.0,Male,Non-Hispanic White,34.4,No,No,7.0,No,No,No,No
 68.0,Female,Other Hispanic,30.2,No,No,9.5,No,No,No,No
 56.0,Female,Other Hispanic,29.5,No,No,6.5,No,No,Yes,Yes
-50.0,Male,Non-Hispanic Asian,25.9,Yes,No,7.0,No,No,No,No
 60.0,Male,Non-Hispanic Asian,23.3,No,Yes,3.0,No,No,No,No
 58.0,Female,Non-Hispanic Black,37.8,No,No,4.0,No,No,No,No
 73.0,Female,Non-Hispanic Black,31.5,No,No,6.0,No,No,No,No
@@ -5054,7 +4809,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic White,29.3,No,No,9.0,No,No,No,No
 51.0,Male,Non-Hispanic White,22.4,Yes,No,8.0,Yes,Yes,Yes,Yes
 54.0,Male,Non-Hispanic Asian,18.8,Yes,No,7.0,No,Yes,No,No
-80.0,Male,Non-Hispanic White,31.0,Yes,No,13.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,31.2,No,No,9.0,Yes,No,No,No
 55.0,Female,Other Race - Including Multi-Racial,22.3,No,No,7.5,No,No,No,No
 57.0,Female,Non-Hispanic Black,31.6,No,No,11.0,Yes,No,No,No
@@ -5112,11 +4866,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Male,Non-Hispanic White,25.2,No,No,7.0,No,No,No,No
 55.0,Female,Non-Hispanic White,20.4,Yes,Yes,4.5,Yes,No,Yes,No
 64.0,Male,Non-Hispanic White,25.5,Yes,No,10.0,No,No,No,Yes
-61.0,Female,Other Hispanic,26.8,No,No,12.0,No,No,No,No
 68.0,Male,Other Hispanic,24.9,No,No,7.5,Yes,Yes,No,No
 62.0,Female,Mexican American,27.3,No,No,9.0,No,No,Yes,No
 72.0,Male,Non-Hispanic White,27.6,Yes,No,8.5,Yes,No,No,No
-60.0,Female,Non-Hispanic Black,37.2,No,No,12.5,No,No,No,No
 75.0,Female,Non-Hispanic White,30.1,No,No,8.5,Yes,No,No,No
 71.0,Female,Non-Hispanic White,38.4,No,No,7.0,No,No,No,No
 61.0,Male,Other Hispanic,33.5,No,No,8.0,No,No,Yes,No
@@ -5131,7 +4883,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Non-Hispanic Asian,28.5,No,Yes,7.0,No,No,Yes,No
 72.0,Male,Non-Hispanic White,29.8,No,No,6.5,Yes,No,Yes,No
 58.0,Female,Non-Hispanic Black,44.3,Yes,No,6.5,Yes,No,No,No
-53.0,Male,Non-Hispanic Black,37.4,No,No,2.0,Yes,No,No,No
 80.0,Female,Non-Hispanic Black,23.7,Yes,Yes,5.0,Yes,No,No,No
 59.0,Male,Non-Hispanic Black,18.2,Yes,No,4.0,No,No,No,No
 61.0,Female,Non-Hispanic Black,25.5,No,No,6.5,Yes,No,No,Yes
@@ -5148,22 +4899,18 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic White,26.0,Yes,No,7.0,No,No,No,No
 61.0,Female,Non-Hispanic Black,34.0,No,No,10.0,No,No,No,No
 58.0,Female,Non-Hispanic Black,28.1,No,No,5.0,No,No,No,No
-67.0,Female,Non-Hispanic Black,35.9,No,No,2.0,No,No,No,No
 51.0,Female,Non-Hispanic White,22.4,Yes,No,6.5,Yes,No,Yes,No
-50.0,Female,Non-Hispanic Black,54.5,No,No,9.0,Yes,No,No,No
 72.0,Male,Non-Hispanic White,25.6,Yes,No,8.0,No,Yes,Yes,No
 78.0,Male,Non-Hispanic White,32.6,Yes,Yes,6.5,Yes,No,No,No
 54.0,Male,Non-Hispanic White,26.9,Yes,No,7.0,No,No,Yes,No
 55.0,Male,Mexican American,26.5,No,No,7.0,No,No,Yes,No
 59.0,Male,Non-Hispanic Black,15.7,Yes,Yes,4.0,Yes,No,Yes,Yes
-59.0,Female,Non-Hispanic White,52.0,Yes,Yes,7.0,Yes,No,Yes,Yes
 55.0,Female,Mexican American,29.4,No,No,4.0,No,No,No,No
 72.0,Male,Non-Hispanic White,30.0,No,Yes,7.0,No,No,No,No
 61.0,Female,Non-Hispanic White,24.0,No,No,6.5,No,No,No,No
 58.0,Female,Non-Hispanic Black,43.1,No,No,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,27.9,No,No,8.0,No,No,Yes,No
 54.0,Male,Other Hispanic,31.9,No,No,9.0,No,No,No,No
-51.0,Female,Non-Hispanic Black,77.3,No,No,7.0,Yes,No,No,No
 61.0,Female,Non-Hispanic White,23.6,No,No,6.0,No,No,No,No
 54.0,Male,Non-Hispanic White,22.8,Yes,Yes,7.5,Yes,No,No,No
 69.0,Male,Non-Hispanic Asian,28.3,Yes,No,10.0,No,No,No,No
@@ -5196,7 +4943,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 76.0,Male,Non-Hispanic White,27.6,Yes,Yes,6.5,Yes,No,No,No
 80.0,Female,Non-Hispanic White,28.8,No,No,7.5,Yes,No,No,No
 60.0,Male,Non-Hispanic Black,31.5,No,Yes,7.0,Yes,No,No,No
-80.0,Female,Non-Hispanic White,50.6,No,No,8.5,Yes,Yes,No,No
 53.0,Male,Non-Hispanic Asian,25.3,No,No,8.0,No,No,No,No
 80.0,Female,Non-Hispanic White,34.6,Yes,No,7.0,Yes,No,No,No
 68.0,Female,Non-Hispanic Black,30.3,No,No,9.0,Yes,No,No,No
@@ -5219,21 +4965,17 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 66.0,Female,Non-Hispanic White,29.0,No,No,8.0,No,No,No,No
 64.0,Male,Other Race - Including Multi-Racial,28.1,Yes,No,8.5,Yes,No,No,No
 63.0,Male,Non-Hispanic White,33.4,Yes,No,8.0,Yes,No,No,No
-67.0,Female,Non-Hispanic Black,84.4,No,No,4.0,Yes,No,No,No
 70.0,Male,Non-Hispanic Asian,21.0,Yes,No,9.0,No,No,No,No
 56.0,Male,Non-Hispanic White,35.6,Yes,No,5.0,Yes,No,No,No
-56.0,Female,Non-Hispanic Black,57.2,Yes,No,5.5,No,No,No,No
 64.0,Female,Non-Hispanic Black,27.4,No,No,6.5,No,No,No,No
 70.0,Female,Non-Hispanic Black,37.5,Yes,No,10.0,Yes,No,No,No
 51.0,Male,Non-Hispanic Black,20.6,No,No,8.0,No,No,No,No
-71.0,Male,Non-Hispanic Black,53.7,Yes,No,6.0,Yes,No,No,No
 60.0,Male,Other Hispanic,23.9,Yes,Yes,6.0,No,No,No,No
 59.0,Male,Other Hispanic,29.0,No,No,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,28.2,No,No,7.0,Yes,No,No,No
 58.0,Male,Non-Hispanic Black,28.8,No,No,5.0,Yes,No,No,No
 52.0,Female,Non-Hispanic White,30.6,No,No,9.5,No,No,No,No
 75.0,Female,Non-Hispanic White,22.9,No,No,9.0,No,No,No,No
-53.0,Female,Non-Hispanic White,52.8,Yes,No,9.0,Yes,No,No,No
 60.0,Male,Non-Hispanic White,28.6,Yes,No,8.5,Yes,No,No,No
 60.0,Male,Non-Hispanic Black,36.1,No,No,8.0,No,No,No,No
 80.0,Female,Non-Hispanic White,27.5,Yes,No,8.0,No,No,No,No
@@ -5262,7 +5004,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Female,Other Race - Including Multi-Racial,20.6,Yes,No,8.0,No,Yes,No,No
 61.0,Male,Non-Hispanic White,39.8,No,Yes,9.0,Yes,No,No,No
 63.0,Male,Mexican American,31.3,Yes,No,7.5,No,No,No,No
-67.0,Female,Other Hispanic,21.3,No,Yes,13.0,No,No,No,Yes
 68.0,Male,Non-Hispanic White,22.7,Yes,No,8.0,No,No,Yes,No
 61.0,Male,Non-Hispanic White,37.3,No,No,7.5,No,No,No,No
 69.0,Male,Mexican American,34.7,Yes,No,8.5,No,No,No,No
@@ -5317,19 +5058,16 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Female,Mexican American,30.3,Yes,No,7.5,No,No,Yes,No
 63.0,Female,Non-Hispanic Black,24.2,No,No,6.0,No,No,No,No
 72.0,Male,Non-Hispanic White,29.6,Yes,No,8.0,Yes,No,Yes,No
-72.0,Female,Other Hispanic,54.4,Yes,No,5.5,Yes,No,Yes,Yes
 63.0,Male,Non-Hispanic Black,21.0,Yes,No,7.5,No,No,No,No
 60.0,Female,Non-Hispanic Black,33.6,Yes,No,7.0,No,Yes,No,No
 72.0,Male,Non-Hispanic Black,30.0,Yes,Yes,6.5,Yes,No,No,No
 70.0,Male,Other Hispanic,26.2,No,Yes,7.0,No,No,No,No
 61.0,Female,Non-Hispanic Black,37.1,No,No,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,19.9,No,No,8.0,No,No,Yes,Yes
-70.0,Female,Other Hispanic,20.1,No,No,2.0,Yes,Yes,Yes,No
 65.0,Male,Non-Hispanic Black,17.7,Yes,No,6.0,No,No,No,No
 80.0,Female,Non-Hispanic Black,30.1,No,No,9.5,Yes,Yes,No,No
 63.0,Female,Non-Hispanic White,30.6,Yes,Yes,9.5,Yes,No,Yes,Yes
 80.0,Male,Non-Hispanic White,35.9,Yes,No,8.0,No,No,No,No
-75.0,Female,Mexican American,25.6,No,No,11.5,Yes,No,No,No
 53.0,Male,Other Hispanic,31.7,No,No,6.0,No,No,No,No
 80.0,Female,Non-Hispanic White,36.1,No,No,7.5,Yes,No,No,No
 58.0,Male,Non-Hispanic Asian,41.2,No,No,6.0,No,No,No,No
@@ -5366,7 +5104,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Female,Other Hispanic,25.5,No,No,8.0,No,Yes,No,No
 54.0,Female,Mexican American,40.8,No,No,6.0,No,No,No,No
 80.0,Male,Non-Hispanic Asian,24.7,No,No,7.0,Yes,No,No,No
-78.0,Female,Non-Hispanic Black,28.9,No,No,13.0,Yes,No,No,No
 54.0,Female,Non-Hispanic Black,41.0,No,No,8.5,Yes,No,No,No
 60.0,Female,Other Hispanic,35.4,No,No,6.0,No,Yes,No,No
 80.0,Female,Non-Hispanic White,19.2,Yes,No,7.5,No,No,No,No
@@ -5377,7 +5114,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 69.0,Male,Non-Hispanic Black,40.0,Yes,No,6.0,Yes,No,No,No
 64.0,Female,Non-Hispanic White,23.1,No,No,8.5,No,No,Yes,No
 66.0,Male,Non-Hispanic Black,32.8,No,No,8.0,No,Yes,No,No
-62.0,Male,Other Hispanic,26.1,No,Yes,12.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,21.8,No,No,9.0,No,No,No,Yes
 80.0,Female,Non-Hispanic White,26.3,Yes,No,6.5,No,No,No,Yes
 80.0,Male,Non-Hispanic White,22.8,No,No,7.0,No,No,No,No
@@ -5396,7 +5132,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 69.0,Female,Non-Hispanic White,24.7,No,No,9.0,Yes,No,No,No
 57.0,Male,Non-Hispanic White,29.1,No,No,6.5,No,No,No,No
 65.0,Female,Other Hispanic,29.4,Yes,No,8.0,No,No,No,Yes
-61.0,Male,Other Hispanic,46.5,Yes,No,3.0,Yes,No,No,No
 68.0,Male,Non-Hispanic White,26.2,Yes,No,9.5,No,No,No,No
 72.0,Female,Other Hispanic,27.5,No,No,7.5,Yes,No,No,Yes
 70.0,Female,Non-Hispanic White,27.3,Yes,No,9.0,No,No,No,No
@@ -5417,13 +5152,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Male,Non-Hispanic Asian,32.5,No,No,6.5,No,No,No,No
 68.0,Male,Non-Hispanic Asian,27.3,No,No,7.0,No,No,No,No
 56.0,Female,Other Hispanic,28.8,No,No,7.5,No,No,Yes,No
-50.0,Female,Non-Hispanic White,47.1,Yes,No,6.0,Yes,No,No,No
 72.0,Female,Non-Hispanic White,26.2,Yes,No,9.0,Yes,No,No,Yes
 64.0,Female,Other Race - Including Multi-Racial,33.7,No,No,8.5,Yes,No,Yes,No
 52.0,Male,Non-Hispanic Black,27.8,Yes,No,5.0,No,No,No,No
 80.0,Female,Non-Hispanic Black,39.4,Yes,No,10.0,No,No,No,No
 61.0,Male,Non-Hispanic Black,35.5,No,No,6.5,Yes,No,Yes,Yes
-80.0,Male,Non-Hispanic White,28.3,Yes,Yes,12.0,Yes,No,No,No
 66.0,Male,Non-Hispanic Black,28.3,Yes,No,9.5,No,No,No,No
 66.0,Female,Non-Hispanic Black,39.1,Yes,No,5.0,Yes,Yes,Yes,Yes
 61.0,Female,Non-Hispanic White,23.7,No,No,8.5,No,No,No,Yes
@@ -5456,7 +5189,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 65.0,Male,Non-Hispanic Black,29.4,Yes,No,6.0,No,No,No,No
 74.0,Female,Mexican American,27.1,No,No,7.5,Yes,No,No,No
 66.0,Male,Non-Hispanic White,38.8,No,No,7.5,Yes,No,No,No
-55.0,Male,Non-Hispanic White,49.4,Yes,No,7.5,Yes,Yes,No,No
 57.0,Male,Non-Hispanic White,22.7,Yes,Yes,9.0,Yes,No,No,No
 78.0,Male,Non-Hispanic White,28.4,Yes,No,9.0,No,No,No,No
 57.0,Female,Non-Hispanic Black,34.6,No,No,5.0,Yes,No,Yes,Yes
@@ -5480,10 +5212,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 63.0,Male,Non-Hispanic Black,21.1,Yes,No,9.0,No,No,No,No
 62.0,Female,Other Hispanic,32.8,No,No,9.0,No,No,Yes,No
 71.0,Female,Mexican American,43.4,Yes,No,6.5,No,Yes,Yes,No
-60.0,Female,Mexican American,47.1,No,No,8.0,Yes,No,No,No
 64.0,Female,Other Race - Including Multi-Racial,28.0,Yes,No,5.5,Yes,Yes,No,No
 60.0,Male,Non-Hispanic Black,25.0,Yes,Yes,5.0,Yes,No,No,No
-80.0,Female,Non-Hispanic White,33.3,No,Yes,13.0,Yes,No,No,Yes
 56.0,Female,Non-Hispanic White,29.7,Yes,Yes,8.0,No,No,No,No
 80.0,Female,Non-Hispanic White,25.5,Yes,No,8.0,Yes,No,No,No
 51.0,Female,Non-Hispanic Black,24.5,No,No,9.5,No,No,No,No
@@ -5511,7 +5241,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 66.0,Female,Non-Hispanic White,36.3,Yes,Yes,10.5,Yes,No,No,No
 63.0,Female,Non-Hispanic White,30.2,Yes,No,7.0,Yes,No,No,No
 74.0,Female,Non-Hispanic White,27.0,No,No,9.0,No,No,No,No
-61.0,Male,Non-Hispanic Black,30.4,Yes,No,12.0,No,Yes,No,No
 63.0,Male,Other Hispanic,27.7,Yes,Yes,10.0,Yes,No,No,No
 56.0,Female,Non-Hispanic White,30.2,No,No,7.0,No,No,No,No
 73.0,Male,Non-Hispanic White,30.0,Yes,Yes,10.0,No,No,No,No
@@ -5528,8 +5257,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic Black,25.7,Yes,No,4.0,No,No,No,No
 63.0,Male,Non-Hispanic White,36.4,No,No,6.5,Yes,No,No,No
 72.0,Male,Non-Hispanic White,24.9,No,No,8.5,Yes,No,No,Yes
-60.0,Male,Non-Hispanic White,54.6,Yes,Yes,2.0,Yes,No,No,No
-77.0,Female,Non-Hispanic Black,51.6,Yes,No,9.0,Yes,No,No,No
 70.0,Male,Non-Hispanic Black,37.4,Yes,No,8.0,No,No,No,No
 62.0,Male,Other Hispanic,27.3,No,No,5.5,No,No,Yes,No
 62.0,Female,Mexican American,23.6,No,No,7.0,No,No,Yes,No
@@ -5556,7 +5283,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic Black,25.6,Yes,No,6.0,Yes,No,No,No
 64.0,Female,Non-Hispanic Asian,18.6,No,No,6.5,Yes,No,No,No
 57.0,Female,Non-Hispanic White,22.1,Yes,No,7.0,Yes,No,No,No
-61.0,Female,Non-Hispanic Black,63.4,Yes,No,5.0,Yes,No,No,No
 73.0,Male,Non-Hispanic White,21.7,No,No,7.0,Yes,No,Yes,Yes
 64.0,Female,Non-Hispanic Black,32.1,No,No,8.0,No,No,No,No
 70.0,Female,Non-Hispanic White,39.4,No,No,8.5,No,No,Yes,Yes
@@ -5565,7 +5291,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Male,Non-Hispanic Asian,24.4,No,No,9.0,No,No,No,No
 64.0,Male,Non-Hispanic Black,24.6,Yes,Yes,4.0,Yes,No,No,No
 68.0,Male,Non-Hispanic Black,27.4,Yes,No,6.5,Yes,No,No,No
-69.0,Female,Non-Hispanic Asian,52.6,Yes,No,6.0,Yes,No,Yes,Yes
 57.0,Female,Other Race - Including Multi-Racial,20.4,Yes,No,6.5,Yes,No,No,No
 78.0,Male,Non-Hispanic White,30.3,Yes,No,8.5,No,No,No,No
 70.0,Female,Non-Hispanic White,33.6,No,No,8.0,Yes,No,No,No
@@ -5578,10 +5303,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Male,Non-Hispanic Black,45.1,No,No,9.0,Yes,No,No,No
 67.0,Male,Non-Hispanic Asian,28.4,No,Yes,9.0,No,No,No,No
 61.0,Male,Non-Hispanic Asian,33.4,No,No,8.0,No,No,No,No
-77.0,Female,Non-Hispanic Black,33.1,Yes,No,2.0,Yes,No,No,Yes
 56.0,Female,Other Hispanic,28.5,Yes,No,8.0,No,No,Yes,No
 62.0,Male,Non-Hispanic Black,36.7,Yes,No,6.5,No,No,No,No
-64.0,Female,Non-Hispanic Black,75.7,No,No,6.0,Yes,No,No,No
 61.0,Male,Non-Hispanic Black,26.6,No,No,6.0,No,No,No,No
 80.0,Male,Non-Hispanic White,40.2,Yes,No,10.0,Yes,Yes,No,No
 76.0,Female,Non-Hispanic Black,33.3,No,No,7.0,No,No,No,No
@@ -5619,7 +5342,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Male,Non-Hispanic Black,21.9,Yes,No,6.0,Yes,No,No,No
 65.0,Male,Mexican American,26.8,Yes,No,6.0,No,No,No,No
 56.0,Male,Non-Hispanic White,28.2,Yes,No,8.0,Yes,No,No,No
-55.0,Female,Non-Hispanic Black,48.9,No,No,5.0,Yes,No,No,No
 57.0,Male,Non-Hispanic Black,30.5,No,No,9.5,No,No,No,No
 80.0,Female,Non-Hispanic White,29.9,Yes,No,8.5,No,No,No,No
 72.0,Male,Non-Hispanic White,32.2,No,No,7.5,No,No,No,No
@@ -5632,7 +5354,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Female,Mexican American,32.3,No,No,7.0,No,No,No,No
 73.0,Female,Other Hispanic,24.1,No,No,6.5,No,No,Yes,No
 55.0,Male,Non-Hispanic Black,31.5,Yes,Yes,8.0,No,No,Yes,No
-56.0,Female,Other Race - Including Multi-Racial,52.2,Yes,No,6.5,Yes,No,No,Yes
 52.0,Male,Non-Hispanic Asian,26.3,Yes,No,6.0,No,No,No,No
 61.0,Female,Non-Hispanic Black,34.6,Yes,No,8.0,No,No,No,No
 56.0,Male,Non-Hispanic White,27.4,Yes,Yes,10.0,No,Yes,No,No
@@ -5641,7 +5362,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic Black,31.0,Yes,No,6.0,No,No,No,No
 54.0,Male,Non-Hispanic Black,25.4,Yes,No,10.5,No,No,No,No
 61.0,Female,Non-Hispanic Black,35.0,No,No,10.0,No,No,No,No
-57.0,Female,Non-Hispanic Black,53.1,No,No,6.0,No,No,No,No
 77.0,Male,Non-Hispanic Black,31.0,Yes,No,4.0,No,No,No,No
 53.0,Female,Non-Hispanic White,25.2,No,No,8.0,No,Yes,No,No
 57.0,Female,Other Race - Including Multi-Racial,22.1,Yes,No,6.0,No,No,No,No
@@ -5675,13 +5395,11 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Non-Hispanic Black,27.6,Yes,No,5.0,Yes,No,No,No
 55.0,Female,Non-Hispanic White,24.2,No,No,7.0,No,No,Yes,No
 64.0,Female,Other Hispanic,33.9,Yes,No,8.0,Yes,No,No,No
-65.0,Male,Non-Hispanic Black,59.6,No,No,9.0,Yes,No,No,Yes
 57.0,Female,Mexican American,21.4,Yes,Yes,10.0,No,No,No,No
 69.0,Female,Non-Hispanic White,22.3,No,No,7.5,Yes,No,No,No
 58.0,Male,Other Race - Including Multi-Racial,29.1,No,No,7.0,No,No,No,No
 52.0,Female,Non-Hispanic White,29.3,Yes,Yes,9.0,Yes,No,Yes,No
 61.0,Female,Non-Hispanic Black,38.6,No,No,6.0,No,No,No,No
-65.0,Male,Non-Hispanic Black,20.2,Yes,Yes,12.5,No,No,No,No
 53.0,Female,Non-Hispanic Asian,31.5,No,No,6.0,Yes,No,No,No
 74.0,Male,Other Hispanic,28.3,No,No,9.0,No,No,No,No
 57.0,Male,Non-Hispanic Black,26.6,Yes,Yes,8.0,Yes,No,Yes,Yes
@@ -5719,10 +5437,8 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Non-Hispanic White,24.3,Yes,No,8.0,No,No,Yes,No
 75.0,Male,Non-Hispanic Black,34.1,Yes,No,6.0,Yes,No,No,No
 64.0,Male,Mexican American,29.4,No,No,7.5,No,No,No,No
-66.0,Female,Non-Hispanic Black,47.2,No,No,6.5,Yes,No,No,No
 50.0,Female,Non-Hispanic Black,33.5,No,No,6.0,No,No,No,No
 54.0,Female,Other Hispanic,38.5,No,No,5.0,No,No,No,No
-80.0,Female,Non-Hispanic Black,37.8,Yes,No,12.0,No,No,No,Yes
 52.0,Female,Non-Hispanic Black,35.8,Yes,Yes,7.0,No,No,No,No
 73.0,Female,Other Hispanic,25.3,No,No,6.0,No,No,No,Yes
 68.0,Female,Non-Hispanic Black,40.2,Yes,No,4.5,Yes,No,No,No
@@ -5740,7 +5456,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Male,Non-Hispanic Black,30.6,No,No,6.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,33.1,Yes,No,7.5,No,No,No,No
 78.0,Male,Non-Hispanic Black,16.7,Yes,No,10.0,Yes,No,No,No
-56.0,Female,Non-Hispanic White,80.6,Yes,No,8.0,Yes,No,No,No
 79.0,Male,Other Hispanic,27.3,Yes,No,8.0,No,No,No,No
 58.0,Male,Non-Hispanic White,40.9,Yes,No,7.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,33.4,No,No,8.0,Yes,No,Yes,No
@@ -5769,14 +5484,12 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Female,Other Race - Including Multi-Racial,27.5,Yes,No,8.5,Yes,No,Yes,Yes
 72.0,Female,Non-Hispanic White,28.2,No,No,7.5,Yes,No,Yes,Yes
 53.0,Male,Mexican American,29.2,No,No,6.0,No,No,No,No
-50.0,Female,Non-Hispanic Black,48.1,No,No,7.0,Yes,No,No,No
 53.0,Male,Non-Hispanic Black,24.2,Yes,No,8.5,No,No,No,No
 56.0,Female,Other Hispanic,28.0,No,No,10.0,Yes,No,No,No
 63.0,Female,Other Hispanic,29.6,Yes,Yes,9.0,Yes,Yes,No,No
 63.0,Male,Mexican American,32.7,No,No,6.5,No,No,No,No
 54.0,Male,Non-Hispanic White,35.7,Yes,No,8.5,Yes,No,No,No
 59.0,Male,Non-Hispanic Black,30.7,No,No,7.5,No,No,No,No
-62.0,Male,Non-Hispanic White,30.7,Yes,No,11.5,No,No,No,No
 80.0,Female,Non-Hispanic White,26.1,Yes,No,6.0,No,No,No,No
 78.0,Female,Other Hispanic,28.7,No,No,8.0,Yes,No,No,No
 65.0,Female,Mexican American,41.2,No,No,8.0,Yes,No,Yes,Yes
@@ -5784,7 +5497,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 58.0,Male,Non-Hispanic Black,21.5,Yes,No,8.0,Yes,No,No,No
 68.0,Male,Mexican American,37.2,Yes,Yes,7.0,No,No,No,No
 69.0,Male,Non-Hispanic Asian,25.6,Yes,No,7.5,No,No,No,No
-52.0,Female,Non-Hispanic Black,50.4,Yes,No,9.0,No,No,No,No
 59.0,Male,Non-Hispanic Black,39.0,No,No,6.5,No,No,No,No
 69.0,Female,Non-Hispanic Black,32.9,Yes,Yes,7.0,Yes,No,No,No
 69.0,Female,Non-Hispanic Black,32.9,No,No,9.0,Yes,No,No,No
@@ -5799,13 +5511,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Non-Hispanic White,22.8,Yes,Yes,6.5,No,No,No,No
 80.0,Male,Non-Hispanic White,30.4,No,No,8.0,No,No,No,No
 80.0,Male,Non-Hispanic White,35.6,No,No,11.0,No,No,No,No
-63.0,Female,Non-Hispanic Black,38.9,No,No,13.5,Yes,No,No,Yes
 69.0,Male,Non-Hispanic White,31.2,Yes,No,8.0,Yes,No,No,No
-71.0,Female,Non-Hispanic Black,50.6,No,No,8.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,34.6,Yes,No,9.0,Yes,No,No,No
 57.0,Male,Non-Hispanic Asian,28.0,No,No,5.0,No,No,No,No
-67.0,Female,Non-Hispanic White,59.4,Yes,Yes,5.0,No,Yes,No,No
-52.0,Male,Non-Hispanic Black,47.0,Yes,No,5.0,No,No,No,No
 61.0,Male,Other Hispanic,32.2,Yes,Yes,7.0,No,No,No,No
 80.0,Female,Non-Hispanic White,29.9,Yes,No,8.5,Yes,No,No,No
 71.0,Male,Non-Hispanic White,33.0,Yes,No,7.5,Yes,No,No,No
@@ -5859,7 +5567,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Female,Non-Hispanic Black,25.1,No,No,7.0,Yes,Yes,No,No
 54.0,Male,Non-Hispanic Asian,27.0,No,No,7.5,No,No,No,No
 80.0,Female,Non-Hispanic Black,35.8,Yes,No,9.0,No,No,No,No
-53.0,Female,Non-Hispanic White,49.7,No,No,7.0,Yes,No,No,No
 54.0,Male,Mexican American,31.6,Yes,Yes,8.0,No,No,No,No
 53.0,Female,Non-Hispanic White,27.6,No,No,8.5,No,No,No,No
 65.0,Female,Non-Hispanic Black,27.3,Yes,No,6.5,No,No,Yes,No
@@ -5896,11 +5603,9 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 73.0,Female,Non-Hispanic Black,23.4,Yes,No,8.0,No,No,No,No
 80.0,Female,Other Race - Including Multi-Racial,26.8,Yes,No,9.0,Yes,No,No,No
 60.0,Male,Mexican American,28.7,Yes,No,7.5,Yes,No,No,No
-78.0,Male,Other Race - Including Multi-Racial,32.1,Yes,Yes,12.0,Yes,No,No,No
 69.0,Male,Other Race - Including Multi-Racial,27.8,Yes,No,7.0,Yes,No,No,No
 71.0,Male,Non-Hispanic White,27.3,Yes,No,6.5,Yes,No,No,No
 52.0,Male,Other Race - Including Multi-Racial,21.5,Yes,Yes,4.0,No,No,No,No
-60.0,Male,Other Hispanic,56.6,No,Yes,6.0,No,Yes,No,No
 60.0,Female,Non-Hispanic White,19.1,Yes,No,7.0,No,No,No,No
 67.0,Male,Non-Hispanic Black,25.9,Yes,Yes,4.0,No,No,Yes,No
 61.0,Female,Non-Hispanic White,27.3,No,No,9.0,No,No,No,No
@@ -5909,16 +5614,13 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 68.0,Female,Mexican American,33.7,No,No,7.0,Yes,No,No,No
 60.0,Female,Non-Hispanic Black,28.9,Yes,No,5.0,No,No,No,No
 55.0,Female,Non-Hispanic White,27.3,No,No,7.0,Yes,No,No,No
-58.0,Female,Non-Hispanic Black,49.9,Yes,No,4.5,Yes,No,No,No
 80.0,Female,Non-Hispanic White,32.2,No,No,6.0,Yes,No,No,Yes
 80.0,Female,Non-Hispanic White,29.0,No,No,8.0,Yes,No,No,No
 64.0,Male,Non-Hispanic Black,37.5,Yes,No,7.0,No,No,No,No
 67.0,Female,Non-Hispanic White,35.8,Yes,No,8.5,Yes,No,No,No
 63.0,Male,Other Hispanic,33.1,Yes,No,9.0,Yes,No,No,No
 60.0,Male,Mexican American,36.7,No,Yes,6.0,Yes,No,Yes,No
-54.0,Female,Non-Hispanic Black,25.2,Yes,Yes,2.0,Yes,No,Yes,No
 73.0,Male,Non-Hispanic White,34.1,Yes,No,7.0,No,No,No,No
-75.0,Female,Non-Hispanic Black,48.1,No,No,6.0,No,No,No,No
 72.0,Male,Non-Hispanic Black,24.0,Yes,No,6.0,Yes,No,No,No
 62.0,Male,Other Hispanic,27.6,Yes,No,5.0,Yes,Yes,Yes,No
 69.0,Female,Non-Hispanic Black,31.9,No,No,6.0,Yes,No,No,No
@@ -5931,7 +5633,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 67.0,Male,Other Race - Including Multi-Racial,28.7,Yes,No,7.5,No,No,No,No
 51.0,Male,Non-Hispanic Black,37.6,No,No,8.5,Yes,No,No,No
 50.0,Female,Mexican American,24.6,No,No,9.5,Yes,No,No,No
-80.0,Male,Non-Hispanic Black,35.9,Yes,Yes,14.0,Yes,No,No,No
 78.0,Male,Non-Hispanic White,23.0,No,No,7.5,No,No,Yes,No
 50.0,Male,Non-Hispanic White,21.8,Yes,No,6.5,Yes,No,No,No
 50.0,Male,Non-Hispanic Asian,31.6,Yes,No,8.0,No,No,No,No
@@ -5968,7 +5669,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 75.0,Male,Non-Hispanic Black,30.3,No,Yes,8.0,Yes,No,No,No
 57.0,Male,Non-Hispanic Black,36.8,No,No,7.0,No,No,No,No
 60.0,Male,Other Race - Including Multi-Racial,26.8,Yes,No,8.0,Yes,No,No,No
-65.0,Female,Other Hispanic,52.9,Yes,No,6.5,Yes,No,Yes,Yes
 61.0,Male,Mexican American,34.4,No,No,7.5,No,No,No,No
 61.0,Female,Other Hispanic,28.7,No,No,7.0,No,No,No,Yes
 58.0,Female,Non-Hispanic White,34.5,No,No,8.5,Yes,No,No,No
@@ -5986,7 +5686,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 60.0,Male,Non-Hispanic Black,33.2,Yes,Yes,9.0,No,No,No,No
 54.0,Male,Non-Hispanic Black,34.6,No,No,7.0,No,No,No,No
 62.0,Female,Non-Hispanic White,30.2,No,No,7.5,No,No,Yes,No
-76.0,Female,Non-Hispanic Asian,20.7,Yes,No,12.5,Yes,No,No,Yes
 76.0,Male,Non-Hispanic White,36.4,Yes,No,7.5,Yes,No,No,No
 80.0,Male,Non-Hispanic White,22.5,Yes,Yes,9.5,No,No,No,No
 69.0,Female,Non-Hispanic White,29.3,Yes,No,10.0,Yes,No,Yes,Yes
@@ -5998,7 +5697,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 57.0,Male,Non-Hispanic White,25.4,Yes,Yes,7.0,No,No,No,No
 75.0,Female,Other Race - Including Multi-Racial,20.5,Yes,Yes,7.0,Yes,No,No,No
 69.0,Male,Non-Hispanic Black,21.9,Yes,Yes,8.0,Yes,No,No,No
-56.0,Female,Non-Hispanic White,52.6,No,No,2.0,Yes,No,No,No
 80.0,Male,Non-Hispanic White,28.4,No,Yes,4.5,No,No,No,No
 73.0,Female,Other Hispanic,39.6,No,No,7.0,Yes,Yes,No,Yes
 52.0,Male,Non-Hispanic Black,30.4,Yes,No,6.0,No,No,No,No
@@ -6015,9 +5713,7 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 61.0,Female,Non-Hispanic White,26.4,No,Yes,9.5,Yes,No,Yes,No
 60.0,Female,Non-Hispanic Asian,34.7,No,No,7.5,Yes,No,No,Yes
 60.0,Female,Other Hispanic,37.9,Yes,No,5.5,No,No,No,No
-59.0,Female,Non-Hispanic Black,47.6,Yes,No,5.0,Yes,No,No,Yes
 56.0,Female,Other Hispanic,26.0,Yes,No,7.0,Yes,No,No,No
-54.0,Male,Non-Hispanic Black,35.6,Yes,No,2.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,30.3,Yes,No,8.0,No,No,Yes,Yes
 63.0,Female,Non-Hispanic White,22.4,No,No,9.5,Yes,No,No,No
 59.0,Male,Non-Hispanic Black,40.7,No,No,8.0,No,No,No,No
@@ -6033,7 +5729,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 70.0,Male,Non-Hispanic White,27.9,No,No,6.5,No,No,No,No
 64.0,Female,Non-Hispanic Asian,19.3,No,No,8.0,No,No,No,Yes
 74.0,Female,Non-Hispanic Black,31.9,No,No,7.5,No,No,No,No
-53.0,Female,Non-Hispanic Black,57.3,No,No,7.0,No,No,No,No
 60.0,Female,Non-Hispanic White,22.4,Yes,Yes,8.5,No,No,No,No
 71.0,Female,Other Hispanic,23.2,No,No,9.0,No,No,No,No
 59.0,Female,Non-Hispanic White,35.3,Yes,No,9.5,Yes,No,Yes,Yes
@@ -6049,7 +5744,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 59.0,Female,Non-Hispanic Black,32.1,No,No,5.5,No,No,No,No
 52.0,Male,Non-Hispanic Black,41.5,Yes,Yes,9.0,Yes,No,No,No
 80.0,Male,Other Race - Including Multi-Racial,27.9,No,No,7.5,No,No,No,No
-55.0,Male,Other Hispanic,54.6,No,Yes,5.5,Yes,No,No,No
 80.0,Male,Non-Hispanic White,27.1,Yes,No,9.0,Yes,No,No,No
 52.0,Female,Mexican American,29.4,No,No,10.0,No,No,No,No
 52.0,Male,Non-Hispanic Asian,28.9,Yes,No,7.0,No,No,No,No
@@ -6077,21 +5771,18 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 56.0,Female,Non-Hispanic Black,26.8,No,No,6.0,No,No,No,No
 80.0,Male,Non-Hispanic White,34.7,Yes,No,8.5,Yes,No,No,No
 69.0,Male,Non-Hispanic White,24.1,Yes,Yes,7.0,No,No,No,No
-74.0,Female,Non-Hispanic Black,24.9,Yes,Yes,13.5,No,No,No,No
 79.0,Female,Non-Hispanic White,29.3,Yes,No,3.0,Yes,No,No,No
 75.0,Male,Mexican American,30.7,Yes,No,8.0,No,No,No,No
 54.0,Male,Non-Hispanic Black,27.7,No,No,8.0,No,No,No,No
 60.0,Male,Non-Hispanic Black,19.2,No,No,5.5,Yes,No,No,No
 74.0,Male,Non-Hispanic White,29.6,Yes,No,9.0,Yes,Yes,Yes,No
 80.0,Male,Non-Hispanic White,24.0,No,No,9.0,No,No,No,No
-58.0,Female,Non-Hispanic Black,46.1,No,No,9.0,No,No,No,No
 66.0,Male,Non-Hispanic White,31.0,No,No,7.0,Yes,No,No,No
 80.0,Female,Non-Hispanic White,23.0,No,No,9.0,Yes,No,No,Yes
 52.0,Female,Other Hispanic,28.4,No,No,9.0,No,No,No,No
 68.0,Male,Non-Hispanic Black,27.4,No,No,7.0,Yes,Yes,Yes,Yes
 62.0,Male,Non-Hispanic Black,24.1,Yes,No,6.5,Yes,Yes,No,No
 52.0,Male,Non-Hispanic Black,35.1,No,No,5.0,Yes,No,No,No
-65.0,Female,Other Hispanic,44.6,Yes,No,2.0,No,No,No,Yes
 55.0,Female,Non-Hispanic Black,30.7,No,No,8.0,No,No,No,No
 59.0,Female,Non-Hispanic White,25.6,Yes,No,8.0,Yes,No,No,No
 74.0,Female,Non-Hispanic White,27.7,Yes,Yes,8.5,Yes,No,Yes,No
@@ -6110,7 +5801,6 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 62.0,Male,Non-Hispanic Black,21.0,No,No,8.0,No,No,No,No
 51.0,Female,Non-Hispanic White,28.0,No,No,10.0,No,No,No,No
 50.0,Female,Other Race - Including Multi-Racial,35.1,No,No,3.0,No,No,No,No
-63.0,Male,Non-Hispanic White,26.2,Yes,No,14.0,No,No,No,No
 80.0,Male,Non-Hispanic White,22.9,Yes,No,9.0,No,Yes,No,No
 51.0,Female,Non-Hispanic White,28.6,No,Yes,7.0,Yes,No,No,No
 65.0,Female,Other Hispanic,43.6,No,No,9.0,Yes,No,No,No
@@ -6118,19 +5808,16 @@ Age,Gender,Race,BMI,Smoking,Heavy Drinking,Sleep Hours,Arthritis,Liver Condition
 80.0,Female,Non-Hispanic White,21.0,Yes,No,7.0,No,No,Yes,No
 52.0,Male,Non-Hispanic White,34.4,Yes,Yes,8.5,No,No,Yes,No
 80.0,Female,Non-Hispanic White,25.3,No,No,10.0,No,No,No,No
-63.0,Male,Other Hispanic,48.4,No,No,7.0,Yes,No,No,No
 63.0,Male,Mexican American,27.9,No,No,8.0,No,No,No,No
 74.0,Male,Non-Hispanic White,31.1,Yes,Yes,10.0,Yes,No,No,No
 63.0,Male,Non-Hispanic White,25.3,No,No,7.5,No,No,No,No
 66.0,Male,Non-Hispanic Black,21.1,Yes,No,7.5,Yes,Yes,No,Yes
-58.0,Male,Other Race - Including Multi-Racial,48.1,No,No,8.0,Yes,No,No,No
 56.0,Male,Non-Hispanic White,24.9,Yes,No,9.0,No,No,No,No
 80.0,Male,Non-Hispanic White,30.2,Yes,No,8.0,No,No,No,No
 75.0,Female,Non-Hispanic White,27.6,No,No,9.5,Yes,No,No,No
 50.0,Female,Non-Hispanic Asian,23.0,No,No,7.5,No,No,No,No
 51.0,Male,Non-Hispanic White,45.1,No,No,8.5,No,No,No,No
 54.0,Female,Non-Hispanic Asian,27.8,No,No,6.0,No,No,No,No
-80.0,Female,Non-Hispanic Black,34.2,No,No,14.0,Yes,No,No,No
 67.0,Female,Mexican American,31.1,Yes,No,10.0,No,No,No,No
 60.0,Male,Non-Hispanic Black,33.6,Yes,Yes,10.5,No,No,No,No
 66.0,Male,Non-Hispanic Black,42.8,Yes,No,6.0,Yes,No,No,No
