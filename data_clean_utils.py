@@ -27,12 +27,12 @@ COLUMN_NAMES_REPLACED = {
     "BMXBMI": "BMI",
     "SMQ020": "Smoking",
     "ALQ151": "Heavy Drinking",
-    "SLD010H": "Sleep Hours",
+    "SLD010H": "Sleep Duration (Hours)",
     "MCQ160A": "Arthritis",
     "MCQ160L": "Liver Condition",
     "OSQ060": "Osteoporosis",
-    "OSQ150": "Parent Osteoporosis",
-    "BPQ020": "High blood Pressure", 
+    "OSQ150": "Parental Osteoporosis",
+#     "BPQ020": "High blood Pressure", 
 }
 
 GENERAL_CODE_REPLACED = {
@@ -72,11 +72,10 @@ THRESHOLD_DICT = {
         25: "Overweight",
         30: "Obesity"
     },
-    'Sleep Hours': {
-        0: "4 Hours and Less",
-        5: "5-6 Hours",
-        7: "7-8 Hours",
-        9: "9 Hours and More",
+    'Sleep Duration (Hours)': {
+        0: "Less than 7 Hours",
+        7: "7-9 Hours",
+        9: "More than 9 Hours",
     }  
 }
 
@@ -110,11 +109,6 @@ def data_replace(data, general_replace=False, replace_dict=""):
     
     return data
         
-
-def negative_data_replace(x):
-    x = np.where(x.isin(['Yes']), x, 'No')
-    
-    return x
     
 def change_data_types(data):
     for var, data_type in DATA_TYPES.items():
@@ -224,9 +218,11 @@ def clean_variable(data, col_list):
     """
     
     df = data.copy()
+    
     # only keep rows answered "Yes" or "No" in the target_col 
     for target_col in col_list:
         df = df.query(f"{target_col}==1 | {target_col}==2")
+             
     # replace positive answers with "Yes" and negative answers with "No"
     df = data_replace(df, general_replace=True)
     df = common_clean(df)
@@ -277,12 +273,12 @@ def move_legend(ax, new_loc, **kws):
     
 
 
-def multi_hist(data, hue, var_list):
+def compare_distribution(data, compare_col, var_list):
     """Plot histgrams or boxplots for multiple variables
     
     Args:
         data: the input pandas dataframe
-        hue: the column in the data frame that should be used for colour encoding
+        compare_col: the variable that distinguished the data to be compared
         var_list: the list of variables
     """
     
@@ -292,22 +288,25 @@ def multi_hist(data, hue, var_list):
     for var in var_list:
         plt.subplot(nrow, ncol, int(i))
         plt.gca().set_title(f"{var}",
-                    fontsize=14, weight='bold')
+                    fontsize=12, weight='bold')
         # histplot for each categorical variable
         if data[var].dtype.name == 'category':
-            ax = sns.histplot(
-                data=data,
-                y=var,
+            unique_compare_values = data[compare_col].unique().tolist()
+            for compare_value in unique_compare_values:
+                selected_data = data[data[compare_col]==compare_value]
+                ax = sns.histplot(
+                data=selected_data,
+                x=compare_col,
                 discrete=True,
-                stat='probability',
-                hue=hue,
+                stat='percent',
+                hue=var,
                 multiple='dodge', 
-                shrink=.8
-            )
-#             move_legend(ax, "center left", bbox_to_anchor=(1, 0.5))
-            move_legend(ax, new_loc="lower right", fontsize=8)
+                shrink=.6
+                )
+
+            move_legend(ax, "center left", bbox_to_anchor=(1, 0.5), fontsize=9, ncol=1, frameon=False)
         else:
-            sns.boxplot(data=data, x=var, y=hue)
+            sns.boxplot(data=data, x=var, y=compare_col, palette="Set2")
             
         # increase subplot number
         i += 1

@@ -8,6 +8,7 @@
 * [Data Source](#data-source)
 * [Data Processing](#data-processing)
 * [EDA](#eda)
+* [Feature Engineering](#feature-engineering)
 * [Handling Imbalanced Data](#handling-imbalanced-data)
 * [Model Selection](#model-selection)
 * [Results](#results)
@@ -20,14 +21,18 @@ To my best of knowledge, most osteoporosis prediction studies either focus on sp
 
 ## Objective
 
-Design a method to predict whether someone has **osteoporosis** based on age, gender, race, BMI, smoking, alcohol consumption, sleep hours, arthritis, liver condition, and whether a parent has osteoporosis.
+Design a method to predict whether someone has **osteoporosis** based on age, gender, race, BMI, smoking, alcohol consumption, sleep duration, arthritis, liver condition, and whether a parent has osteoporosis.
 
-Note: Age, gender, race, BMI, smoking, alcohol consumption were inspired by a paper on predicting hypertension using a similar dataset [[4](#4)]. Sleep hours, arthritis, liver condition, parent osteoporosis were inspired by [[5](#5)], [[6](#6)], [[7](#7)], and [[8](#8)], respectively.
+Note: Age, gender, race, BMI, smoking, alcohol consumption were inspired by a study of hypertension prediction using NHANES dataset [[4](#4)]. Sleep duration, arthritis, liver condition, parental osteoporosis were inspired by [[5](#5)], [[6](#6)], [[7](#7)], and [[8](#8)], respectively.
 
 ## Language and Tools
-- Language: Python
-- Libraries: Pandas, Numpy, Matplotlib, Seaborn, Imblearn, Sklearn, Tensorflow 
-- Tools: Jupyter Notebook
+
+| Task | Technique|Tools/Packages|
+|---|---|---:|
+| Data pre-processing |merging data, handling missing values and outliers, oversampling |pandas, numpy, imblearn|
+| Data visualization | boxplots, histgrams, bar graphs|matplotlib, seaborn |
+| Data modeling |Logistic Regression, SVM, Random Forest, Neural Networks | sklearn, tensorflow|
+| Language & Environment | |Python; Jupyter Notebook |
 
 ## Data Source
 
@@ -43,7 +48,7 @@ Note: The target sample for Osteoporosis Questionnaire in 2013-2014 and 2017-202
 ## Data Processing
 
 ### Cleaning and Merging the Data
-- Renamed variables based on the data documents. For example, renamed `RIDAGEYR` to `Age`, `SLD010H` to `Sleep Hours`.
+- Renamed variables based on the data documents. For example, renamed `RIDAGEYR` to `Age`, `SLD010H` to `Sleep Duration`.
 - Converted code values to corresponding text values. For example,  "1" should be converted to "Mexican American" for variable `Race` and "Male" for variable `Gender`.
 - Full joined datasets by the respondent sequence number (`SEQN,` renamed to `ID`).
 
@@ -54,13 +59,13 @@ After merging, the data has 25735 rows x 10 columns, and the percentage of missi
 | Variable        | Missing (%) |
 |-----------------|-------------|
 | BMI             | 13.8        |
-| Sleep Hours     | 35.7        |
+| Sleep Duration (Hours)     | 35.7        |
 | Smoking         | 38.6        |
 | Arthritis       | 42.0        |
 | Liver Condition | 42.0        |
 | Heavy Drinking  | 53.5        |
 | Osteoporosis    | 65.9        |
-| Parent Osteoporosis    | 67.9        |
+| Parental Osteoporosis    | 67.9        |
 
 </div>
 
@@ -107,8 +112,8 @@ The prevalence of osteoporosis is associated differently with variables, such as
 
 Binning the following variables for higher mutual information scores:
 
-- BMI Group: Underweight (BMI < 18.5), Healthy Weight (18.5 <= BMI < 25),  Overweight (25.0 <= BMI < 30), Obesity (30.0 or higher)
-- Sleep Hours: 4 hours and less, 5-6 Hours, 7-8 Hours, 9 hours and more
+- BMI Group: Underweight (BMI < 18.5), Healthy Weight (18.5 <= BMI < 25), Overweight (25.0 <= BMI < 30), Obesity (30.0 or higher)
+- Sleep Duration Group: Less than 7 Hours, 7-9 Hours, More than 9 Hours
 
 ## Handling Imbalanced Data
 
@@ -122,14 +127,14 @@ This project compared 2 oversampling methods (Adaptive Synthetic Sampling Approa
 
 | Model                          | Accuracy                       | Precision | Recall | F1 Score | AUC   |
 |------------------- |-------------------- |-------  |--------|----------|-------|
-| Logistic Regression (ADASYN)   | 0.765     | 0.260     | 0.833  | 0.397    | 0.864 |
-| Logistic Regression (SMOTE)    | 0.778     | 0.265     | 0.789  | 0.397    | 0.866 |
-| Logistic Regression (SMOTETomek)  | 0.777     | 0.263     | 0.781  | 0.394    | 0.866 |
-| Logistic Regression (Original Data) | 0.910     | 0.552     | 0.140  | 0.224    | 0.869 |
+| Logistic Regression (SMOTE)         | 0.781     | 0.263     | 0.783  | 0.394    | 0.852 |
+| Logistic Regression (SMOTETomek)    | 0.777     | 0.261     | 0.792  | 0.393    | 0.851 |
+| Logistic Regression (ADASYN)        | 0.765     | 0.250     | 0.792  | 0.380    | 0.851 |
+| Logistic Regression (Original Data) | 0.908     | 0.484     | 0.142  | 0.219    | 0.853 |
 
 </div>
 
-All 3 resampling methods sigfinicantly improved recall and F1 score, with **ADASYN** performing best. Therefore it's applied to the training dataset.
+All 3 resampling methods sigfinicantly improved recall and F1 score, with **SMOTE** performing best. Therefore it's applied to the training dataset.
 
 ## Model Selection
 Benchmarking 4 popular classification algorithms:
@@ -142,7 +147,7 @@ Benchmarking 4 popular classification algorithms:
 | Neural Networks               |  works well with non-linear data with large number of inputs; fast predictions once trained | works like a black box and not interpretable; computation is expensive and time consuming |
 
 ## Results
-Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parent osteoporosis with above models,
+Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parental osteoporosis with above models,
 **Neural Networks** performed best, and after optimization, it achieved sensitivity (recall) 71.1%, precision 32.5%, f1 score 0.446 and AUC 0.852.
 
 **ROC Curves**
@@ -155,16 +160,16 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 
 | Model               | Accuracy | Precision | Recall | F1 Score | AUC   |
 |---------------------|----------|-----------|--------|----------|-------|
-| Neural Networks   | 0.836     | 0.325     | 0.711  | 0.446    | 0.852 |
-| Logistic Regression    | 0.765     | 0.260     | 0.833  | 0.397    | 0.864 |
-| SVM  | 0.782     | 0.262     | 0.746  | 0.388    | 0.821 |
-| Random Forest | 0.876     | 0.339     | 0.360  | 0.349    | 0.807 |
+| Neural Networks      | 0.835     | 0.321     | 0.726  | 0.445    | 0.850 |
+| SVM                  | 0.813     | 0.289     | 0.726  | 0.414    | 0.840 |
+| Logistic Regression  | 0.781     | 0.263     | 0.783  | 0.394    | 0.852 |
+| Random Forest        | 0.883     | 0.350     | 0.340  | 0.344    | 0.816 |
 </div>
 
 ## Conclusions
 
-This study focused on predicting osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parent osteoporosis.
-The analyzed results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and parent osteoporosis. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
+This study focused on predicting osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parental osteoporosis.
+The analyzed results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and parental osteoporosis. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
 
 ## References
 

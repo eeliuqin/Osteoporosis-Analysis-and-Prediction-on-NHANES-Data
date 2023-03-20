@@ -168,7 +168,7 @@ def binary_classification_scores(cf_matrix, auc='', model_name=''):
     df_performance = round(
         pd.DataFrame(
             {
-                "Model_Name": [model_name],
+                "Model": [model_name],
                 "Accuracy": [accuracy],
                 "Precision": [precision],
                 "Recall": [recall],
@@ -178,7 +178,7 @@ def binary_classification_scores(cf_matrix, auc='', model_name=''):
         ),
         3,
     )
-    df_performance = df_performance.set_index('Model_Name')
+    df_performance = df_performance.set_index('Model')
     
     return df_performance
 
@@ -246,8 +246,9 @@ def compare_oversampling_performance(X_train, y_train, X_test, y_test,
         # AUC
         y_test_predict_probs_oversample = get_predict_proba(clf, X_test)
         model_auc_oversample = round(roc_auc_score(y_test, y_test_predict_probs_oversample), 3)
+        # model name
+        model_name = oversampler.__name__
         # get scores of precision, accuracy, f1-score, and AUC
-        model_name = f'{type(clf).__name__} ({oversampler.__name__})'
         model_scores = binary_classification_scores(cf_matrix=cm, 
                                                     auc=model_auc_oversample,
                                                     model_name=model_name)
@@ -368,7 +369,7 @@ def evaludate_nn_models(models: list,
          
         # Return prediction probabilites and evaluation metrics on the test set
         return preds, {
-            'model_name': model.name,
+            'model': model.name,
             'accuracy': accuracy_score(y_test, prediction_classes),
             'precision': precision_score(y_test, prediction_classes),
             'recall': recall_score(y_test, prediction_classes),
