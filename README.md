@@ -19,9 +19,9 @@ Osteoporosis, the most common bone disease, occurs when bone mineral density and
 
 To my best of knowledge, most osteoporosis prediction studies either focus on specific laboratory examination [[2](#2)], or on specific patient groups such as postmenopausal women [[3](#3)]. A study using more general data and targeting a wider population is needed.
 
-Updated: I created a [Osteoporosis Prediction Web App](https://osteoporosis-prediction.streamlit.app/) ([GitHub](https://github.com/eeliuqin/osteoporosis-prediction-app)) based on methods selected in this project.
+Updated: I created a [Osteoporosis Prediction Web App](https://osteoporosis-prediction.streamlit.app/) based on methods selected in this project. Code can be found [here](https://github.com/eeliuqin/osteoporosis-prediction-app).
 <div align="center">
-  <img alt="App Demo" src="https://github.com/eeliuqin/osteoporosis-prediction-app/blob/main/img/demo.png" width="55%">
+  <img alt="App Demo" src="https://github.com/eeliuqin/osteoporosis-prediction-app/blob/main/img/demo.png" width="60%">
 </div>
 
 
