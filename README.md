@@ -79,7 +79,7 @@ After merging, the data has 25735 rows x 10 columns, and the percentage of missi
 
 Reasons of missing values:
 1. The Osteoporosis Questionnaire focused on 8802 people (aged 40+ in 2013-2014, aged 50+ in 2017-2020), while other data such as Demographic, focused on 25735 people aged 0-80.
-2. Someone people didn't answer all questions.
+2. Some people didn't answer all questions.
 
 For 1), just ignore the missing values from Osteoporosis to focus on aged 40+, because osteoporosis is rare in young people and more common among people over age 50 [[8](#8), [9](#9)].
 
@@ -175,7 +175,7 @@ Predicted osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthri
 ## Conclusions
 
 This study focused on predicting osteoporosis based on age, gender, race, BMI, smoking, alcohol, arthritis, liver condition, and parental osteoporosis.
-The analyzed results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and parental osteoporosis. The predictive model with Neural Networks algorithm can be used as an inference agent to assist professionals in osteoporosis diagnosis.
+The analyzed results showed that women had a higher risk of osteoporosis than men, and it increased with age. Additionally, osteoporosis was associated with underweight, arthritis, and parental osteoporosis. The predictive model with Neural Networks algorithm can be implemented in applications to assist professionals in identifying people with a high risk of developing osteoporosis.
 
 ## References
 
